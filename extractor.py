@@ -18,7 +18,8 @@ apps_list = []
 
 print("Extracting with direct download endpoints...")
 
-for page in range(1, 161):
+# لێرەدا گۆڕانکارییەکە کراوە بۆ ئەوەی تەنها ١٠ پەڕەی سەرەتا بگەڕێت بۆ یارییە نوێیەکان
+for page in range(1, 11):
   url = f"{base_url}{page}"
   try:
     response = requests.get(url, headers=headers)
@@ -50,7 +51,6 @@ for page in range(1, 161):
           image_url = app.get("image")
           updated_at = app.get("updatedAt", "2026-09-15T00:00:00+00:00")
 
-          # دابینکردنی لینکی ڕاستەوخۆی داونلۆود بۆ ئەوەی دوگمەی Get کار بکات
           direct_download_url = f"https://check0ver.net/en/iapps/{uuid}/download"
 
           numeric_id = int(hashlib.md5(uuid.encode()).hexdigest()[:8], 16) % (
