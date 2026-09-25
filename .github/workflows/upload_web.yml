@@ -1,0 +1,32 @@
+name: 🌐 Scrape & Upload IPAs from Web
+
+on:
+  workflow_dispatch: # تەنها بە دەست کار دەکات بۆ ئەوەی کۆنتڕۆڵی بکەیت
+
+jobs:
+  scrape-and-upload:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 📂 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: 🛠️ Create V1 Release (If not exists)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view V1 || gh release create V1 --title "V1 - Apps Release" --notes "Uploaded automatically from web interface."
+
+      - name: 🚀 Run Scraper & Uploader
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python upload_web.py
