@@ -1,9 +1,9 @@
-name: Auto Generate JSON Every 5 Minutes
+name: Auto Generate JSON Files
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *' # هەموو ٥ خولەکێک جارێک کار دەکات
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
@@ -22,15 +22,18 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run script
+      - name: Run extractor script for apps
         run: python extractor.py
 
-      - name: Commit and push generated JSON
+      - name: Run extractor script for IPAs
+        run: python extract_ips.py
+
+      - name: Commit and push generated JSON files
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git stash
           git pull origin main --rebase || true
           git stash pop || true
-          git add ashtemobile94.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update ashtemobile94.json" && git push)
+          git add ashtemobile94.json ashteips.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update JSON files" && git push)
