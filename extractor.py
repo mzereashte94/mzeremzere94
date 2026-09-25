@@ -1,42 +1,36 @@
 import json
-import re
-import html
 import requests
 from datetime import datetime
 
 print("=== ASHTE MOBILE: AUTO IPA EXTRACTOR ===")
 
 json_file = "ashtemobile94.json"
-base_url = "https://check0ver.net"
-# لینکی API کە بەرپرسە لە پێدانی لینکی ڕاستەقینەی IPA
+base_url = "https://check0ver.net/en/iapps"
 api_url = "https://check0ver.net/api/iapps/{}/download"
 
-# بەکارهێنانی هێدەری مۆبایل بۆ ئەوەی سایتەکە وا بزانێت لە مۆبایلەوە داواکارییەکە دەکرێت
+# بەکارهێنانی هێدەری Inertia بۆ ئەوەی ڕاستەوخۆ JSON وەربگرین و سێرڤەرەکە بلۆکمان نەکات
 headers = {
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15",
-    "Accept": "application/json"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "X-Inertia": "true",
+    "X-Inertia-Version": "mimusoft-ipa-check0ver-customer-1.0.0"
 }
-
-session = requests.Session()
-session.headers.update(headers)
 
 apps_list = []
 
 try:
-    # 1. هێنانی پەڕەی سەرەکی یارییەکان
-    print("Fetching main page...")
-    response = session.get(f"{base_url}/en/iapps")
+    print("Fetching data from website...")
+    # هێنانی داتاکان
+    response = requests.get(base_url, headers=headers, timeout=15)
     
-    # 2. دەرهێنانی داتاکان و یارییەکان لەناو کۆدی HTML
-    match = re.search(r'data-page="([^"]+)"', response.text)
-    if match:
-        encoded_data = match.group(1)
-        decoded_data = html.unescape(encoded_data)
-        page_data = json.loads(decoded_data)
+    print(f"Status Code: {response.status_code}")
+    
+    if response.status_code == 200:
+        page_data = response.json()
         
-        # وەرگرتنی لیستی یارییەکان لەناو فایلە شاراوەکە
+        # دەرهێنانی یارییەکان ڕاستەوخۆ لە JSON
         games = page_data.get("props", {}).get("paginator", {}).get("data", [])
-        print(f"Found {len(games)} games. Extracting direct IPA links...")
+        print(f"Found {len(games)} games.")
         
         for game in games:
             uuid = game.get("uuid")
@@ -44,15 +38,13 @@ try:
             version = game.get("version", "1.0")
             bundle_id = game.get("bundle", f"com.ashtemobile.{uuid}")
             icon = game.get("image", "https://ashtemobile.site/logo.png")
-            desc = game.get("description", "")
+            desc = game.get("description", "Auto extracted app")
             
-            # 3. پەیوەندیکردن بە API بۆ وەرگرتنی لینکی IPA
-            dl_link = f"{base_url}/en/iapps/{uuid}" # لینکی یەدەگ ئەگەر نەدۆزرایەوە
+            # هێنانی لینکی داونلۆدی ڕاستەقینە
+            dl_link = f"https://check0ver.net/en/iapps/{uuid}"
             try:
-                # داواکردنی لینکەکە بەبێ ڕیدایرێکت (بۆ گرتنی لینکی سێرڤەرەکە)
-                dl_response = session.get(api_url.format(uuid), allow_redirects=False)
-                
-                if dl_response.status_code in [301, 302]:
+                dl_response = requests.get(api_url.format(uuid), headers=headers, allow_redirects=False, timeout=10)
+                if dl_response.status_code in [301, 302, 303, 307, 308]:
                     dl_link = dl_response.headers.get("Location", dl_link)
                 elif dl_response.status_code == 200:
                     dl_json = dl_response.json()
@@ -60,23 +52,21 @@ try:
             except Exception as e:
                 print(f"Error getting link for {name}: {e}")
             
-            print(f"Extracted -> {name}")
-            
+            print(f"Added: {name}")
             current_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S+00:00")
             
-            # 4. خستنە ناو فۆرماتی تایبەت بە AltStore و Feather
             apps_list.append({
                 "name": name,
                 "bundleIdentifier": bundle_id,
                 "developerName": "CheckOver",
                 "version": version,
                 "versionDate": current_time,
-                "versionDescription": "Auto Extracted IPA Link",
+                "versionDescription": "Auto Extracted",
                 "downloadURL": dl_link,
                 "localizedDescription": desc,
                 "iconURL": icon,
                 "tintColor": "#04ecfc",
-                "size": 314572800, # قەبارەی بنەڕەتی
+                "size": 314572800,
                 "versions": [
                     {
                         "version": version,
@@ -89,12 +79,11 @@ try:
                 ]
             })
     else:
-        print("Could not find data in the website.")
+        print(f"Failed to fetch page. Server returned: {response.text[:200]}")
         
 except Exception as e:
     print(f"Fatal error: {e}")
 
-# 5. دروستکردنی سۆرسی کۆتایی
 source_structure = {
     "name": "Ashtemobile",
     "identifier": "com.ashtemobile.source", 
@@ -107,8 +96,7 @@ source_structure = {
     "news": []
 }
 
-# 6. پاشەکەوتکردنی لەناو فایلی JSON
 with open(json_file, "w", encoding="utf-8") as f:
     json.dump(source_structure, f, ensure_ascii=False, indent=4)
 
-print(f"\nSUCCESS! Saved {len(apps_list)} apps with direct IPA links to {json_file}")
+print(f"\nSUCCESS! Saved {len(apps_list)} apps.")
