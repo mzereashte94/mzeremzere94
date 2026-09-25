@@ -1,0 +1,32 @@
+name: 🚀 Auto Download & Upload IPAs
+
+on:
+  workflow_dispatch: # تەنها بە دەست ئیش دەکات بۆ ئەوەی هەرگیز تووکنەکەت بلۆک نەبێت
+
+jobs:
+  download-and-upload:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 📂 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Install dependencies
+        run: pip install requests
+
+      - name: 🛠️ Create V1 Release (If it doesn't exist)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view V1 || gh release create V1 --title "V1 - Main Apps" --notes "Latest IPA files from source."
+
+      - name: 📥 Run Download & Upload Script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # ئەمە زۆر گرنگە بۆ ئەوەی فەرمانی gh کار بکات
+        run: python upload_ipas.py
