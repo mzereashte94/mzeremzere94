@@ -1,9 +1,9 @@
-name: Auto Generate JSON Hourly
+name: Auto Generate JSON Every 5 Minutes
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # هەموو کاتژمێرێک جارێک کار دەکات
+    - cron: '*/5 * * * *' # هەموو ٥ خولەکێک جارێک کار دەکات
 
 jobs:
   build:
