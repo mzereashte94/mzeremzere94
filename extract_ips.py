@@ -19,20 +19,35 @@ def fetch_and_extract():
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        items = soup.find_all(['div', 'a', 'li'], class_=re.compile(r'app|item|card|game|box', re.I)) or soup.find_all('a')
+        # هێنانی هەموو بلۆکەکان یان لینکەکانی ناو لاپەڕەکە
+        all_links = soup.find_all('a', href=True)
+        
+        # ئەگەر کارت یان دیڤ هەبوو
+        containers = soup.find_all(['div', 'li', 'article'])
+        
+        items = containers if len(containers) > 0 else all_links
 
         for idx, item in enumerate(items):
-            title_el = item.find(['h1', 'h2', 'h3', 'h4', 'span', 'p'], class_=re.compile(r'title|name', re.I)) or item
-            title = title_el.get_text(strip=True) if title_el else ""
+            # دۆزینەوەی ناونیشان
+            title = ""
+            title_el = item.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'span', 'p', 'b', 'strong'])
+            if title_el:
+                title = title_el.get_text(strip=True)
+            elif item.name == 'a':
+                title = item.get_text(strip=True)
 
-            if not title or len(title) < 2 or title.lower() in ['home', 'get', 'download', 'vip', 'menu', 'close']:
+            if not title or len(title) < 2 or title.lower() in ['home', 'get', 'download', 'vip', 'menu', 'close', 'back', 'top']:
                 continue
 
+            # دۆزینەوەی ئایکۆن
             img_el = item.find('img')
-            icon = img_el.get('src', '') if img_el else ""
-            if icon and not icon.startswith('http'):
-                icon = "https://ashtemobile.tututweak.com/" + icon.lstrip('/')
+            icon = ""
+            if img_el:
+                icon = img_el.get('src') or img_el.get('data-src') or ""
+                if icon and not icon.startswith('http'):
+                    icon = "https://ashtemobile.tututweak.com/" + icon.lstrip('/')
 
+            # دۆزینەوەی لینکی داگرتن
             link_el = item if item.name == 'a' else item.find('a', href=True)
             download_url = ""
             if link_el:
@@ -43,33 +58,34 @@ def fetch_and_extract():
                     else:
                         download_url = "https://ashtemobile.tututweak.com/" + href.lstrip('/')
 
-            meta_text = item.get_text()
-            size_match = re.search(r'\d+(\.\d+)?\s*(MB|GB)', meta_text, re.I)
-            version_match = re.search(r'v?\d+\.\d+(\.\d+)?', meta_text, re.I)
-
-            size = size_match.group(0) if size_match else "N/A"
-            version = version_match.group(0) if version_match else "1.0"
-
-            if download_url or icon:
+            if download_url or icon or len(title) > 3:
                 extracted_apps.append({
                     "id": str(99000000 + idx),
                     "name": title,
-                    "version": version,
-                    "size": size,
+                    "version": "1.0",
+                    "size": "N/A",
                     "icon": icon or "https://ashtemobile.site/logo.png",
                     "install_url": download_url,
                     "download_url": download_url,
                     "developerName": "AshteMobile",
-                    "localizedDescription": f"Auto extracted from AshteMobile store: {title}"
+                    "localizedDescription": f"Auto extracted: {title}"
                 })
+
     except Exception as e:
         print(f"Error fetching page: {e}")
 
-    # File generation fallback
+    # لابردنی بڕگەی دووبارە
+    unique_apps = []
+    seen_names = set()
+    for app in extracted_apps:
+        if app["name"] not in seen_names:
+            seen_names.add(app["name"])
+            unique_apps.append(app)
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(extracted_apps, f, ensure_ascii=False, indent=2)
+        json.dump(unique_apps, f, ensure_ascii=False, indent=2)
     
-    print(f"File {OUTPUT_FILE} created/updated with {len(extracted_apps)} apps.")
+    print(f"File {OUTPUT_FILE} created with {len(unique_apps)} apps.")
 
 if __name__ == "__main__":
     fetch_and_extract()
