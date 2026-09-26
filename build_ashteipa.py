@@ -1,155 +1,47 @@
-import hashlib
 import json
-import re
-import requests
 
-base_url = "https://check0ver.net/en/iapps?filter%5BinCategories%5D%5B0%5D=9c60f563-1983-42f0-8882-a26207bd4aaf&page="
-headers = {
-    "User-Agent": (
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) "
-        "AppleWebKit/605.1.55 (KHTML, like Gecko) Version/16.0 Mobile/15E148 "
-        "Safari/604.1"
-    )
-}
+# لێرەدا دەتوانیت لیستەی بەرنامە و یارییەکانت دابنێیت
+apps_list = [
+    {
+        "id": 1,
+        "name": "نموونەی بەرنامە",
+        "version": "1.0.0",
+        "size": "50 MB",
+        "icon": "img/icon.png",
+        "badge": "New",
+        "type": "games",
+        "description": "ئەمە وەسفی بەرنامەکەیە",
+        "screenshots": [],
+        "install_url": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/168198/a06c8525303e15008b3086498c666837.ipa?ref=YTltQ1lqL0NwbGlBc2JDcFNKY2FrQVdZR0htTmtoUG1YdEo2ZUxFcTAyY2duUHd5WVFSa2w0S2JDWjZDejhOYXV6R1psS0kwOE9WdlgrdHJYU0VIZk5naFFLcGVXdHhsWmM2aTFKelZmblFyQXZEQ0l6a1pxVFFzWkpTa0FSemYxNDVLVndob0VCU3luVk4zUDNDL0c1c1RyRXVVQlYzcmJxUzF3dmUwdnZYV2JGc0RBZkNYMkE0WXZyVW5vQzVo",
+        "download_url": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/168198/a06c8525303e15008b3086498c666837.ipa?ref=YTltQ1lqL0NwbGlBc2JDcFNKY2FrQVdZR0htTmtoUG1YdEo2ZUxFcTAyY2duUHd5WVFSa2w0S2JDWjZDejhOYXV6R1psS0kwOE9WdlgrdHJYU0VIZk5naFFLcGVXdHhsWmM2aTFKelZmblFyQXZEQ0l6a1pxVFFzWkpTa0FSemYxNDVLVndob0VCU3luVk4zUDNDL0c1c1RyRXVVQlYzcmJxUzF3dmUwdnZYV2JGc0RBZkNYMkE0WXZyVW5vQzVo",
+        "bundleIdentifier": "com.ashtemobile.app",
+        "marketplaceID": "",
+        "developerName": "AshteMobile",
+        "subtitle": "Awesome App",
+        "localizedDescription": "Downloaded from AshteMobile Source.",
+        "iconURL": "https://ashtemobile.site/logo.png",
+        "tintColor": "#04ecfc",
+        "category": "games",
+        "versions": [
+            {
+                "version": "1.0.0",
+                "date": "2026-09-15T00:00:00+00:00",
+                "localizedDescription": None,
+                "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/168198/a06c8525303e15008b3086498c666837.ipa?ref=YTltQ1lqL0NwbGlBc2JDcFNKY2FrQVdZR0htTmtoUG1YdEo2ZUxFcTAyY2duUHd5WVFSa2w0S2JDWjZDejhOYXV6R1psS0kwOE9WdlgrdHJYU0VIZk5naFFLcGVXdHhsWmM2aTFKelZmblFyQXZEQ0l6a1pxVFFzWkpTa0FSemYxNDVLVndob0VCU3luVk4zUDNDL0c1c1RyRXVVQlYzcmJxUzF3dmUwdnZYV2JGc0RBZkNYMkE0WXZyVW5vQzVo",
+                "size": 52428800,
+                "buildVersion": None,
+                "minOSVersion": "14.0"
+            }
+        ],
+        "appPermissions": {
+            "entitlements": [],
+            "privacy": {}
+        },
+        "patreon": []
+    }
+]
 
-apps_list = []
-
-print("Extracting direct download links from 'Click to copy'...")
-
-for page in range(1, 11):
-  url = f"{base_url}{page}"
-  try:
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-      match = re.search(r'data-page="([^"]+)"', response.text)
-      if match:
-        html_escape_decoded = (
-            match.group(1)
-            .replace("&quot;", '"')
-            .replace("&amp;", "&")
-            .replace("&#039;", "'")
-        )
-        page_data = json.loads(html_escape_decoded)
-
-        paginator = (
-            page_data.get("props", {}).get("paginator", {}).get("data", [])
-        )
-        if not paginator:
-          break
-
-        for app in paginator:
-          name = app.get("name")
-          version = app.get("version", "1.0")
-          size_str = app.get("size", "0 MB")
-          uuid = app.get("uuid")
-          bundle = app.get("bundle", f"com.ashtemobile.{uuid}")
-          image_url = app.get("image")
-          updated_at = app.get("updatedAt", "2026-09-15T00:00:00+00:00")
-
-          # 1. سەردانکردنی لاپەڕەی ناوەوە بۆ دەرهێنانی لینکی Click to Copy
-          detail_page_url = f"https://check0ver.net/en/iapps/{uuid}"
-          direct_download_url = None
-
-          try:
-            detail_res = requests.get(detail_page_url, headers=headers)
-            if detail_res.status_code == 200:
-              detail_match = re.search(
-                  r'data-page="([^"]+)"', detail_res.text
-              )
-              if detail_match:
-                detail_json_str = (
-                    detail_match.group(1)
-                    .replace("&quot;", '"')
-                    .replace("&amp;", "&")
-                    .replace("&#039;", "'")
-                )
-                detail_data = json.loads(detail_json_str)
-
-                app_info = detail_data.get("props", {}).get("app", {})
-                direct_download_url = app_info.get("ipa_url") or app_info.get(
-                    "download_url"
-                )
-          except Exception as req_err:
-            print(f"Error fetching detail for {name}: {req_err}")
-
-          if not direct_download_url:
-            direct_download_url = (
-                f"https://check0ver.net/en/iapps/{uuid}/download"
-            )
-
-          numeric_id = int(hashlib.md5(uuid.encode()).hexdigest()[:8], 16) % (
-              10**9
-          )
-
-          size_bytes = 50 * 1024 * 1024
-          try:
-            if "GB" in size_str:
-              size_bytes = int(
-                  float(size_str.replace("GB", "").strip()) * 1024 * 1024 * 1024
-              )
-            elif "MB" in size_str:
-              size_bytes = int(
-                  float(size_str.replace("MB", "").strip()) * 1024 * 1024
-              )
-          except:
-            pass
-
-          app_entry = {
-              "id": numeric_id,
-              "name": name,
-              "version": version,
-              "size": size_str,
-              "icon": (
-                  image_url
-                  if image_url
-                  else "https://ashtemobile.site/logo.png"
-              ),
-              "badge": "",
-              "type": "games",
-              "install_url": direct_download_url,
-              "download_url": direct_download_url,
-              "bundleIdentifier": bundle,
-              "marketplaceID": "",
-              "developerName": "AshteMobile",
-              "subtitle": "Awesome App",
-              "localizedDescription": "Downloaded from AshteMobile Source.",
-              "iconURL": (
-                  image_url
-                  if image_url
-                  else "https://ashtemobile.site/logo.png"
-              ),
-              "tintColor": "#04ecfc",
-              "category": "games",
-              "screenshots": [],
-              "versions": [
-                  {
-                      "version": version,
-                      "date": updated_at,
-                      "localizedDescription": None,
-                      "downloadURL": direct_download_url,
-                      "size": size_bytes,
-                      "buildVersion": None,
-                      "minOSVersion": "14.0",
-                  }
-              ],
-              "appPermissions": {
-                  "entitlements": [],
-                  "privacy": {
-                      "NSUserTrackingUsageDescription": (
-                          "Your data will be used to deliver personalized ads"
-                          " to you."
-                      )
-                  },
-              },
-              "patreon": [],
-          }
-          apps_list.append(app_entry)
-          print(f"Added: {name} -> {direct_download_url}")
-    else:
-      break
-  except Exception as e:
-    print(f"Error on page {page}: {e}")
-
+# پێکهاتەی سەرەکی فایلی JSON بۆ ماڵپەڕەکەت
 source_structure = {
     "name": "Ashtemobile",
     "subtitle": "A source for all of my apps & games",
@@ -171,28 +63,14 @@ source_structure = {
             "imageURL": "https://ashtemobile.site/logo.png",
             "notify": True,
             "url": "https://www.instagram.com/ashtemobile",
-            "appID": None,
-        },
-        {
-            "title": "Telegram",
-            "identifier": "news_telegram",
-            "caption": "Ashtemobile",
-            "date": "2026-09-15T00:00:00+00:00",
-            "tintColor": "#ff007f",
-            "imageURL": "https://t.me/ashtemobile",
-            "notify": True,
-            "url": "https://t.me/ashtemobile",
-            "appID": None,
-        },
-    ],
+            "appID": None
+        }
+    ]
 }
 
-# پاشکەوتکردنی زانیارییەکان لە فایلی ashteipa.json
+# پاشەکەوتکردنی داتاکە لە فایلی ashteipa.json
 output_filename = "ashteipa.json"
 with open(output_filename, "w", encoding="utf-8") as f:
-  json.dump(source_structure, f, ensure_ascii=False, indent=4)
+    json.dump(source_structure, f, ensure_ascii=False, indent=4)
 
-print(
-    f"Successfully generated '{output_filename}' with direct download links"
-    f" for {len(apps_list)} apps!"
-)
+print(f"File '{output_filename}' successfully created with clean links!")
