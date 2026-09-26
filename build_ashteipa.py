@@ -1,58 +1,81 @@
 import json
+import re
+import requests
+from bs4 import BeautifulSoup
 
-# لیستی ئەپ و یارییەکان
-apps_data = [
-    {
-        "name": "Gardenscapes",
-        "bundle_id": "com.playrix.gardenscapes",
-        "download_url": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/168185/f3e8ff826db015dcd4f6e94ace230bfb.ipa?ref=OUhPeHFXV1FBVE9wMUVVdWxGMG1lNHV0UlpZWGc0cXNoMWhxZitSd1kxUkZWWXE0enlTWCtCZlduTHNVT1kwT0ZFRkR6UkNRR2QxVkVFNUdnaHVIY25yZ2QvNzlGVHlQYTFBWUIxclRVYmxuL2FBNVRmak9Tbit5WUtkZEpneDh6NldYQVBoWXYyeHFjaW9ld0NBRTQ5RWF4cXFPS1JNaTdlVFFOaE9CMm15VXZyNHpIM2hQMXBTMW13Z0NkV0h2",
-        "version": "9.9.5",
-        "size": "196.36 MB"
+def fetch_all_apps():
+    url = "https://check0ver.net/"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
     }
-]
+
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"Error fetching website: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+    apps_list = []
+
+    # استخراج تمام لینک‌ها و دکمه‌های دانلود از صفحه
+    # در صورت وجود API مستقیم، می‌توانید آدرس API را جایگزین کنید
+    for card in soup.find_all(['div', 'a'], class_=re.compile(r'card|item|app', re.I)):
+        name_elem = card.find(['h2', 'h3', 'span', 'p'], class_=re.compile(r'title|name', re.I))
+        link_elem = card.find('a', href=re.compile(r'\.ipa', re.I)) or card if card.name == 'a' else None
+        
+        if name_elem and link_elem and link_elem.get('href'):
+            app_name = name_elem.text.strip()
+            download_url = link_elem['href']
+            
+            # اصلاح لینک‌های نسبی به لینک کامل
+            if not download_url.startswith('http'):
+                download_url = f"https://check0ver.net{download_url}"
+
+            app_entry = {
+                "id": abs(hash(app_name)) % (10**9),
+                "name": app_name,
+                "version": "1.0.0",
+                "size": "200 MB",
+                "icon": "https://ashtemobile.site/logo.png",
+                "badge": "",
+                "type": "games",
+                "install_url": download_url,
+                "download_url": download_url,
+                "bundleIdentifier": f"com.ashtemobile.{re.sub(r'\W+', '', app_name).lower()}",
+                "developerName": "AshteMobile",
+                "subtitle": "Modded Game",
+                "localizedDescription": "Downloaded from AshteMobile",
+                "iconURL": "https://ashtemobile.site/logo.png",
+                "tintColor": "#04ecfc",
+                "category": "games",
+                "screenshots": [],
+                "versions": [
+                    {
+                        "version": "1.0.0",
+                        "date": "2026-09-26T14:43:39.000000Z",
+                        "localizedDescription": None,
+                        "downloadURL": download_url,
+                        "size": 200445788,
+                        "buildVersion": None,
+                        "minOSVersion": "14.0"
+                    }
+                ],
+                "appPermissions": {
+                    "entitlements": [],
+                    "privacy": {
+                        "NSUserTrackingUsageDescription": ""
+                    }
+                },
+                "patreon": []
+            }
+            apps_list.append(app_entry)
+
+    return apps_list
 
 def generate_ashteipa():
-    formatted_apps = []
-    
-    for item in apps_data:
-        app_entry = {
-            "id": 142653783,
-            "name": item["name"],
-            "version": item["version"],
-            "size": item["size"],
-            "icon": "https://ashtemobile.site/logo.png",
-            "badge": "",
-            "type": "games",
-            "install_url": item["download_url"],
-            "download_url": item["download_url"],
-            "bundleIdentifier": item["bundle_id"],
-            "developerName": "AshteMobile",
-            "subtitle": "Modded App",
-            "localizedDescription": "Downloaded from AshteMobile",
-            "iconURL": "https://ashtemobile.site/logo.png",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": item["version"],
-                    "date": "2026-09-26T14:43:39.000000Z",
-                    "localizedDescription": None,
-                    "downloadURL": item["download_url"],
-                    "size": 200445788,
-                    "buildVersion": None,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": ""
-                }
-            },
-            "patreon": []
-        }
-        formatted_apps.append(app_entry)
+    all_apps = fetch_all_apps()
 
     json_structure = {
         "name": "Ashtemobile",
@@ -64,12 +87,13 @@ def generate_ashteipa():
         "tintColor": "#ff007f",
         "featuredApps": [],
         "headerURL": "https://ashtemobile.site/logo.png",
-        "apps": formatted_apps
+        "apps": all_apps
     }
 
-    # تەنها فایلی ashteipa.json نوێ دەکاتەوە
     with open('ashteipa.json', 'w', encoding='utf-8') as file:
         json.dump(json_structure, file, indent=2, ensure_ascii=False)
+        
+    print(f"Successfully processed {len(all_apps)} apps.")
 
 if __name__ == '__main__':
     generate_ashteipa()
