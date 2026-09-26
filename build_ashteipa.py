@@ -46,7 +46,7 @@ for page in range(1, 11):
           image_url = app.get("image")
           updated_at = app.get("updatedAt", "2026-09-15T00:00:00+00:00")
 
-          # 1. سەردانکردنی لاپەڕەی ناوەوەی یارییەکە بۆ دەرهێنانی لینکی Click to Copy
+          # 1. سەردانکردنی لاپەڕەی ناوەوە بۆ دەرهێنانی لینکی Click to Copy
           detail_page_url = f"https://check0ver.net/en/iapps/{uuid}"
           direct_download_url = None
 
@@ -65,7 +65,6 @@ for page in range(1, 11):
                 )
                 detail_data = json.loads(detail_json_str)
 
-                # وەرگرتنی لینکی ڕاستەوخۆی .ipa کە لە بەشی app جێگیر کراوە
                 app_info = detail_data.get("props", {}).get("app", {})
                 direct_download_url = app_info.get("ipa_url") or app_info.get(
                     "download_url"
@@ -73,7 +72,6 @@ for page in range(1, 11):
           except Exception as req_err:
             print(f"Error fetching detail for {name}: {req_err}")
 
-          # ئەگەر لە لاپەڕەکە نەیدۆزییەوە، بەستەری بنەڕەتی بەکاردێنێت
           if not direct_download_url:
             direct_download_url = (
                 f"https://check0ver.net/en/iapps/{uuid}/download"
@@ -158,7 +156,7 @@ source_structure = {
     "description": "Welcome to my source! Here you'll find all of my apps.",
     "iconURL": "https://ashtemobile.site/logo.png",
     "website": "https://ashtemobile.site/",
-    "patreonURL": "https://ashtemobile.site/Ashtemobile.json",
+    "patreonURL": "https://ashtemobile.site/ashteipa.json",
     "tintColor": "#ff007f",
     "featuredApps": [],
     "headerURL": "https://ashtemobile.site/logo.png",
@@ -189,7 +187,8 @@ source_structure = {
     ],
 }
 
-output_filename = "ashtemobile94.json"
+# پاشکەوتکردنی زانیارییەکان لە فایلی ashteipa.json
+output_filename = "ashteipa.json"
 with open(output_filename, "w", encoding="utf-8") as f:
   json.dump(source_structure, f, ensure_ascii=False, indent=4)
 
