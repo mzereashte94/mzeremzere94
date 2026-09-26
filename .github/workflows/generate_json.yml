@@ -2,6 +2,9 @@ name: Generate ashteipa.json Workflow
 
 on:
   workflow_dispatch:
+  schedule:
+    # هەموو ڕۆژێک بە شێوەیەکی ئۆتۆماتیکی سکرێپتەکە بەگەڕدەخات
+    - cron: '0 0 * * *'
 
 jobs:
   build-json:
@@ -18,7 +21,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Execute Script
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Execute Build Script
         run: |
           python build_ashteipa.py
 
@@ -27,5 +35,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add ashteipa.json
-          git commit -m "Update ashteipa.json via build_ashteipa.py" || echo "No changes to commit"
+          git commit -m "Update ashteipa.json with all games via build_ashteipa.py" || echo "No changes to commit"
           git push
