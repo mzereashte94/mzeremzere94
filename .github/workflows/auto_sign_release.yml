@@ -1,15 +1,15 @@
-name: Auto Download, Sign & Upload Releases
+name: Auto Extract & Upload Real IPAs
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *' # ڕۆژانە کاژێر ۲ی شەوە خۆکارانە ڕان دەبێت
+    - cron: '0 2 * * *'
 
 permissions:
   contents: write
 
 jobs:
-  sign-and-release:
+  download-and-release:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,14 +24,14 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests beautifulsoup4
 
-      - name: Run Auto Sign & Release Script
+      - name: Fetch Real IPA Files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -c "
-          import json, requests, os, subprocess
+          import json, requests, os, re
 
           JSON_FILE = 'ashteips.json'
           if not os.path.exists(JSON_FILE):
@@ -41,33 +41,72 @@ jobs:
           with open(JSON_FILE, 'r', encoding='utf-8') as f:
               apps = json.load(f)
 
+          headers = {
+              'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1'
+          }
+
           for app in apps:
-              name = app.get('name', 'App').replace(' ', '_')
+              name = app.get('name', 'App').replace(' ', '_').replace(':', '').replace('/', '_')
               url = app.get('download_url') or app.get('install_url')
               
               if not url or not url.startswith('http'):
                   continue
 
-              print(f'Downloading {name} from {url}...')
-              ipa_path = f'{name}.ipa'
+              print(f'Checking link for: {name}...')
+              real_ipa_url = None
+
               try:
-                  res = requests.get(url, timeout=60)
-                  if res.status_code == 200:
-                      with open(ipa_path, 'wb') as ipa_f:
-                          ipa_f.write(res.content)
-                      print(f'Successfully downloaded {ipa_path}')
+                  # 1. ئەگەر لینکەکە ڕاستەوخۆ .ipa بێت
+                  if '.ipa' in url and not 'check0ver' in url:
+                      real_ipa_url = url
                   else:
-                      print(f'Failed download for {name}')
+                      # 2. شیکارکردنا پەیجا check0ver یان پەیجێن داگرتنێ
+                      res = requests.get(url, headers=headers, timeout=15)
+                      
+                      # پشکنین بۆ هەبوونا لینکی .ipa د ناڤ کۆدێ لاپەڕێ دا
+                      ipa_matches = re.findall(r'https?://[^\s"\']+\.ipa[^\s"\']*', res.text)
+                      plist_matches = re.findall(r'https?://[^\s"\']+\.plist[^\s"\']*', res.text)
+
+                      if ipa_matches:
+                          real_ipa_url = ipa_matches[0]
+                      elif plist_matches:
+                          # ئەگەر فایلا plist بێت، بچە ناو plist بۆ لینکی .ipa
+                          plist_res = requests.get(plist_matches[0], headers=headers, timeout=15)
+                          real_ipa_matches = re.findall(r'https?://[^\s"\']+\.ipa[^\s"\']*', plist_res.text)
+                          if real_ipa_matches:
+                              real_ipa_url = real_ipa_matches[0]
+
+                  if real_ipa_url:
+                      print(f'Downloading real IPA for {name} from {real_ipa_url}...')
+                      ipa_res = requests.get(real_ipa_url, headers=headers, stream=True, timeout=180)
+                      
+                      if ipa_res.status_code == 200:
+                          ipa_path = f'{name}.ipa'
+                          with open(ipa_path, 'wb') as ipa_f:
+                              for chunk in ipa_res.iter_content(chunk_size=1024*1024):
+                                  if chunk:
+                                      ipa_f.write(chunk)
+                          
+                          size_mb = os.path.getsize(ipa_path) / (1024 * 1024)
+                          # ئەگەر قەبارە ژ 1MB مەزنتر بێت دیارە IPA یا دروستە
+                          if size_mb > 1.0:
+                              print(f'Successfully downloaded {ipa_path} ({size_mb:.2f} MB)')
+                          else:
+                              print(f'File too small ({size_mb:.2f} MB), removing...')
+                              os.remove(ipa_path)
+                  else:
+                      print(f'No direct .ipa found for {name}')
+
               except Exception as e:
-                  print(f'Error downloading {name}: {e}')
+                  print(f'Error processing {name}: {e}')
           "
 
-      - name: Create GitHub Release and Upload Artifacts
+      - name: Upload IPA Files to Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "v1.0.${{ github.run_number }}"
-          name: "AshteMobile Signed Apps Update - Build ${{ github.run_number }}"
-          body: "ئەم فایلی IPAیانە خۆکارانە لە ڕێگەی سۆرسەوە هاتونەتە داگرتن و ئامادەکردن."
+          name: "AshteMobile Original IPA Release - Build ${{ github.run_number }}"
+          body: "فایلێن IPA یێن ڕاستەقینە ب بێ Sign و ب قەبارەیا ڕاستەقینە هاتینە داگرتن."
           files: "*.ipa"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
