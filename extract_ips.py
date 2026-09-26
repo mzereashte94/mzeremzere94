@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 import json
 from bs4 import BeautifulSoup
 
@@ -6,18 +6,13 @@ TARGET_URL = "https://check0ver.net/en"
 OUTPUT_FILE = "ashteips.json"
 
 def fetch_and_extract():
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Referer": "https://check0ver.net/"
-    }
-    
-    print(f"Fetching content from {TARGET_URL}...")
+    # بەکارهێنانی cloudscraper بۆ تێپەڕاندنی پاراستنا ماڵپەری
+    scraper = cloudscraper.create_scraper()
+    print(f"Fetching content from {TARGET_URL} using cloudscraper...")
     extracted_apps = []
 
     try:
-        response = requests.get(TARGET_URL, headers=headers, timeout=20)
+        response = scraper.get(TARGET_URL, timeout=20)
         response.encoding = 'utf-8'
         print(f"Status Code: {response.status_code}")
         
@@ -34,7 +29,6 @@ def fetch_and_extract():
                     name = app.get('name', 'Unknown')
                     uuid = app.get('uuid', '')
                     
-                    # بناء رابط الـ API المباشر بناءً على الـ uuid المتوفر في بيانات الصفحة
                     download_url = f"https://check0ver.net/api/check0ver/{uuid}.ipa" if uuid else ""
                     
                     extracted_apps.append({
@@ -52,11 +46,11 @@ def fetch_and_extract():
                 print(f"Error parsing JSON data: {e}")
         else:
             print("Could not find data-page attribute in HTML.")
+            print(response.text[:300])
 
     except Exception as e:
         print(f"Error fetching target page: {e}")
 
-    # حفظ النتائج في الملف
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(extracted_apps, f, ensure_ascii=False, indent=2)
     
