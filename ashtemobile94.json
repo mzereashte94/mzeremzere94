@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 119578415,
+            "name": "Dynamite Blue",
+            "version": "1.0.6",
+            "size": "128.68 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169001/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2def2ff-1097-4342-b719-b586613d4878/download",
+            "download_url": "https://check0ver.net/en/iapps/a2def2ff-1097-4342-b719-b586613d4878/download",
+            "bundleIdentifier": "com.kosmos12.dynamiteblue",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169001/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.6",
+                    "date": "2026-10-03T16:30:24.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2def2ff-1097-4342-b719-b586613d4878/download",
+                    "size": 134930759,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 475329618,
+            "name": "Slime Castle: Idle TD RTS Game",
+            "version": "3.5.3",
+            "size": "479.18 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115239/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c736cb5-b0fa-4741-95ce-17e98e01e25e/download",
+            "download_url": "https://check0ver.net/en/iapps/9c736cb5-b0fa-4741-95ce-17e98e01e25e/download",
+            "bundleIdentifier": "com.redtailworks.slimetd",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115239/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.5.3",
+                    "date": "2026-10-03T15:15:14.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c736cb5-b0fa-4741-95ce-17e98e01e25e/download",
+                    "size": 502456647,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 93056275,
             "name": "BanG Dream! Our Notes",
             "version": "1.0.2",
@@ -9016,44 +9092,6 @@
             "patreon": []
         },
         {
-            "id": 119578415,
-            "name": "다이너마이트 블루",
-            "version": "1.0.2",
-            "size": "133.36 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169001/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2def2ff-1097-4342-b719-b586613d4878/download",
-            "download_url": "https://check0ver.net/en/iapps/a2def2ff-1097-4342-b719-b586613d4878/download",
-            "bundleIdentifier": "com.kosmos12.dynamiteblue",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169001/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.2",
-                    "date": "2026-09-30T16:08:51.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2def2ff-1097-4342-b719-b586613d4878/download",
-                    "size": 139838095,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 628879584,
             "name": "Parking Master Multiplayer 2",
             "version": "2.9.9",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e8a6913-3114-4b04-aeae-0799b25d1894/download",
                     "size": 675041771,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 106716258,
-            "name": "Brain Test 3: Tricky Quests",
-            "version": "1.82.1",
-            "size": "126.79 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116070/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c68d862-ac49-4e8d-92af-d472deade1fc/download",
-            "download_url": "https://check0ver.net/en/iapps/9c68d862-ac49-4e8d-92af-d472deade1fc/download",
-            "bundleIdentifier": "com.unicostudio.braintest3",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116070/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.82.1",
-                    "date": "2026-09-30T07:18:28.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c68d862-ac49-4e8d-92af-d472deade1fc/download",
-                    "size": 132948951,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
