@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 271406745,
+            "name": "Hole.io",
+            "version": "2.54.3",
+            "size": "227.38 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116865/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c8ac1c5-7024-4621-81be-35466502f280/download",
+            "download_url": "https://check0ver.net/en/iapps/9c8ac1c5-7024-4621-81be-35466502f280/download",
+            "bundleIdentifier": "com.nguyenvh.holeio",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116865/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.54.3",
+                    "date": "2026-10-03T23:56:57.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c8ac1c5-7024-4621-81be-35466502f280/download",
+                    "size": 238425210,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 264993431,
+            "name": "BagMaster Isekai – Bag Battle",
+            "version": "3.2.0",
+            "size": "708.82 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133963/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
+            "download_url": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
+            "bundleIdentifier": "com.DoorTeam.BagMaster",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133963/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.2.0",
+                    "date": "2026-10-03T22:47:50.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
+                    "size": 743251640,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 358461043,
             "name": "Z Survivor: Backpack Shooter",
             "version": "1.35",
@@ -7914,44 +7990,6 @@
             "patreon": []
         },
         {
-            "id": 264993431,
-            "name": "BagMaster Isekai – Bag Battle",
-            "version": "3.1.0",
-            "size": "632.62 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133963/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
-            "download_url": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
-            "bundleIdentifier": "com.DoorTeam.BagMaster",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133963/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "3.1.0",
-                    "date": "2026-10-01T03:52:06.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
-                    "size": 663350149,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 979921558,
             "name": "Xeno Swarm: Alien Survivor",
             "version": "4.2.1",
@@ -10311,7 +10349,7 @@
             "id": 236171316,
             "name": "Jet Attack Move",
             "version": "1.511",
-            "size": "388.98 MB",
+            "size": "390.73 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157783/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -10332,7 +10370,7 @@
                     "date": "2026-09-30T11:19:33.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a25c1e7a-1d08-4395-9558-092d13cfd60f/download",
-                    "size": 407875092,
+                    "size": 409710100,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e9723a4-c6d5-42fe-b764-68abbaab01fb/download",
                     "size": 180166328,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 372091209,
-            "name": "Cuby Busters",
-            "version": "0.4.0",
-            "size": "105.05 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168421/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2da642e-eddc-4c0e-a87c-05d0e146055e/download",
-            "download_url": "https://check0ver.net/en/iapps/a2da642e-eddc-4c0e-a87c-05d0e146055e/download",
-            "bundleIdentifier": "com.superbox.ios.cubybusters",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168421/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.4.0",
-                    "date": "2026-09-30T08:43:49.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2da642e-eddc-4c0e-a87c-05d0e146055e/download",
-                    "size": 110152908,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
