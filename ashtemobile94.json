@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 663244859,
+            "name": "Snufkin Melody of Moominvalley",
+            "version": "1.1.2",
+            "size": "849.52 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117841/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
+            "download_url": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
+            "bundleIdentifier": "com.snapbreak.snufkin",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117841/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.2",
+                    "date": "2026-10-06T23:40:46.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
+                    "size": 890786283,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 450686234,
+            "name": "جوالك ع راسك : لعبة جماعية",
+            "version": "1.2.1",
+            "size": "32.29 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/156332/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
+            "download_url": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
+            "bundleIdentifier": "com.charadesapp.geeksjo",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/156332/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2.1",
+                    "date": "2026-10-06T21:30:08.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
+                    "size": 33858519,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 675372937,
             "name": "Idle Game The Silent Archivist",
             "version": "7.3",
@@ -4421,7 +4497,7 @@
             "id": 511741477,
             "name": "The Traitors: Interactive Game",
             "version": "5.0.0",
-            "size": "82.68 MB",
+            "size": "82.67 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169758/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -4442,7 +4518,7 @@
                     "date": "2026-10-05T11:25:06.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2e8831e-bb90-4116-bb45-42ad6604fbcf/download",
-                    "size": 86696263,
+                    "size": 86685777,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -5241,44 +5317,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2e73fb9-1d06-41d6-81a6-e9b044ff0fc1/download",
                     "size": 92673146,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 450686234,
-            "name": "جوالك ع راسك : لعبة جماعية",
-            "version": "1.2.0",
-            "size": "32.29 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/156332/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
-            "download_url": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
-            "bundleIdentifier": "com.charadesapp.geeksjo",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/156332/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.0",
-                    "date": "2026-10-05T00:22:12.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
-                    "size": 33858519,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2d61904-8c42-4611-b25b-65906bba7fd5/download",
                     "size": 422324469,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 227390433,
-            "name": "Pingco's Adventure:Penguin Run",
-            "version": "1.9.110",
-            "size": "386.02 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/142005/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1e1660e-a88a-428c-8ab0-e70b1aadae13/download",
-            "download_url": "https://check0ver.net/en/iapps/a1e1660e-a88a-428c-8ab0-e70b1aadae13/download",
-            "bundleIdentifier": "com.ncroquis.penguinrun",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/142005/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.9.110",
-                    "date": "2026-10-01T23:17:30.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1e1660e-a88a-428c-8ab0-e70b1aadae13/download",
-                    "size": 404771307,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
