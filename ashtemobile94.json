@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 758464707,
+            "name": "DOP 2: Delete One Part",
+            "version": "1.3.52",
+            "size": "183.72 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114900/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9ca58c54-edff-4bea-b7ab-597056870967/download",
+            "download_url": "https://check0ver.net/en/iapps/9ca58c54-edff-4bea-b7ab-597056870967/download",
+            "bundleIdentifier": "com.playstrom.dop2",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114900/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.3.52",
+                    "date": "2026-10-07T23:48:44.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9ca58c54-edff-4bea-b7ab-597056870967/download",
+                    "size": 192644382,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 58084808,
+            "name": "Age of Spirits",
+            "version": "1.1.0",
+            "size": "651.45 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/167204/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2cce188-171b-4bc2-9084-15762382cb19/download",
+            "download_url": "https://check0ver.net/en/iapps/a2cce188-171b-4bc2-9084-15762382cb19/download",
+            "bundleIdentifier": "leyi.ageofspirits",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/167204/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "date": "2026-10-07T22:03:38.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2cce188-171b-4bc2-9084-15762382cb19/download",
+                    "size": 683094835,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 799599361,
             "name": "Arabian Puzzle: Ludo Quest",
             "version": "1.3",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c817951-3410-465a-830c-ff27b9e6b448/download",
                     "size": 149348679,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 133469103,
-            "name": "Brain Test Puzzle : IQ Games",
-            "version": "3.99",
-            "size": "87.41 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114895/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9ce1d160-b983-4f73-833a-3f7e757b0f74/download",
-            "download_url": "https://check0ver.net/en/iapps/9ce1d160-b983-4f73-833a-3f7e757b0f74/download",
-            "bundleIdentifier": "com.brainix.brain.games",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114895/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "3.99",
-                    "date": "2026-10-02T09:27:46.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9ce1d160-b983-4f73-833a-3f7e757b0f74/download",
-                    "size": 91656028,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 727337279,
-            "name": "Limbus Company",
-            "version": "1.116.1",
-            "size": "528.01 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115523/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
-            "download_url": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
-            "bundleIdentifier": "com.ProjectMoon.LimbusCompany",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115523/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.116.1",
-                    "date": "2026-10-02T09:14:06.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
-                    "size": 553658613,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
