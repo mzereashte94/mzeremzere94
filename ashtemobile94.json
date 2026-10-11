@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 489247554,
+            "name": "Chronos - Life Simulator",
+            "version": "1.2.9",
+            "size": "56.91 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170182/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2ed3421-5cfc-459f-9130-310012f10333/download",
+            "download_url": "https://check0ver.net/en/iapps/a2ed3421-5cfc-459f-9130-310012f10333/download",
+            "bundleIdentifier": "com.hitech.chronosmobile",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170182/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2.9",
+                    "date": "2026-10-11T13:16:04.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2ed3421-5cfc-459f-9130-310012f10333/download",
+                    "size": 59674460,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 712847531,
             "name": "On Raft",
             "version": "1.0.0",
@@ -1075,7 +1113,7 @@
         },
         {
             "id": 411530050,
-            "name": "Christmas Magic: Match 3 Game",
+            "name": "Christmas Magic: Match 3 Games",
             "version": "26.1007.00",
             "size": "98.66 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/124617/512x512bb.jpg",
@@ -9497,44 +9535,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2ed788b-a9be-4982-8d54-c47e1541e324/download",
                     "size": 131585802,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 489247554,
-            "name": "Chronos - Life Simulator",
-            "version": "1.2.8",
-            "size": "45.92 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170182/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2ed3421-5cfc-459f-9130-310012f10333/download",
-            "download_url": "https://check0ver.net/en/iapps/a2ed3421-5cfc-459f-9130-310012f10333/download",
-            "bundleIdentifier": "com.hitech.chronosmobile",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170182/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.8",
-                    "date": "2026-10-08T01:08:10.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2ed3421-5cfc-459f-9130-310012f10333/download",
-                    "size": 48150609,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
