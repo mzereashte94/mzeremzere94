@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 283587510,
+            "name": "Idle Frontier: Western Tapper",
+            "version": "1.101",
+            "size": "119.7 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154728/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a23c3a1b-35fd-45d0-b9e5-03590b7b4976/download",
+            "download_url": "https://check0ver.net/en/iapps/a23c3a1b-35fd-45d0-b9e5-03590b7b4976/download",
+            "bundleIdentifier": "com.kongregate.mobile.idlefrontier",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154728/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.101",
+                    "date": "2026-10-11T22:30:31.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a23c3a1b-35fd-45d0-b9e5-03590b7b4976/download",
+                    "size": 125514547,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 546025002,
             "name": "Car Simulator Multiplayer 2026",
             "version": "1.29",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
                     "size": 890786283,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 450686234,
-            "name": "جوالك ع راسك : لعبة جماعية",
-            "version": "1.2.1",
-            "size": "32.29 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/156332/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
-            "download_url": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
-            "bundleIdentifier": "com.charadesapp.geeksjo",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/156332/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.1",
-                    "date": "2026-10-06T21:30:08.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a24a47c4-d2de-461f-93b8-4dfbeccd329b/download",
-                    "size": 33858519,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
