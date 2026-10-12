@@ -10,6 +10,158 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 906879409,
+            "name": "Valkyria Nexus Battle",
+            "version": "0.1.28",
+            "size": "399 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169578/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2e5b838-7680-4169-ab94-03d511d689f2/download",
+            "download_url": "https://check0ver.net/en/iapps/a2e5b838-7680-4169-ab94-03d511d689f2/download",
+            "bundleIdentifier": "com.YsoCorp.ValkyriaNexusBattle",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169578/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.1.28",
+                    "date": "2026-10-12T05:22:51.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2e5b838-7680-4169-ab94-03d511d689f2/download",
+                    "size": 418381824,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 71567553,
+            "name": "Little Kitty, Big City",
+            "version": "1261008.7592",
+            "size": "573.83 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170867/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2f58b5e-ee92-4a9b-a5c4-e305ee8de4e4/download",
+            "download_url": "https://check0ver.net/en/iapps/a2f58b5e-ee92-4a9b-a5c4-e305ee8de4e4/download",
+            "bundleIdentifier": "com.doubledaggerstudio.littlekittybigcity",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170867/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1261008.7592",
+                    "date": "2026-10-12T02:32:19.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2f58b5e-ee92-4a9b-a5c4-e305ee8de4e4/download",
+                    "size": 601704366,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 543483280,
+            "name": "Car Crash Premium offline",
+            "version": "2.2",
+            "size": "444.14 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116935/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9d0f96c8-f804-46e5-bbfc-20b937461625/download",
+            "download_url": "https://check0ver.net/en/iapps/9d0f96c8-f804-46e5-bbfc-20b937461625/download",
+            "bundleIdentifier": "com.psvios.realcarcrash",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116935/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.2",
+                    "date": "2026-10-12T02:29:09.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9d0f96c8-f804-46e5-bbfc-20b937461625/download",
+                    "size": 465714544,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 99208821,
+            "name": "Rogue Legend - Roguelike RPG",
+            "version": "0.610",
+            "size": "683.14 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/122585/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a13d18bd-e4ef-4336-b29b-ef168d59b1ba/download",
+            "download_url": "https://check0ver.net/en/iapps/a13d18bd-e4ef-4336-b29b-ef168d59b1ba/download",
+            "bundleIdentifier": "com.pockethaven.roguelegend",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/122585/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.610",
+                    "date": "2026-10-12T01:53:39.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a13d18bd-e4ef-4336-b29b-ef168d59b1ba/download",
+                    "size": 716324208,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 283587510,
             "name": "Idle Frontier: Western Tapper",
             "version": "1.101",
@@ -6508,44 +6660,6 @@
             "patreon": []
         },
         {
-            "id": 906879409,
-            "name": "Valkyria Nexus Battle",
-            "version": "0.1.27",
-            "size": "368.75 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169578/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2e5b838-7680-4169-ab94-03d511d689f2/download",
-            "download_url": "https://check0ver.net/en/iapps/a2e5b838-7680-4169-ab94-03d511d689f2/download",
-            "bundleIdentifier": "com.YsoCorp.ValkyriaNexusBattle",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169578/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.1.27",
-                    "date": "2026-10-08T18:30:17.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2e5b838-7680-4169-ab94-03d511d689f2/download",
-                    "size": 386662400,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 271406745,
             "name": "Hole.io - Original Hole Game",
             "version": "2.55.4",
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2b3d276-8916-492e-94ee-6faba8764449/download",
                     "size": 288138199,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 350686379,
-            "name": "Found It! Hidden Object Game",
-            "version": "1.77.66",
-            "size": "250.06 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116330/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9f5935a8-b1a3-4b49-af29-1716a9c23876/download",
-            "download_url": "https://check0ver.net/en/iapps/9f5935a8-b1a3-4b49-af29-1716a9c23876/download",
-            "bundleIdentifier": "games.urmobi.found.it",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116330/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.77.66",
-                    "date": "2026-10-07T02:57:59.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9f5935a8-b1a3-4b49-af29-1716a9c23876/download",
-                    "size": 262206914,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 823940008,
-            "name": "Flick Shot Rogues",
-            "version": "1.16",
-            "size": "387.19 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/165967/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2c0af68-fd58-4da1-b394-2d8e6d159aeb/download",
-            "download_url": "https://check0ver.net/en/iapps/a2c0af68-fd58-4da1-b394-2d8e6d159aeb/download",
-            "bundleIdentifier": "com.noodlecake.flickshotrogues",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/165967/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.16",
-                    "date": "2026-10-07T01:19:22.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2c0af68-fd58-4da1-b394-2d8e6d159aeb/download",
-                    "size": 405998141,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 663244859,
-            "name": "Snufkin Melody of Moominvalley",
-            "version": "1.1.2",
-            "size": "849.52 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117841/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
-            "download_url": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
-            "bundleIdentifier": "com.snapbreak.snufkin",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117841/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.2",
-                    "date": "2026-10-06T23:40:46.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9fc403a1-7797-4350-9fe3-1c246c316f7c/download",
-                    "size": 890786283,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
