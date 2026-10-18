@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 40000666,
+            "name": "Train of Hope: Survival Game",
+            "version": "1.26.0",
+            "size": "187.21 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116653/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
+            "download_url": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
+            "bundleIdentifier": "com.samfinaco.tos",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116653/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.26.0",
+                    "date": "2026-10-18T19:30:44.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
+                    "size": 196303912,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 770436429,
+            "name": "Undying Hero: Idle RPG",
+            "version": "1.1.10",
+            "size": "421.03 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
+            "download_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
+            "bundleIdentifier": "com.superpixel.undyinghero",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.10",
+                    "date": "2026-10-18T19:28:07.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
+                    "size": 441481953,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 198428401,
+            "name": "House Flipper Home Design",
+            "version": "1.701",
+            "size": "487.84 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115749/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c65a46e-887d-44a2-9886-e37966b3e33d/download",
+            "download_url": "https://check0ver.net/en/iapps/9c65a46e-887d-44a2-9886-e37966b3e33d/download",
+            "bundleIdentifier": "com.imaginalis.HouseFlipperMobile",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115749/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.701",
+                    "date": "2026-10-18T19:25:43.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c65a46e-887d-44a2-9886-e37966b3e33d/download",
+                    "size": 511537315,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 522757738,
             "name": "암살자 키우기 : 1주년",
             "version": "1.2.19",
@@ -3797,44 +3911,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e565725-f70b-4fee-937b-79ddb32bf4cf/download",
                     "size": 441062522,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 770436429,
-            "name": "Undying Hero: Idle RPG",
-            "version": "1.1.9",
-            "size": "421 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
-            "download_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
-            "bundleIdentifier": "com.superpixel.undyinghero",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.9",
-                    "date": "2026-10-16T22:31:12.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
-                    "size": 441450496,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2f9e6bb-0b34-4354-965c-be1f2dd07add/download",
                     "size": 180271185,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 775555424,
-            "name": "Township",
-            "version": "39.1.1",
-            "size": "191.23 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116283/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e156e9f-af72-4dcd-819a-9dfd7b19a756/download",
-            "download_url": "https://check0ver.net/en/iapps/9e156e9f-af72-4dcd-819a-9dfd7b19a756/download",
-            "bundleIdentifier": "com.playrix.township-ios",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116283/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "39.1.1",
-                    "date": "2026-10-14T10:42:14.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e156e9f-af72-4dcd-819a-9dfd7b19a756/download",
-                    "size": 200519188,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 267287562,
-            "name": "Yarn Fever! Unravel Puzzle",
-            "version": "13.3",
-            "size": "651.49 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115051/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a0ba38d9-7603-48fc-9a5a-5fda0feaa00f/download",
-            "download_url": "https://check0ver.net/en/iapps/a0ba38d9-7603-48fc-9a5a-5fda0feaa00f/download",
-            "bundleIdentifier": "puzzle.yarn.fever.unravel.puzzle",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115051/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "13.3",
-                    "date": "2026-10-14T10:33:29.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a0ba38d9-7603-48fc-9a5a-5fda0feaa00f/download",
-                    "size": 683136778,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
