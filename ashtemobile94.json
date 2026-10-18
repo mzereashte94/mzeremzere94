@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 382380152,
+            "name": "Epic Idle Journey: RPG Battle",
+            "version": "0.10.1",
+            "size": "136.18 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172066/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3019c5d-dc3a-40df-a771-9179e931a114/download",
+            "download_url": "https://check0ver.net/en/iapps/a3019c5d-dc3a-40df-a771-9179e931a114/download",
+            "bundleIdentifier": "com.RastleksGames.EpicIdleJourney",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172066/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.10.1",
+                    "date": "2026-10-18T05:03:39.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3019c5d-dc3a-40df-a771-9179e931a114/download",
+                    "size": 142795079,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 845145848,
             "name": "لعبة لمحة",
             "version": "1.1.8",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9eac5184-1bad-44c5-b8bb-1bd2cf21cc63/download",
                     "size": 249603031,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 985267390,
-            "name": "Good Coffee, Great Coffee",
-            "version": "1.25.1",
-            "size": "410.73 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114550/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e5255c8-2349-4c7b-890f-e90cc1857f4c/download",
-            "download_url": "https://check0ver.net/en/iapps/9e5255c8-2349-4c7b-890f-e90cc1857f4c/download",
-            "bundleIdentifier": "com.tapblaze.coffeebusiness",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114550/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.25.1",
-                    "date": "2026-10-14T05:36:36.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e5255c8-2349-4c7b-890f-e90cc1857f4c/download",
-                    "size": 430681620,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
