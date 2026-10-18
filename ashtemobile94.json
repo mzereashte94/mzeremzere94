@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 845145848,
+            "name": "لعبة لمحة",
+            "version": "1.1.8",
+            "size": "34.53 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/166901/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2c93061-7c48-4ab9-a9c6-9085c9d72752/download",
+            "download_url": "https://check0ver.net/en/iapps/a2c93061-7c48-4ab9-a9c6-9085c9d72752/download",
+            "bundleIdentifier": "com.lamha.game",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/166901/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.8",
+                    "date": "2026-10-17T23:29:00.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2c93061-7c48-4ab9-a9c6-9085c9d72752/download",
+                    "size": 36207329,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 944231113,
             "name": "Stick War: Legacy",
             "version": "2026.1.1196",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e5255c8-2349-4c7b-890f-e90cc1857f4c/download",
                     "size": 430681620,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 261733495,
-            "name": "Disney Emoji Blitz Game",
-            "version": "79.2.0",
-            "size": "193.92 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115048/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c8f4978-ae41-4325-9e77-0c18896b9e58/download",
-            "download_url": "https://check0ver.net/en/iapps/9c8f4978-ae41-4325-9e77-0c18896b9e58/download",
-            "bundleIdentifier": "com.disney.emojimatch",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115048/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "79.2.0",
-                    "date": "2026-10-14T05:35:14.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c8f4978-ae41-4325-9e77-0c18896b9e58/download",
-                    "size": 203339857,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
