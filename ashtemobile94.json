@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 318667335,
+            "name": "Tiny Army: Merge Defense RPG",
+            "version": "1.0.6",
+            "size": "206.99 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172123/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a302b7b8-d36d-464c-b46e-9b037e0e8640/download",
+            "download_url": "https://check0ver.net/en/iapps/a302b7b8-d36d-464c-b46e-9b037e0e8640/download",
+            "bundleIdentifier": "com.tinyarmy.legion",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172123/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.6",
+                    "date": "2026-10-19T00:48:11.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a302b7b8-d36d-464c-b46e-9b037e0e8640/download",
+                    "size": 217044746,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 240782912,
             "name": "Leaf World",
             "version": "2.9.4",
@@ -2163,44 +2201,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a0c8265c-c08b-4289-9533-e51eacef3ba2/download",
                     "size": 81442897,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 318667335,
-            "name": "Tiny Army: Merge Defense RPG",
-            "version": "1.0.5",
-            "size": "206.99 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172123/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a302b7b8-d36d-464c-b46e-9b037e0e8640/download",
-            "download_url": "https://check0ver.net/en/iapps/a302b7b8-d36d-464c-b46e-9b037e0e8640/download",
-            "bundleIdentifier": "com.tinyarmy.legion",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172123/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.5",
-                    "date": "2026-10-18T11:09:34.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a302b7b8-d36d-464c-b46e-9b037e0e8640/download",
-                    "size": 217044746,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
