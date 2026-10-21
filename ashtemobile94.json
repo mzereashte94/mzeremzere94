@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 267643290,
+            "name": "Tidy Up - Satisfeel ASMR",
+            "version": "0.7.69",
+            "size": "455.05 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117424/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9f55dfa7-b460-4a03-9ade-7ca973fe42a2/download",
+            "download_url": "https://check0ver.net/en/iapps/9f55dfa7-b460-4a03-9ade-7ca973fe42a2/download",
+            "bundleIdentifier": "com.diy.perfect.asmr",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117424/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.7.69",
+                    "date": "2026-10-20T23:52:32.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9f55dfa7-b460-4a03-9ade-7ca973fe42a2/download",
+                    "size": 477154508,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 701218078,
             "name": "Cube Land Puzzle Game",
             "version": "0.6.0",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a3019c5d-dc3a-40df-a771-9179e931a114/download",
                     "size": 142795079,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 845145848,
-            "name": "لعبة لمحة",
-            "version": "1.1.8",
-            "size": "34.53 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/166901/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2c93061-7c48-4ab9-a9c6-9085c9d72752/download",
-            "download_url": "https://check0ver.net/en/iapps/a2c93061-7c48-4ab9-a9c6-9085c9d72752/download",
-            "bundleIdentifier": "com.lamha.game",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/166901/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.8",
-                    "date": "2026-10-17T23:29:00.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2c93061-7c48-4ab9-a9c6-9085c9d72752/download",
-                    "size": 36207329,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
