@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 718536922,
+            "name": "Crushed In Time",
+            "version": "1.0.6313",
+            "size": "1.31 GB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172905/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a309d304-a523-4130-ba27-f28a1ebebc00/download",
+            "download_url": "https://check0ver.net/en/iapps/a309d304-a523-4130-ba27-f28a1ebebc00/download",
+            "bundleIdentifier": "com.DrawMeAPixel.CIT",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172905/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.6313",
+                    "date": "2026-10-22T21:51:29.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a309d304-a523-4130-ba27-f28a1ebebc00/download",
+                    "size": 1406601789,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 892832777,
+            "name": "Idle Firefighter Tycoon: Save!",
+            "version": "1.70.0",
+            "size": "110.83 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117831/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9cde48c7-fce3-4ec5-bdf9-784fe94433d6/download",
+            "download_url": "https://check0ver.net/en/iapps/9cde48c7-fce3-4ec5-bdf9-784fe94433d6/download",
+            "bundleIdentifier": "com.handsomeoldtree.idlefirefightertycoon",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117831/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.70.0",
+                    "date": "2026-10-22T20:03:09.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9cde48c7-fce3-4ec5-bdf9-784fe94433d6/download",
+                    "size": 116213678,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 997517426,
+            "name": "Mob Control",
+            "version": "3.24.3",
+            "size": "185.44 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115075/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c68d7b9-6205-4126-a829-682f013239f2/download",
+            "download_url": "https://check0ver.net/en/iapps/9c68d7b9-6205-4126-a829-682f013239f2/download",
+            "bundleIdentifier": "com.vincentb.MobControl",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115075/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.24.3",
+                    "date": "2026-10-22T19:32:07.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c68d7b9-6205-4126-a829-682f013239f2/download",
+                    "size": 194447933,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 421339555,
             "name": "Power Zone: PvP Online Shooter",
             "version": "3.0.2",
@@ -3873,44 +3987,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a1dfb25f-4993-476b-8f23-15dc08448ad0/download",
                     "size": 162529280,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 718536922,
-            "name": "Crushed In Time",
-            "version": "1.0.6309",
-            "size": "1.36 GB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172905/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a309d304-a523-4130-ba27-f28a1ebebc00/download",
-            "download_url": "https://check0ver.net/en/iapps/a309d304-a523-4130-ba27-f28a1ebebc00/download",
-            "bundleIdentifier": "com.DrawMeAPixel.CIT",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172905/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.6309",
-                    "date": "2026-10-22T01:11:28.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a309d304-a523-4130-ba27-f28a1ebebc00/download",
-                    "size": 1460288880,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c80dea3-298a-4db0-9461-1f77511636d2/download",
                     "size": 255674286,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 724048687,
-            "name": "Bloons TD 6 NETFLIX",
-            "version": "57.2",
-            "size": "141.83 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116200/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c6fb9af-b8ac-43d3-9c6c-343594b7b8de/download",
-            "download_url": "https://check0ver.net/en/iapps/9c6fb9af-b8ac-43d3-9c6c-343594b7b8de/download",
-            "bundleIdentifier": "com.netflix.NGP.BloonsTDSix",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116200/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "57.2",
-                    "date": "2026-10-20T01:45:47.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c6fb9af-b8ac-43d3-9c6c-343594b7b8de/download",
-                    "size": 148719534,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 933789975,
-            "name": "God Rivals: RPG Roguelike",
-            "version": "1.1.26",
-            "size": "478.6 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/145844/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1f935d3-96a8-42d1-8d54-91917ce0f69a/download",
-            "download_url": "https://check0ver.net/en/iapps/a1f935d3-96a8-42d1-8d54-91917ce0f69a/download",
-            "bundleIdentifier": "com.gamee.godslayer.rpg.rougelike",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/145844/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.26",
-                    "date": "2026-10-20T01:42:26.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1f935d3-96a8-42d1-8d54-91917ce0f69a/download",
-                    "size": 501848473,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
