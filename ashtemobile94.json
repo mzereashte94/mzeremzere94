@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 347013958,
+            "name": "Formula Ride",
+            "version": "1.0.7",
+            "size": "314.88 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171135/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download",
+            "download_url": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download",
+            "bundleIdentifier": "com.sevenseas.formularide",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171135/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.7",
+                    "date": "2026-10-24T15:52:00.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download",
+                    "size": 330175610,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 372091209,
+            "name": "Cuby Busters",
+            "version": "0.7.0",
+            "size": "116.1 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168421/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2da642e-eddc-4c0e-a87c-05d0e146055e/download",
+            "download_url": "https://check0ver.net/en/iapps/a2da642e-eddc-4c0e-a87c-05d0e146055e/download",
+            "bundleIdentifier": "com.superbox.ios.cubybusters",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168421/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.7.0",
+                    "date": "2026-10-24T15:11:58.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2da642e-eddc-4c0e-a87c-05d0e146055e/download",
+                    "size": 121739673,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 632859866,
+            "name": "My Little Pomodoro: Focus",
+            "version": "2.05",
+            "size": "137.59 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/163312/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2a3f110-d322-43d2-a6c8-475fe5c1235d/download",
+            "download_url": "https://check0ver.net/en/iapps/a2a3f110-d322-43d2-a6c8-475fe5c1235d/download",
+            "bundleIdentifier": "net.devfloor.pomodor",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/163312/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.05",
+                    "date": "2026-10-24T14:20:48.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2a3f110-d322-43d2-a6c8-475fe5c1235d/download",
+                    "size": 144273571,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 19231997,
             "name": "Idle Restaurant Tycoon: Empire",
             "version": "1.55.0",
@@ -847,7 +961,7 @@
         },
         {
             "id": 744090880,
-            "name": "Drift Car Racing Rally 3d 2023",
+            "name": "Drift Car Racing Rally 3D",
             "version": "9",
             "size": "48.94 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/88545/512x512bb.jpg",
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a0deb196-3a1e-40c0-a0ca-e75344bed124/download",
                     "size": 198348636,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 661272693,
-            "name": "Lollipop 3: Match 3 Puzzles",
-            "version": "2610.0.1",
-            "size": "251.65 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115933/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e6e6144-669b-480b-865b-bf962c4742e8/download",
-            "download_url": "https://check0ver.net/en/iapps/9e6e6144-669b-480b-865b-bf962c4742e8/download",
-            "bundleIdentifier": "com.puzzle1studio.ap.lollipopsweetheroesmatch3",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115933/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2610.0.1",
-                    "date": "2026-10-21T14:12:42.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e6e6144-669b-480b-865b-bf962c4742e8/download",
-                    "size": 263874150,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 40000666,
-            "name": "Train of Hope: Survival Game",
-            "version": "1.26.5",
-            "size": "187.15 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116653/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
-            "download_url": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
-            "bundleIdentifier": "com.samfinaco.tos",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116653/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.26.5",
-                    "date": "2026-10-21T14:11:26.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
-                    "size": 196240998,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 895179718,
-            "name": "좀왜진 : 방치된 좀비 잡기",
-            "version": "1.0.16",
-            "size": "160.12 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168781/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2dd1dae-1d8b-4cd6-ae7d-1084c2b0063d/download",
-            "download_url": "https://check0ver.net/en/iapps/a2dd1dae-1d8b-4cd6-ae7d-1084c2b0063d/download",
-            "bundleIdentifier": "com.Deliciousgames.ZWRios",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168781/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.16",
-                    "date": "2026-10-21T14:06:36.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2dd1dae-1d8b-4cd6-ae7d-1084c2b0063d/download",
-                    "size": 167897989,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
