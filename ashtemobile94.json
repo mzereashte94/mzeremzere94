@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 905958834,
+            "name": "Bingo Madness Live Bingo Games",
+            "version": "2.105",
+            "size": "78.02 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115844/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9f3f1bd6-803e-45c8-9d7d-8f418ced766d/download",
+            "download_url": "https://check0ver.net/en/iapps/9f3f1bd6-803e-45c8-9d7d-8f418ced766d/download",
+            "bundleIdentifier": "com.casualgamesempire.bingocountry",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115844/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.105",
+                    "date": "2026-10-25T21:28:40.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9f3f1bd6-803e-45c8-9d7d-8f418ced766d/download",
+                    "size": 81809899,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 348820102,
             "name": "eFootball™",
             "version": "11.1.1",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2dc73a4-44a6-4d65-88e9-d927b2cb7964/download",
                     "size": 537531514,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 26283927,
-            "name": "Lucky Pirates - Ahoy",
-            "version": "1.0.16",
-            "size": "126.82 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170585/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2f15554-4f8b-434a-a53f-6bd654c0a583/download",
-            "download_url": "https://check0ver.net/en/iapps/a2f15554-4f8b-434a-a53f-6bd654c0a583/download",
-            "bundleIdentifier": "com.STUCKPIXEL.NOC",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170585/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.16",
-                    "date": "2026-10-22T05:19:58.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2f15554-4f8b-434a-a53f-6bd654c0a583/download",
-                    "size": 132980408,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
