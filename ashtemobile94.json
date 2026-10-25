@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 38041029,
+            "name": "Stick War: Saga",
+            "version": "2026.5.7576",
+            "size": "342.55 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116839/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9cb53bce-7656-4ed0-87a6-443b88ffe7c6/download",
+            "download_url": "https://check0ver.net/en/iapps/9cb53bce-7656-4ed0-87a6-443b88ffe7c6/download",
+            "bundleIdentifier": "com.maxgames.stickwar3",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116839/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2026.5.7576",
+                    "date": "2026-10-25T16:57:24.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9cb53bce-7656-4ed0-87a6-443b88ffe7c6/download",
+                    "size": 359189708,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 240837683,
+            "name": "Tic Tac Toe 2 Player: XO Game",
+            "version": "17",
+            "size": "57.13 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/173724/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a311302d-1df0-40a6-acae-73d302655633/download",
+            "download_url": "https://check0ver.net/en/iapps/a311302d-1df0-40a6-acae-73d302655633/download",
+            "bundleIdentifier": "onetap.game.tictactoe",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/173724/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "17",
+                    "date": "2026-10-25T15:30:44.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a311302d-1df0-40a6-acae-73d302655633/download",
+                    "size": 59905146,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 466138227,
+            "name": "Rolling Sky",
+            "version": "5.6.4",
+            "size": "326.28 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/173715/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a311155d-83f9-4129-b23b-bc73eebec831/download",
+            "download_url": "https://check0ver.net/en/iapps/a311155d-83f9-4129-b23b-bc73eebec831/download",
+            "bundleIdentifier": "com.turbochilli.rollingsky",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/173715/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.6.4",
+                    "date": "2026-10-25T15:23:50.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a311155d-83f9-4129-b23b-bc73eebec831/download",
+                    "size": 342129377,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 462015761,
             "name": "Meowdoku!",
             "version": "1.22.0",
@@ -6701,7 +6815,7 @@
             "id": 172580323,
             "name": "DRAGON BALL Z DOKKAN BATTLE",
             "version": "6.6.5",
-            "size": "984.79 MB",
+            "size": "984.8 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116597/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -6722,7 +6836,7 @@
                     "date": "2026-10-23T07:01:22.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c695e19-5538-44de-bd04-dfde55421d34/download",
-                    "size": 1032627159,
+                    "size": 1032637644,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2ab9ad9-cc5b-4b33-92fd-7ae31397dcb6/download",
                     "size": 43390074,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 11554824,
-            "name": "Car Simulator 2",
-            "version": "1.64.11",
-            "size": "1 GB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/101265/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a0ca1bf9-df14-4333-9e2b-3c9dfdc2055d/download",
-            "download_url": "https://check0ver.net/en/iapps/a0ca1bf9-df14-4333-9e2b-3c9dfdc2055d/download",
-            "bundleIdentifier": "com.oppanagames.car.simulator",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/101265/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.64.11",
-                    "date": "2026-10-22T05:04:09.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a0ca1bf9-df14-4333-9e2b-3c9dfdc2055d/download",
-                    "size": 1073741824,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 183651540,
-            "name": "Monster Super League",
-            "version": "4.4.8",
-            "size": "94.98 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115557/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9da3cacb-4872-4822-85ed-0ce0373c35b2/download",
-            "download_url": "https://check0ver.net/en/iapps/9da3cacb-4872-4822-85ed-0ce0373c35b2/download",
-            "bundleIdentifier": "com.ftt.msleague",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115557/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "4.4.8",
-                    "date": "2026-10-22T04:58:02.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9da3cacb-4872-4822-85ed-0ce0373c35b2/download",
-                    "size": 99593748,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 418786132,
-            "name": "Virtual Families Our New Home",
-            "version": "1.1.14",
-            "size": "185.84 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160085/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a058f707-adcf-4bff-bdef-0f62e26c266d/download",
-            "download_url": "https://check0ver.net/en/iapps/a058f707-adcf-4bff-bdef-0f62e26c266d/download",
-            "bundleIdentifier": "com.ldw.vfc",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160085/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.14",
-                    "date": "2026-10-22T04:56:50.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a058f707-adcf-4bff-bdef-0f62e26c266d/download",
-                    "size": 194867363,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
