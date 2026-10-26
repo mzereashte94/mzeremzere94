@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 675600145,
+            "name": "Car Jam: Bus Escape Traffic",
+            "version": "5.7",
+            "size": "178.79 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117387/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9dfdccf7-ceda-445f-b109-d099e5195544/download",
+            "download_url": "https://check0ver.net/en/iapps/9dfdccf7-ceda-445f-b109-d099e5195544/download",
+            "bundleIdentifier": "com.cars.color.sort",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117387/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.7",
+                    "date": "2026-10-26T02:36:49.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9dfdccf7-ceda-445f-b109-d099e5195544/download",
+                    "size": 187474903,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 905958834,
             "name": "Bingo Madness Live Bingo Games",
             "version": "2.105",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a282da38-42a1-4a2b-936a-42d3d4d44786/download",
                     "size": 190368972,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 314046514,
-            "name": "Mochi Burst",
-            "version": "1.0.7",
-            "size": "512.63 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168666/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2dc73a4-44a6-4d65-88e9-d927b2cb7964/download",
-            "download_url": "https://check0ver.net/en/iapps/a2dc73a4-44a6-4d65-88e9-d927b2cb7964/download",
-            "bundleIdentifier": "net.gameduo.eh",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168666/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.7",
-                    "date": "2026-10-22T05:23:29.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2dc73a4-44a6-4d65-88e9-d927b2cb7964/download",
-                    "size": 537531514,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
