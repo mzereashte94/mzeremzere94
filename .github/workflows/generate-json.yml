@@ -41,7 +41,9 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add ashtemobile94.json ashteips.json
+          for f in ashtemobile94.json ashteips.json debug_network.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
