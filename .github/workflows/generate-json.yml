@@ -1,0 +1,51 @@
+name: Auto Generate JSON Files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+
+# never run two jobs at once (prevents push conflicts)
+concurrency:
+  group: auto-generate-json
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests selenium webdriver-manager
+
+      # if one script fails, the other one still runs
+      - name: Run extractor script for apps
+        continue-on-error: true
+        run: python extractor.py
+
+      - name: Run extractor script for IPAs
+        continue-on-error: true
+        run: python ashte_scraper.py --out ashteips.json --max-wait 40 --retries 3
+
+      - name: Commit and push generated JSON files
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add ashtemobile94.json ashteips.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Auto-update JSON files"
+          git pull --rebase
+          git push
