@@ -11,10 +11,12 @@ import logging
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from html import unescape
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
+import requests
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
@@ -223,6 +225,123 @@ def scrape(args) -> list[dict]:
         driver.quit()
 
 
+# ---------------------------------------------------------------- resolving
+HTTP_HEADERS = {"User-Agent": UA, "Accept": "*/*"}
+PLIST_RE = re.compile(r"\.plist\b", re.I)
+
+
+def is_direct_ipa(url: str) -> bool:
+    """A real .ipa link, not a check0ver wrapper."""
+    return bool(IPA_RE.search(url)) and not CHECK_RE.search(url)
+
+
+def read_text(resp, limit: int = 1_000_000) -> str:
+    data, size = [], 0
+    for chunk in resp.iter_content(65536):
+        data.append(chunk)
+        size += len(chunk)
+        if size >= limit:
+            break
+    return b"".join(data).decode(resp.encoding or "utf-8", errors="ignore")
+
+
+def resolve_link(url: str, referer: str, depth: int = 0) -> str | None:
+    """Follow redirects / JSON / plist wrappers until the original .ipa URL is found."""
+    if is_direct_ipa(url):
+        return url
+    if depth > 4:
+        return None
+
+    headers = {**HTTP_HEADERS, "Referer": referer}
+    try:
+        resp = requests.get(
+            url, headers=headers, stream=True, timeout=25, allow_redirects=True
+        )
+    except requests.RequestException as e:
+        log.warning("Could not open %s (%s)", url, e.__class__.__name__)
+        return None
+
+    try:
+        # 1) the redirect chain passes through / ends at the .ipa
+        for r in [*resp.history, resp]:
+            for cand in (urljoin(r.url, r.headers.get("Location", "")), r.url):
+                if cand and is_direct_ipa(cand):
+                    return cand
+
+        # 2) the final response is the file download itself
+        ctype = resp.headers.get("Content-Type", "").lower()
+        disp = resp.headers.get("Content-Disposition", "").lower()
+        if "octet-stream" in ctype or ".ipa" in disp:
+            return resp.url
+
+        # 3) a wrapper page / JSON: look inside the body
+        text = read_text(resp)
+        links = extract_links(text)
+        for link in links:
+            if is_direct_ipa(link):
+                return link
+        for link in links:  # another check0ver link nested inside
+            if link != url:
+                found = resolve_link(link, referer, depth + 1)
+                if found:
+                    return found
+
+        # 4) itms-services manifest (.plist) that contains the .ipa URL
+        for m in URL_RE.findall(clean(text)):
+            m = m.rstrip(".,;:)]}")
+            if PLIST_RE.search(m):
+                try:
+                    pr = requests.get(m, headers=headers, timeout=20)
+                except requests.RequestException:
+                    continue
+                for link in extract_links(pr.text):
+                    if is_direct_ipa(link):
+                        return link
+
+        log.warning(
+            "Unresolved %s -> HTTP %s, %s, body starts: %r",
+            url, resp.status_code, ctype or "?", text[:200],
+        )
+        return None
+    finally:
+        resp.close()
+
+
+def resolve_apps(apps: list[dict], referer: str, workers: int = 8):
+    """Replace check0ver links with the original .ipa links."""
+    todo = [a["download_url"] for a in apps if a["type"] == "check0ver"]
+    resolved: dict[str, str | None] = {}
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = {ex.submit(resolve_link, u, referer): u for u in todo}
+        for fut in as_completed(futs):
+            try:
+                resolved[futs[fut]] = fut.result()
+            except Exception as e:  # one bad link must not kill the run
+                log.warning("Resolve error for %s: %s", futs[fut], e)
+                resolved[futs[fut]] = None
+
+    final: dict[str, dict] = {}
+    unresolved: list[dict] = []
+    for a in apps:
+        src = a["download_url"] if a["type"] == "check0ver" else None
+        direct = resolved.get(src) if src else a["download_url"]
+        if not direct:
+            unresolved.append({"name": a["name"], "source_link": src})
+            continue
+        e = final.setdefault(
+            direct,
+            {"name": a["name"], "download_url": direct, "source_link": src, "found_via": set()},
+        )
+        e["source_link"] = e["source_link"] or src
+        e["found_via"].update(a["found_via"])
+
+    out = []
+    for i, e in enumerate(final.values(), start=1):
+        e["found_via"] = sorted(e["found_via"])
+        out.append({"id": i, **e})
+    return out, unresolved
+
+
 def parse_args():
     p = argparse.ArgumentParser(description="Extract IPA links from a dynamic page")
     p.add_argument("--url", default=DEFAULT_URL)
@@ -232,6 +351,8 @@ def parse_args():
     p.add_argument("--retries", type=int, default=3)
     p.add_argument("--no-headless", action="store_true", help="show the browser window")
     p.add_argument("--debug", action="store_true", default=True)
+    p.add_argument("--no-resolve", action="store_true", help="keep check0ver links as they are")
+    p.add_argument("--workers", type=int, default=8, help="parallel link resolvers")
     return p.parse_args()
 
 
@@ -250,6 +371,12 @@ def main() -> int:
         log.warning("Attempt %d/%d found nothing.", attempt, args.retries)
         time.sleep(2 * attempt)
 
+    unresolved: list[dict] = []
+    if apps and not args.no_resolve:
+        log.info("Resolving %d links to the original .ipa source...", len(apps))
+        apps, unresolved = resolve_apps(apps, args.url, args.workers)
+        log.info("Resolved: %d, unresolved: %d", len(apps), len(unresolved))
+
     if not apps:
         log.error("No links found; leaving %s untouched.", args.out)
         return 1
@@ -258,6 +385,7 @@ def main() -> int:
         "source_website": args.url,
         "total_links_found": len(apps),
         "apps": apps,
+        "unresolved": unresolved,
     }
     Path(args.out).write_text(
         json.dumps(output, ensure_ascii=False, indent=4), encoding="utf-8"
