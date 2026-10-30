@@ -35,13 +35,13 @@ jobs:
 
       - name: Run extractor script for IPAs
         continue-on-error: true
-        run: python ashte_scraper.py --out ashteips.json --max-wait 40 --retries 3
+        run: python ashte_scraper.py --out ashteips.json
 
       - name: Commit and push generated JSON files
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          for f in ashtemobile94.json ashteips.json debug_network.json; do
+          for f in ashtemobile94.json ashteips.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
           if git diff --staged --quiet; then
