@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 142960412,
+            "name": "Resource War: multiplayer rpg",
+            "version": "3.9.1",
+            "size": "142.96 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174867/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31b966d-4613-4eed-8c6c-e2749dce74a7/download",
+            "download_url": "https://check0ver.net/en/iapps/a31b966d-4613-4eed-8c6c-e2749dce74a7/download",
+            "bundleIdentifier": "com.ivanpanasenko.resourcewar",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174867/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.9.1",
+                    "date": "2026-10-30T19:38:42.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31b966d-4613-4eed-8c6c-e2749dce74a7/download",
+                    "size": 149904424,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 639038117,
+            "name": "Galaxy Shooter - Falcon Squad",
+            "version": "101.08",
+            "size": "221.94 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174865/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31b95e7-74a5-457e-ba51-08c4050a65d6/download",
+            "download_url": "https://check0ver.net/en/iapps/a31b95e7-74a5-457e-ba51-08c4050a65d6/download",
+            "bundleIdentifier": "invaders.falcon.galaxy.space.shooter.attack.classic",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174865/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "101.08",
+                    "date": "2026-10-30T19:38:39.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31b95e7-74a5-457e-ba51-08c4050a65d6/download",
+                    "size": 232720957,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 478082394,
             "name": "Holy Mackerel",
             "version": "2.0.2",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a3103972-f3e4-40df-b94c-ad49a5c8db50/download",
                     "size": 141872332,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 493415693,
-            "name": "Nom Nom: Restaurant Fever",
-            "version": "0.33",
-            "size": "386.25 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/142328/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1597545-ad7e-4883-b16d-71cf7986f212/download",
-            "download_url": "https://check0ver.net/en/iapps/a1597545-ad7e-4883-b16d-71cf7986f212/download",
-            "bundleIdentifier": "games.zero1.chefmaster",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/142328/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.33",
-                    "date": "2026-10-27T22:21:52.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1597545-ad7e-4883-b16d-71cf7986f212/download",
-                    "size": 405012480,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 176258766,
-            "name": "My Cinema World",
-            "version": "1.5.42",
-            "size": "140.7 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115533/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e5edfd6-f1bc-496f-a73f-f9d4b50a2c28/download",
-            "download_url": "https://check0ver.net/en/iapps/9e5edfd6-f1bc-496f-a73f-f9d4b50a2c28/download",
-            "bundleIdentifier": "com.creauctopus.cinemaworld",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115533/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.5.42",
-                    "date": "2026-10-27T22:12:06.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e5edfd6-f1bc-496f-a73f-f9d4b50a2c28/download",
-                    "size": 147534643,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
