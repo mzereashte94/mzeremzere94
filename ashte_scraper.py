@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Robust IPA / check0ver link extractor.
+IPA link extractor for JavaScript-rendered pages.
 
-Install:  pip install selenium webdriver-manager
+Sources (default): the AshteMobile store and https://check0ver.net/en/iapps
+Install:  pip install selenium webdriver-manager requests
 Run:      python ashte_scraper.py --max-wait 40 --retries 3
 """
 import argparse
@@ -24,18 +25,24 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
-DEFAULT_URL = "https://ashtemobile.tututweak.com/o.html"
+DEFAULT_URLS = [
+    "https://ashtemobile.tututweak.com/o.html",
+    "https://check0ver.net/en/iapps",
+]
 
 URL_RE = re.compile(r"https?://[^\s\"'<>\\]+", re.I)
 IPA_RE = re.compile(r"\.ipa\b", re.I)
 CHECK_RE = re.compile(r"check0ver\.net/api/check0ver/", re.I)
+PLIST_RE = re.compile(r"\.plist\b", re.I)
+NAME_KEYS = ("name", "title", "app_name", "appName", "label")
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
+HTTP_HEADERS = {"User-Agent": UA, "Accept": "*/*"}
 
-# Collects every attribute value containing a URL, plus nearby text (for app names)
+# Every attribute value containing a URL, plus nearby text (used for app names)
 DOM_JS = """
 const out = [];
 document.querySelectorAll('*').forEach(el => {
@@ -53,12 +60,26 @@ document.querySelectorAll('*').forEach(el => {
 return out;
 """
 
+# Clicks a visible "Load more" style button (returns true if it clicked one)
+LOAD_MORE_JS = """
+const re = /^(load more|show more|view more|more|next)$/i;
+const el = Array.from(document.querySelectorAll('button, [role=button]'))
+  .find(e => re.test((e.innerText || '').trim()) && e.offsetParent !== null && !e.disabled);
+if (el) { el.click(); return true; }
+return false;
+"""
+
 log = logging.getLogger("scraper")
 
 
 # ---------------------------------------------------------------- helpers
 def is_target(url: str) -> bool:
     return bool(IPA_RE.search(url) or CHECK_RE.search(url))
+
+
+def is_direct_ipa(url: str) -> bool:
+    """A real .ipa link, not a check0ver wrapper."""
+    return bool(IPA_RE.search(url)) and not CHECK_RE.search(url)
 
 
 def clean(text: str) -> str:
@@ -91,6 +112,36 @@ def pick_name(item: dict, url: str) -> str:
             if 2 <= len(line) <= 80 and not line.lower().startswith(skip):
                 return line
     return name_from_url(url)
+
+
+def walk_json(obj, base_url: str, name_hint: str | None = None):
+    """Yield (link, name) for every .ipa / check0ver link anywhere in a JSON tree."""
+    if isinstance(obj, dict):
+        name = next(
+            (
+                obj[k].strip()
+                for k in NAME_KEYS
+                if isinstance(obj.get(k), str) and obj[k].strip()
+            ),
+            name_hint,
+        )
+        for v in obj.values():
+            yield from walk_json(v, base_url, name)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from walk_json(v, base_url, name_hint)
+    elif isinstance(obj, str):
+        links = extract_links(obj)
+        if (
+            not links
+            and IPA_RE.search(obj)
+            and " " not in obj
+            and len(obj) < 500
+            and not obj.lower().startswith(("http", "itms"))
+        ):
+            links = [urljoin(base_url, obj.strip())]  # relative path like /files/a.ipa
+        for link in links:
+            yield link, name_hint
 
 
 # ---------------------------------------------------------------- browser
@@ -133,6 +184,14 @@ def scroll_until_stable(driver, max_wait: float, stable_for: float) -> None:
     log.warning("Page never fully stabilised; continuing with what loaded.")
 
 
+def click_load_more(driver, max_rounds: int = 20) -> None:
+    for _ in range(max_rounds):
+        if not driver.execute_script(LOAD_MORE_JS):
+            return
+        time.sleep(1.5)
+        scroll_until_stable(driver, 6, 2)
+
+
 def collect_dom(driver) -> list[dict]:
     items = list(driver.execute_script(DOM_JS))
     for i in range(len(driver.find_elements(By.TAG_NAME, "iframe"))):
@@ -146,12 +205,14 @@ def collect_dom(driver) -> list[dict]:
     return items
 
 
-def links_from_network(driver) -> list[str]:
-    found: list[str] = []
+def inspect_network(driver):
+    """Scan browser traffic. Returns ([(link, name)], [api response summaries])."""
+    found: list[tuple[str, str | None]] = []
+    seen: dict[tuple, dict] = {}
     try:
         logs = driver.get_log("performance")
     except WebDriverException:
-        return found
+        return found, []
     for entry in logs:
         try:
             msg = json.loads(entry["message"])["message"]
@@ -159,82 +220,111 @@ def links_from_network(driver) -> list[str]:
             continue
         method, params = msg.get("method"), msg.get("params", {})
         if method == "Network.requestWillBeSent":
-            found += extract_links(params.get("request", {}).get("url", ""))
-        elif method == "Network.responseReceived" and params.get("type") in (
-            "XHR",
-            "Fetch",
-            "Script",
-        ):
+            req_url = params.get("request", {}).get("url", "")
+            found += [(u, None) for u in extract_links(req_url)]
+        elif method == "Network.responseReceived":
+            rtype = params.get("type")
+            if rtype not in ("XHR", "Fetch", "Script"):
+                continue
+            resp = params.get("response", {})
             try:
                 body = driver.execute_cdp_cmd(
                     "Network.getResponseBody", {"requestId": params["requestId"]}
                 )
-                found += extract_links(body.get("body", ""))
             except WebDriverException:
-                pass
-    return found
+                continue
+            if body.get("base64Encoded"):
+                continue
+            text = body.get("body", "")
+            if rtype != "Script":
+                key = (resp.get("url"), resp.get("status"))
+                seen[key] = {
+                    "url": resp.get("url"),
+                    "status": resp.get("status"),
+                    "mime": resp.get("mimeType"),
+                    "size": len(text),
+                    "preview": text[:300],
+                }
+            try:
+                found += list(walk_json(json.loads(text), resp.get("url", "")))
+            except ValueError:
+                found += [(u, None) for u in extract_links(text)]
+    summaries = sorted(seen.values(), key=lambda d: d["url"] or "")
+    return found, summaries
 
 
 # ---------------------------------------------------------------- scraping
-def scrape(args) -> list[dict]:
-    driver = build_driver(not args.no_headless)
-    try:
-        log.info("Opening %s", args.url)
-        driver.get(args.url)
-        WebDriverWait(driver, args.max_wait).until(
-            lambda d: d.execute_script("return document.readyState") == "complete"
+def scrape_page(driver, url: str, args, results: dict) -> dict:
+    log.info("Opening %s", url)
+    before = len(results)
+    driver.get(url)
+    WebDriverWait(driver, args.max_wait).until(
+        lambda d: d.execute_script("return document.readyState") == "complete"
+    )
+    scroll_until_stable(driver, args.max_wait, args.stable)
+    click_load_more(driver)
+
+    def add(link: str, via: str, page: str, name: str | None = None) -> None:
+        e = results.setdefault(
+            link, {"name": name or name_from_url(link), "page": page, "via": set()}
         )
-        scroll_until_stable(driver, args.max_wait, args.stable)
+        e["via"].add(via)
+        if name and e["name"] == name_from_url(link):  # replace placeholder name
+            e["name"] = name
 
-        results: dict[str, dict] = {}
+    # 1) DOM attributes (+ iframes): best source of names on normal pages
+    for item in collect_dom(driver):
+        for link in extract_links(item["value"]):
+            add(link, "dom", url, pick_name(item, link))
 
-        def add(link: str, via: str, name: str | None = None) -> None:
-            e = results.setdefault(
-                link, {"name": name or name_from_url(link), "via": set()}
-            )
-            e["via"].add(via)
+    # 2) raw page source
+    for link in extract_links(driver.page_source):
+        add(link, "source", url)
 
-        # 1) DOM attributes (+ iframes), gives the best names
-        for item in collect_dom(driver):
-            for link in extract_links(item["value"]):
-                add(link, "dom", pick_name(item, link))
+    # 3) network traffic: API/JSON responses used by single-page apps
+    net_links, api_summaries = inspect_network(driver)
+    for link, name in net_links:
+        add(link, "network", url, name)
 
-        # 2) raw page source
-        for link in extract_links(driver.page_source):
-            add(link, "source")
+    try:
+        page_text = driver.find_element(By.TAG_NAME, "body").text[:1500]
+    except WebDriverException:
+        page_text = ""
 
-        # 3) network traffic (API responses)
-        for link in links_from_network(driver):
-            add(link, "network")
+    found_here = len(results) - before
+    log.info("%s -> %d new links, %d API responses seen", url, found_here, len(api_summaries))
+    return {"new_links": found_here, "api_responses": api_summaries, "page_text": page_text}
 
-        if not results and args.debug:
-            Path("debug_page.html").write_text(driver.page_source, encoding="utf-8")
-            log.info("No links found; saved debug_page.html for inspection.")
 
-        return [
-            {
-                "id": i,
-                "name": e["name"],
-                "type": "check0ver" if CHECK_RE.search(link) else "ipa",
-                "download_url": link,
-                "found_via": sorted(e["via"]),
-            }
-            for i, (link, e) in enumerate(results.items(), start=1)
-        ]
+def scrape(args):
+    driver = build_driver(not args.no_headless)
+    results: dict[str, dict] = {}
+    debug: dict[str, dict] = {}
+    try:
+        for url in args.url:
+            try:
+                debug[url] = scrape_page(driver, url, args, results)
+            except WebDriverException as e:
+                log.error("Failed on %s: %s", url, str(e).splitlines()[0])
+                debug[url] = {"error": str(e).splitlines()[0]}
     finally:
         driver.quit()
 
+    apps = [
+        {
+            "id": i,
+            "name": e["name"],
+            "type": "check0ver" if CHECK_RE.search(link) else "ipa",
+            "page": e["page"],
+            "download_url": link,
+            "found_via": sorted(e["via"]),
+        }
+        for i, (link, e) in enumerate(results.items(), start=1)
+    ]
+    return apps, debug
+
 
 # ---------------------------------------------------------------- resolving
-HTTP_HEADERS = {"User-Agent": UA, "Accept": "*/*"}
-PLIST_RE = re.compile(r"\.plist\b", re.I)
-
-
-def is_direct_ipa(url: str) -> bool:
-    """A real .ipa link, not a check0ver wrapper."""
-    return bool(IPA_RE.search(url)) and not CHECK_RE.search(url)
-
-
 def read_text(resp, limit: int = 1_000_000) -> str:
     data, size = [], 0
     for chunk in resp.iter_content(65536):
@@ -330,7 +420,13 @@ def resolve_apps(apps: list[dict], referer: str, workers: int = 8):
             continue
         e = final.setdefault(
             direct,
-            {"name": a["name"], "download_url": direct, "source_link": src, "found_via": set()},
+            {
+                "name": a["name"],
+                "page": a.get("page"),
+                "download_url": direct,
+                "source_link": src,
+                "found_via": set(),
+            },
         )
         e["source_link"] = e["source_link"] or src
         e["found_via"].update(a["found_via"])
@@ -342,18 +438,22 @@ def resolve_apps(apps: list[dict], referer: str, workers: int = 8):
     return out, unresolved
 
 
+# ---------------------------------------------------------------- main
 def parse_args():
-    p = argparse.ArgumentParser(description="Extract IPA links from a dynamic page")
-    p.add_argument("--url", default=DEFAULT_URL)
+    p = argparse.ArgumentParser(description="Extract IPA links from dynamic pages")
+    p.add_argument("--url", action="append", help="page to scrape (repeatable)")
     p.add_argument("--out", default="ashteips.json")
+    p.add_argument("--debug-file", default="debug_network.json")
+    p.add_argument("--no-debug", dest="debug", action="store_false")
     p.add_argument("--max-wait", type=float, default=30, help="max seconds to wait")
     p.add_argument("--stable", type=float, default=4, help="seconds of no change = loaded")
     p.add_argument("--retries", type=int, default=3)
     p.add_argument("--no-headless", action="store_true", help="show the browser window")
-    p.add_argument("--debug", action="store_true", default=True)
     p.add_argument("--no-resolve", action="store_true", help="keep check0ver links as they are")
     p.add_argument("--workers", type=int, default=8, help="parallel link resolvers")
-    return p.parse_args()
+    args = p.parse_args()
+    args.url = args.url or DEFAULT_URLS
+    return args
 
 
 def main() -> int:
@@ -361,9 +461,10 @@ def main() -> int:
     args = parse_args()
 
     apps: list[dict] = []
+    debug: dict = {}
     for attempt in range(1, args.retries + 1):
         try:
-            apps = scrape(args)
+            apps, debug = scrape(args)
         except WebDriverException as e:
             log.error("Attempt %d failed: %s", attempt, str(e).splitlines()[0])
         if apps:
@@ -371,10 +472,18 @@ def main() -> int:
         log.warning("Attempt %d/%d found nothing.", attempt, args.retries)
         time.sleep(2 * attempt)
 
+    if args.debug and debug:
+        # deterministic content (no timestamps) so git only sees real changes
+        Path(args.debug_file).write_text(
+            json.dumps(debug, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8",
+        )
+        log.info("Saved debug info to %s", args.debug_file)
+
     unresolved: list[dict] = []
     if apps and not args.no_resolve:
         log.info("Resolving %d links to the original .ipa source...", len(apps))
-        apps, unresolved = resolve_apps(apps, args.url, args.workers)
+        apps, unresolved = resolve_apps(apps, args.url[0], args.workers)
         log.info("Resolved: %d, unresolved: %d", len(apps), len(unresolved))
 
     if not apps:
@@ -382,7 +491,7 @@ def main() -> int:
         return 1
 
     output = {
-        "source_website": args.url,
+        "sources": args.url,
         "total_links_found": len(apps),
         "apps": apps,
         "unresolved": unresolved,
@@ -391,7 +500,7 @@ def main() -> int:
         json.dumps(output, ensure_ascii=False, indent=4), encoding="utf-8"
     )
     log.info("Done: %d links saved to %s", len(apps), args.out)
-    return 0 if apps else 1
+    return 0
 
 
 if __name__ == "__main__":
