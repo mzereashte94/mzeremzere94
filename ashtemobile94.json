@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 345935618,
+            "name": "Archero",
+            "version": "8.3.1",
+            "size": "818.89 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116963/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c725925-170b-46ec-bd64-ea63a2178ea7/download",
+            "download_url": "https://check0ver.net/en/iapps/9c725925-170b-46ec-bd64-ea63a2178ea7/download",
+            "bundleIdentifier": "com.habby.archero",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116963/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "8.3.1",
+                    "date": "2026-10-31T15:03:07.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c725925-170b-46ec-bd64-ea63a2178ea7/download",
+                    "size": 858668400,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 388127292,
+            "name": "Packingdom",
+            "version": "1.5.6",
+            "size": "198.27 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160450/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a280d51e-21ee-4702-b340-6d4a7c4b49a7/download",
+            "download_url": "https://check0ver.net/en/iapps/a280d51e-21ee-4702-b340-6d4a7c4b49a7/download",
+            "bundleIdentifier": "com.abi.packingdom",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160450/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.5.6",
+                    "date": "2026-10-31T14:51:50.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a280d51e-21ee-4702-b340-6d4a7c4b49a7/download",
+                    "size": 207901163,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 292563872,
+            "name": "Otherworld Mercenary Corps",
+            "version": "3.0.1",
+            "size": "428.19 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133112/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9cbf44c9-3be0-4828-a47f-e1b572e7fff5/download",
+            "download_url": "https://check0ver.net/en/iapps/9cbf44c9-3be0-4828-a47f-e1b572e7fff5/download",
+            "bundleIdentifier": "com.blb.ios.Mercenary",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133112/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.0.1",
+                    "date": "2026-10-31T14:50:21.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9cbf44c9-3be0-4828-a47f-e1b572e7fff5/download",
+                    "size": 448989757,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 710687138,
             "name": "Word Trip - Word Puzzles Games",
             "version": "1.492.0",
@@ -1685,7 +1799,7 @@
             "id": 752307585,
             "name": "Offroad Outlaws",
             "version": "7.15.48",
-            "size": "630.45 MB",
+            "size": "635.08 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117379/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -1706,7 +1820,7 @@
                     "date": "2026-10-30T21:44:22.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e55dfa4-01aa-4246-b108-687974008dee/download",
-                    "size": 661074739,
+                    "size": 665929646,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -3417,44 +3531,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9d9a5052-34c2-4deb-a9e7-340e206d5575/download",
                     "size": 746460282,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 292563872,
-            "name": "Otherworld Mercenary Corps",
-            "version": "3.0.0",
-            "size": "428.19 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133112/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9cbf44c9-3be0-4828-a47f-e1b572e7fff5/download",
-            "download_url": "https://check0ver.net/en/iapps/9cbf44c9-3be0-4828-a47f-e1b572e7fff5/download",
-            "bundleIdentifier": "com.blb.ios.Mercenary",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133112/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "3.0.0",
-                    "date": "2026-10-30T12:21:05.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9cbf44c9-3be0-4828-a47f-e1b572e7fff5/download",
-                    "size": 448989757,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a316167f-97cb-4bf2-99f7-fef2ee3dd443/download",
                     "size": 78559313,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 475328528,
-            "name": "Weapon Legends",
-            "version": "1.1.1",
-            "size": "136.5 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174178/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3160faf-b87b-42a7-a452-919153b30296/download",
-            "download_url": "https://check0ver.net/en/iapps/a3160faf-b87b-42a7-a452-919153b30296/download",
-            "bundleIdentifier": "weapon.legends.ammo.heroes",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174178/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.1",
-                    "date": "2026-10-28T11:31:20.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3160faf-b87b-42a7-a452-919153b30296/download",
-                    "size": 143130624,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 574466214,
-            "name": "We Are Illuminati: UFO Clicker",
-            "version": "8.8.0",
-            "size": "112.18 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119791/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9fd7fe8d-2287-4255-8f7b-9341260e8743/download",
-            "download_url": "https://check0ver.net/en/iapps/9fd7fe8d-2287-4255-8f7b-9341260e8743/download",
-            "bundleIdentifier": "br.com.tapps.weareilluminati",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119791/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "8.8.0",
-                    "date": "2026-10-28T11:20:55.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9fd7fe8d-2287-4255-8f7b-9341260e8743/download",
-                    "size": 117629255,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
