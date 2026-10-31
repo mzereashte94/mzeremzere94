@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 978915595,
+            "name": "Mech Arena - Shooting Game",
+            "version": "3.280.10",
+            "size": "129.83 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114566/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9d6042de-d956-40af-9984-ac03c431750a/download",
+            "download_url": "https://check0ver.net/en/iapps/9d6042de-d956-40af-9984-ac03c431750a/download",
+            "bundleIdentifier": "com.plarium.mechlegion",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114566/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.280.10",
+                    "date": "2026-10-31T21:28:22.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9d6042de-d956-40af-9984-ac03c431750a/download",
+                    "size": 136136622,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 935040606,
+            "name": "City of Dragons: Epic Battle",
+            "version": "1.2.80",
+            "size": "115.99 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/128362/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a11d2c22-06b1-4592-992c-cc272c9d5b7b/download",
+            "download_url": "https://check0ver.net/en/iapps/a11d2c22-06b1-4592-992c-cc272c9d5b7b/download",
+            "bundleIdentifier": "com.moonlight.dragoncity",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/128362/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2.80",
+                    "date": "2026-10-31T20:52:20.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a11d2c22-06b1-4592-992c-cc272c9d5b7b/download",
+                    "size": 121624330,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 749591378,
+            "name": "MHA: UNITED SURVIVAL",
+            "version": "1.5.0",
+            "size": "74.56 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171494/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2fabe8c-0366-498a-b6a5-9fa4cf875835/download",
+            "download_url": "https://check0ver.net/en/iapps/a2fabe8c-0366-498a-b6a5-9fa4cf875835/download",
+            "bundleIdentifier": "com.klab.heroaca.united.survival",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171494/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.5.0",
+                    "date": "2026-10-31T20:15:57.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2fabe8c-0366-498a-b6a5-9fa4cf875835/download",
+                    "size": 78181826,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 587794196,
             "name": "Bowmasters - Multiplayer Games",
             "version": "11.7.3",
@@ -3130,7 +3244,7 @@
             "name": "Forest Island",
             "version": "3.22.1",
             "size": "278.52 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/122574/512x512bb.jpg",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175049/512x512bb.jpg",
             "badge": "",
             "type": "games",
             "install_url": "https://check0ver.net/en/iapps/a0e6cc8e-dc9d-489d-86cd-8b30824e050c/download",
@@ -3140,7 +3254,7 @@
             "developerName": "AshteMobile",
             "subtitle": "Awesome App",
             "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/122574/512x512bb.jpg",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175049/512x512bb.jpg",
             "tintColor": "#04ecfc",
             "category": "games",
             "screenshots": [],
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c736cb5-b0fa-4741-95ce-17e98e01e25e/download",
                     "size": 521855303,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 213610528,
-            "name": "Metro 2055 - last day survival",
-            "version": "0.0.097",
-            "size": "1.44 GB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117147/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a01d6b3f-9496-4e29-a8e5-e56123625d91/download",
-            "download_url": "https://check0ver.net/en/iapps/a01d6b3f-9496-4e29-a8e5-e56123625d91/download",
-            "bundleIdentifier": "com.gdv.subway2055",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117147/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.0.097",
-                    "date": "2026-10-28T12:25:24.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a01d6b3f-9496-4e29-a8e5-e56123625d91/download",
-                    "size": 1546188226,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 372502060,
-            "name": "Forge Master – Idle RPG",
-            "version": "2.11.1",
-            "size": "101.71 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170546/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2f10688-d76c-4f1b-9963-f89b8f1b2920/download",
-            "download_url": "https://check0ver.net/en/iapps/a2f10688-d76c-4f1b-9963-f89b8f1b2920/download",
-            "bundleIdentifier": "com.hariwn.legendofcivilizations",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170546/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.11.1",
-                    "date": "2026-10-28T11:50:54.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2f10688-d76c-4f1b-9963-f89b8f1b2920/download",
-                    "size": 106650664,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 780730965,
-            "name": "Idle World - Planet Miner",
-            "version": "8.4.5",
-            "size": "158.57 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121979/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a109e499-a877-41ed-ac25-4a7221cadd6d/download",
-            "download_url": "https://check0ver.net/en/iapps/a109e499-a877-41ed-ac25-4a7221cadd6d/download",
-            "bundleIdentifier": "com.chitralekha.evolution",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121979/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "8.4.5",
-                    "date": "2026-10-28T11:44:19.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a109e499-a877-41ed-ac25-4a7221cadd6d/download",
-                    "size": 166272696,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
