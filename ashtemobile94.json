@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 472421220,
+            "name": "Eternal Hero: Action RPG",
+            "version": "4.3.2",
+            "size": "583.34 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116964/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c8d1840-2587-4eb8-95ad-2912a994d9ec/download",
+            "download_url": "https://check0ver.net/en/iapps/9c8d1840-2587-4eb8-95ad-2912a994d9ec/download",
+            "bundleIdentifier": "games.rivvy.eternalherorpg",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116964/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "4.3.2",
+                    "date": "2026-11-01T22:12:03.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c8d1840-2587-4eb8-95ad-2912a994d9ec/download",
+                    "size": 611676323,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 42194698,
+            "name": "Riftborn: Idle RPG",
+            "version": "1.0.4",
+            "size": "48.73 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+            "download_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+            "bundleIdentifier": "com.asmeragames.riftbornrpg",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.4",
+                    "date": "2026-11-01T21:12:13.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+                    "size": 51097108,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 150283293,
             "name": "Hempire - Weed Growing Game",
             "version": "2.49.1",
@@ -4646,44 +4722,6 @@
             "patreon": []
         },
         {
-            "id": 472421220,
-            "name": "Eternal Hero: Action RPG",
-            "version": "4.3.1",
-            "size": "582.73 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116964/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c8d1840-2587-4eb8-95ad-2912a994d9ec/download",
-            "download_url": "https://check0ver.net/en/iapps/9c8d1840-2587-4eb8-95ad-2912a994d9ec/download",
-            "bundleIdentifier": "games.rivvy.eternalherorpg",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116964/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "4.3.1",
-                    "date": "2026-10-31T00:26:34.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c8d1840-2587-4eb8-95ad-2912a994d9ec/download",
-                    "size": 611036692,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 884640398,
             "name": "Blood Invasion: Vampire RPG",
             "version": "2.15.6",
@@ -7103,44 +7141,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a31a1c23-ab69-4e01-8a8d-53e51ce99164/download",
                     "size": 161837219,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 42194698,
-            "name": "Riftborn: Idle RPG",
-            "version": "1.0.3",
-            "size": "47.91 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-            "download_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-            "bundleIdentifier": "com.asmeragames.riftbornrpg",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.3",
-                    "date": "2026-10-30T09:00:27.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-                    "size": 50237276,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
