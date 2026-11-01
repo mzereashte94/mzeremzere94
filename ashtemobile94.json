@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 150283293,
+            "name": "Hempire - Weed Growing Game",
+            "version": "2.49.1",
+            "size": "102.96 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117945/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9cbb215b-e22c-4c9d-a52f-1791208b169e/download",
+            "download_url": "https://check0ver.net/en/iapps/9cbb215b-e22c-4c9d-a52f-1791208b169e/download",
+            "bundleIdentifier": "ca.lbcstudios.hempire",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117945/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.49.1",
+                    "date": "2026-11-01T20:56:06.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9cbb215b-e22c-4c9d-a52f-1791208b169e/download",
+                    "size": 107961384,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 642289704,
             "name": "Infinite Lives",
             "version": "1.0.9",
@@ -871,44 +909,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e455dcf-3117-49a7-a981-62afea43004e/download",
                     "size": 515207331,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 150283293,
-            "name": "Hempire - Weed Growing Game",
-            "version": "2.49.2",
-            "size": "102.23 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117945/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9cbb215b-e22c-4c9d-a52f-1791208b169e/download",
-            "download_url": "https://check0ver.net/en/iapps/9cbb215b-e22c-4c9d-a52f-1791208b169e/download",
-            "bundleIdentifier": "ca.lbcstudios.hempire",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117945/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.49.2",
-                    "date": "2026-11-01T10:55:43.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9cbb215b-e22c-4c9d-a52f-1791208b169e/download",
-                    "size": 107195924,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
