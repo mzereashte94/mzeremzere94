@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 675372937,
+            "name": "Idle Game The Silent Archivist",
+            "version": "8.0",
+            "size": "297.64 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/86768/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a040dbb7-4ae9-45d3-8e0d-f3279cb2267c/download",
+            "download_url": "https://check0ver.net/en/iapps/a040dbb7-4ae9-45d3-8e0d-f3279cb2267c/download",
+            "bundleIdentifier": "com.TownSoft.soulsofadventure",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/86768/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "8.0",
+                    "date": "2026-11-02T01:54:17.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a040dbb7-4ae9-45d3-8e0d-f3279cb2267c/download",
+                    "size": 312098160,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 722253385,
+            "name": "Highway Drifter:Hajwala Online",
+            "version": "5.0.68",
+            "size": "384.63 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115115/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c9bf182-a568-44fe-b79c-64816eeea146/download",
+            "download_url": "https://check0ver.net/en/iapps/9c9bf182-a568-44fe-b79c-64816eeea146/download",
+            "bundleIdentifier": "com.madboxgames.drifter",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115115/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.0.68",
+                    "date": "2026-11-02T01:25:26.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c9bf182-a568-44fe-b79c-64816eeea146/download",
+                    "size": 403313786,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 236171316,
+            "name": "Jet Attack Move",
+            "version": "1.518",
+            "size": "394.37 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157783/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a25c1e7a-1d08-4395-9558-092d13cfd60f/download",
+            "download_url": "https://check0ver.net/en/iapps/a25c1e7a-1d08-4395-9558-092d13cfd60f/download",
+            "bundleIdentifier": "com.attackmove.jetattackmove",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157783/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.518",
+                    "date": "2026-11-02T01:01:59.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a25c1e7a-1d08-4395-9558-092d13cfd60f/download",
+                    "size": 413526917,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 2749935,
             "name": "Idle Defenders: Military TD",
             "version": "0.8.5",
@@ -947,44 +1061,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2de91ed-9253-4fc9-82a6-27504c71742d/download",
                     "size": 190473830,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 722253385,
-            "name": "Highway Drifter:Hajwala Online",
-            "version": "5.0.67",
-            "size": "384.63 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115115/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c9bf182-a568-44fe-b79c-64816eeea146/download",
-            "download_url": "https://check0ver.net/en/iapps/9c9bf182-a568-44fe-b79c-64816eeea146/download",
-            "bundleIdentifier": "com.madboxgames.drifter",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115115/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.0.67",
-                    "date": "2026-11-01T14:02:34.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c9bf182-a568-44fe-b79c-64816eeea146/download",
-                    "size": 403313786,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2c4b789-03d8-4e5b-8cb3-0b722b311613/download",
                     "size": 207125217,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 10581181,
-            "name": "Dead God Land: Survival games",
-            "version": "0.215",
-            "size": "813.85 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117919/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c6d17b6-fc31-4862-892c-e5a55bdf679a/download",
-            "download_url": "https://check0ver.net/en/iapps/9c6d17b6-fc31-4862-892c-e5a55bdf679a/download",
-            "bundleIdentifier": "com.devvisiongames.deadisland",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117919/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.215",
-                    "date": "2026-10-29T09:28:19.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c6d17b6-fc31-4862-892c-e5a55bdf679a/download",
-                    "size": 853383577,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 243515058,
-            "name": "My Monster Babe",
-            "version": "1.0.8",
-            "size": "356.17 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/152413/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2227b13-8d2f-4c34-8090-e9598c09fc3c/download",
-            "download_url": "https://check0ver.net/en/iapps/a2227b13-8d2f-4c34-8090-e9598c09fc3c/download",
-            "bundleIdentifier": "tokyo.chickenskin.yokai",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/152413/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.8",
-                    "date": "2026-10-29T09:18:45.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2227b13-8d2f-4c34-8090-e9598c09fc3c/download",
-                    "size": 373471313,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
