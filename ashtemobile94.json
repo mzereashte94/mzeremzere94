@@ -10,6 +10,196 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 2749935,
+            "name": "Idle Defenders: Military TD",
+            "version": "0.8.5",
+            "size": "137.27 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174019/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31506f3-7566-49fb-95f2-5e47eeeb76ac/download",
+            "download_url": "https://check0ver.net/en/iapps/a31506f3-7566-49fb-95f2-5e47eeeb76ac/download",
+            "bundleIdentifier": "com.payge.idledefenders",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174019/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.8.5",
+                    "date": "2026-11-02T00:41:24.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31506f3-7566-49fb-95f2-5e47eeeb76ac/download",
+                    "size": 143938027,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 46972732,
+            "name": "Galaxy Attack: Alien Shooter",
+            "version": "76.9",
+            "size": "300.22 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114695/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9e527baf-8e19-42a0-9f22-65191f00620d/download",
+            "download_url": "https://check0ver.net/en/iapps/9e527baf-8e19-42a0-9f22-65191f00620d/download",
+            "bundleIdentifier": "com.alien.shooter.galaxy.attack",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114695/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "76.9",
+                    "date": "2026-11-02T00:01:21.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9e527baf-8e19-42a0-9f22-65191f00620d/download",
+                    "size": 314803486,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 884861424,
+            "name": "Eyes - The Horror Game",
+            "version": "8.3.0",
+            "size": "100.72 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115525/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c697514-ca9b-428a-a468-ad853269fe2a/download",
+            "download_url": "https://check0ver.net/en/iapps/9c697514-ca9b-428a-a468-ad853269fe2a/download",
+            "bundleIdentifier": "com.eyesthegame.lite",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115525/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "8.3.0",
+                    "date": "2026-11-01T23:56:29.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c697514-ca9b-428a-a468-ad853269fe2a/download",
+                    "size": 105612574,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 552663575,
+            "name": "Heroes vs Crazy Wiggler",
+            "version": "201",
+            "size": "260.76 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164299/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2ae5394-351a-4500-b214-8cea80b21844/download",
+            "download_url": "https://check0ver.net/en/iapps/a2ae5394-351a-4500-b214-8cea80b21844/download",
+            "bundleIdentifier": "com.ios.imi.hcw",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164299/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "201",
+                    "date": "2026-11-01T23:43:52.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2ae5394-351a-4500-b214-8cea80b21844/download",
+                    "size": 273426677,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 830959535,
+            "name": "Last Extract",
+            "version": "0.0.40",
+            "size": "313.53 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154686/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a23b928f-c963-4508-9a47-48e3bd0b28b3/download",
+            "download_url": "https://check0ver.net/en/iapps/a23b928f-c963-4508-9a47-48e3bd0b28b3/download",
+            "bundleIdentifier": "com.xiaomo.lootz",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154686/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.0.40",
+                    "date": "2026-11-01T23:42:07.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a23b928f-c963-4508-9a47-48e3bd0b28b3/download",
+                    "size": 328760033,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 472421220,
             "name": "Eternal Hero: Action RPG",
             "version": "4.3.2",
@@ -3987,44 +4177,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c69edca-3e92-4ccb-90e0-8bacd452aa18/download",
                     "size": 124675686,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 46972732,
-            "name": "Galaxy Attack: Alien Shooter",
-            "version": "76.8",
-            "size": "298.39 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114695/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e527baf-8e19-42a0-9f22-65191f00620d/download",
-            "download_url": "https://check0ver.net/en/iapps/9e527baf-8e19-42a0-9f22-65191f00620d/download",
-            "bundleIdentifier": "com.alien.shooter.galaxy.attack",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114695/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "76.8",
-                    "date": "2026-10-31T10:04:12.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e527baf-8e19-42a0-9f22-65191f00620d/download",
-                    "size": 312884592,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10270,44 +10422,6 @@
             "patreon": []
         },
         {
-            "id": 830959535,
-            "name": "Last Extract",
-            "version": "0.0.39",
-            "size": "313.84 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154686/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a23b928f-c963-4508-9a47-48e3bd0b28b3/download",
-            "download_url": "https://check0ver.net/en/iapps/a23b928f-c963-4508-9a47-48e3bd0b28b3/download",
-            "bundleIdentifier": "com.xiaomo.lootz",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154686/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.0.39",
-                    "date": "2026-10-29T09:54:10.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a23b928f-c963-4508-9a47-48e3bd0b28b3/download",
-                    "size": 329085091,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 943500334,
             "name": "Burger Simulator!",
             "version": "22.4.0",
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2227b13-8d2f-4c34-8090-e9598c09fc3c/download",
                     "size": 373471313,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 631746968,
-            "name": "ELEMENTAL: 2D MMORPG",
-            "version": "197",
-            "size": "167.13 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116054/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9cd1fd97-b098-4fca-8627-01e787d9fcd6/download",
-            "download_url": "https://check0ver.net/en/iapps/9cd1fd97-b098-4fca-8627-01e787d9fcd6/download",
-            "bundleIdentifier": "com.daerigame.elemental",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116054/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "197",
-                    "date": "2026-10-29T09:16:49.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9cd1fd97-b098-4fca-8627-01e787d9fcd6/download",
-                    "size": 175248506,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 671533,
-            "name": "Galaxy Backpack Survivor",
-            "version": "1.14.0",
-            "size": "139.07 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164264/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2ae01e9-6f79-465f-8f42-d0fc6f5d74bf/download",
-            "download_url": "https://check0ver.net/en/iapps/a2ae01e9-6f79-465f-8f42-d0fc6f5d74bf/download",
-            "bundleIdentifier": "com.warosgames.galaxy",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164264/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.14.0",
-                    "date": "2026-10-29T09:05:50.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2ae01e9-6f79-465f-8f42-d0fc6f5d74bf/download",
-                    "size": 145825464,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 996447125,
-            "name": "Switching Heroes",
-            "version": "5.70",
-            "size": "196.53 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/140122/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e45650a-6bf0-4c0b-a3c9-294d2bda9913/download",
-            "download_url": "https://check0ver.net/en/iapps/9e45650a-6bf0-4c0b-a3c9-294d2bda9913/download",
-            "bundleIdentifier": "com.zilliongames.collectionidle",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/140122/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.70",
-                    "date": "2026-10-29T09:04:02.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e45650a-6bf0-4c0b-a3c9-294d2bda9913/download",
-                    "size": 206076641,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
