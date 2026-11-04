@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 726948911,
+            "name": "Rally Horizon",
+            "version": "2.6.5",
+            "size": "353.88 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119506/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9ea2ad36-fbed-4d00-88a6-a7fdb349a91a/download",
+            "download_url": "https://check0ver.net/en/iapps/9ea2ad36-fbed-4d00-88a6-a7fdb349a91a/download",
+            "bundleIdentifier": "com.Graypow.RallyHorizon",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119506/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.6.5",
+                    "date": "2026-11-04T22:57:15.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9ea2ad36-fbed-4d00-88a6-a7fdb349a91a/download",
+                    "size": 371070074,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 846646678,
+            "name": "Betrayal 3D - Imposter Hunt",
+            "version": "1.4.22",
+            "size": "196.95 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116325/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9df72445-44d9-4b9c-8d7d-b82f5d739757/download",
+            "download_url": "https://check0ver.net/en/iapps/9df72445-44d9-4b9c-8d7d-b82f5d739757/download",
+            "bundleIdentifier": "studio.tg.betrayal3d",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116325/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.4.22",
+                    "date": "2026-11-04T22:48:05.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9df72445-44d9-4b9c-8d7d-b82f5d739757/download",
+                    "size": 206517043,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 882324022,
             "name": "Dead Ahead: Roadside",
             "version": "0.8.3035",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a31f0273-38e0-40de-bbfd-9f4eeee72fde/download",
                     "size": 260015390,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 634583045,
-            "name": "Ninja Scroll Rush",
-            "version": "0.3.14",
-            "size": "257.41 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121774/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a0f763c4-d126-49ae-ab62-23934512877a/download",
-            "download_url": "https://check0ver.net/en/iapps/a0f763c4-d126-49ae-ab62-23934512877a/download",
-            "bundleIdentifier": "com.YsoCorp.NinjaScrollRush",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121774/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.3.14",
-                    "date": "2026-11-01T15:34:02.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a0f763c4-d126-49ae-ab62-23934512877a/download",
-                    "size": 269913948,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 58569638,
-            "name": "Crowd Champs: 3D Runner Game",
-            "version": "1.18.2",
-            "size": "148.9 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/113817/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a10e3101-2142-440d-84da-003e79cba1e4/download",
-            "download_url": "https://check0ver.net/en/iapps/a10e3101-2142-440d-84da-003e79cba1e4/download",
-            "bundleIdentifier": "crowd.champs.game",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/113817/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.18.2",
-                    "date": "2026-11-01T15:25:56.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a10e3101-2142-440d-84da-003e79cba1e4/download",
-                    "size": 156132966,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
