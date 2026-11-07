@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 831111219,
+            "name": "Hill Climb Racing 2",
+            "version": "1.76.1",
+            "size": "217.93 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116956/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9d5c632d-9946-4106-8d12-fe179911cbd9/download",
+            "download_url": "https://check0ver.net/en/iapps/9d5c632d-9946-4106-8d12-fe179911cbd9/download",
+            "bundleIdentifier": "com.fingersoft.hillclimbracing2",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116956/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.76.1",
+                    "date": "2026-11-07T09:30:13.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9d5c632d-9946-4106-8d12-fe179911cbd9/download",
+                    "size": 228516167,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 42194698,
+            "name": "Riftborn: Idle RPG",
+            "version": "1.0.10",
+            "size": "49.8 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+            "download_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+            "bundleIdentifier": "com.asmeragames.riftbornrpg",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.10",
+                    "date": "2026-11-07T09:09:33.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+                    "size": 52219084,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 609074725,
             "name": "Hero’s Underground Shift",
             "version": "1.2.1",
@@ -6546,44 +6622,6 @@
             "patreon": []
         },
         {
-            "id": 42194698,
-            "name": "Riftborn: Idle RPG",
-            "version": "1.0.8",
-            "size": "49.16 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-            "download_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-            "bundleIdentifier": "com.asmeragames.riftbornrpg",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.8",
-                    "date": "2026-11-05T13:18:11.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-                    "size": 51547996,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 724418946,
             "name": "Zone X: Wasteland Survival",
             "version": "1.1.13",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a323a247-8d46-462d-bcb7-f07d04e5dacc/download",
                     "size": 221239050,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 937827513,
-            "name": "My Home My World™: Clean ASMR",
-            "version": "1.3.59",
-            "size": "284.29 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175453/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a32247df-56cc-4912-afe8-d37bb9b09e79/download",
-            "download_url": "https://check0ver.net/en/iapps/a32247df-56cc-4912-afe8-d37bb9b09e79/download",
-            "bundleIdentifier": "com.jxqygames.idlehome",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175453/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.3.59",
-                    "date": "2026-11-04T10:53:11.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a32247df-56cc-4912-afe8-d37bb9b09e79/download",
-                    "size": 298099671,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
