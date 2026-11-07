@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 880618221,
+            "name": "Home Design Makeover",
+            "version": "6.9.7",
+            "size": "238.68 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/99406/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a0ba5e72-2e58-4304-8716-c4c83b789dad/download",
+            "download_url": "https://check0ver.net/en/iapps/a0ba5e72-2e58-4304-8716-c4c83b789dad/download",
+            "bundleIdentifier": "in.loop.hdmakeover",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/99406/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "6.9.7",
+                    "date": "2026-11-07T22:34:21.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a0ba5e72-2e58-4304-8716-c4c83b789dad/download",
+                    "size": 250274119,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 878090256,
+            "name": "Court Six: Volleyball 3D",
+            "version": "1.1.2",
+            "size": "253.76 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174831/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31b469a-9ca3-41a6-b0d5-62748a06ec3c/download",
+            "download_url": "https://check0ver.net/en/iapps/a31b469a-9ca3-41a6-b0d5-62748a06ec3c/download",
+            "bundleIdentifier": "com.ideas67.courtsix",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174831/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.2",
+                    "date": "2026-11-07T21:34:56.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31b469a-9ca3-41a6-b0d5-62748a06ec3c/download",
+                    "size": 266086645,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 913786133,
+            "name": "Burger Maker Kids Cooking Game",
+            "version": "1.15",
+            "size": "102.39 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/149814/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a20eff28-00df-4b2b-850a-6d374995b599/download",
+            "download_url": "https://check0ver.net/en/iapps/a20eff28-00df-4b2b-850a-6d374995b599/download",
+            "bundleIdentifier": "com.pazugames.burgermaker",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/149814/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.15",
+                    "date": "2026-11-07T21:06:44.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a20eff28-00df-4b2b-850a-6d374995b599/download",
+                    "size": 107363696,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 14400993,
             "name": "Dwarfs Diggers: Idle Miner RPG",
             "version": "0.8.5",
@@ -8750,44 +8864,6 @@
             "patreon": []
         },
         {
-            "id": 878090256,
-            "name": "Court Six: Volleyball 3D",
-            "version": "1.1.1",
-            "size": "249.93 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174831/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a31b469a-9ca3-41a6-b0d5-62748a06ec3c/download",
-            "download_url": "https://check0ver.net/en/iapps/a31b469a-9ca3-41a6-b0d5-62748a06ec3c/download",
-            "bundleIdentifier": "com.ideas67.courtsix",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174831/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.1",
-                    "date": "2026-11-05T03:20:09.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a31b469a-9ca3-41a6-b0d5-62748a06ec3c/download",
-                    "size": 262070599,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 727337279,
             "name": "Limbus Company",
             "version": "1.118.1",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a0d41464-cfa0-4e90-9608-22e568297b71/download",
                     "size": 197667061,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 572714440,
-            "name": "West Escape",
-            "version": "1.0.32",
-            "size": "223.19 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116725/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c8abbb3-c9ef-45aa-80fb-749418598125/download",
-            "download_url": "https://check0ver.net/en/iapps/9c8abbb3-c9ef-45aa-80fb-749418598125/download",
-            "bundleIdentifier": "com.western.escape",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116725/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.32",
-                    "date": "2026-11-04T17:35:29.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c8abbb3-c9ef-45aa-80fb-749418598125/download",
-                    "size": 234031677,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 407916201,
-            "name": "Shades: Shadow Fight Roguelike",
-            "version": "1.11.7",
-            "size": "167.41 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175797/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3256d3a-2538-424f-90cf-1cf67ca1d824/download",
-            "download_url": "https://check0ver.net/en/iapps/a3256d3a-2538-424f-90cf-1cf67ca1d824/download",
-            "bundleIdentifier": "com.nekki.shadowfight.shades",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175797/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.11.7",
-                    "date": "2026-11-04T17:08:14.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3256d3a-2538-424f-90cf-1cf67ca1d824/download",
-                    "size": 175542108,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
