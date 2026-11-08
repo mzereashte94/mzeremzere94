@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 163301123,
+            "name": "Endless Clash: Strategy RPG",
+            "version": "2.0.9",
+            "size": "173.55 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175053/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31dc1a1-d145-48b7-8505-93dc17535e31/download",
+            "download_url": "https://check0ver.net/en/iapps/a31dc1a1-d145-48b7-8505-93dc17535e31/download",
+            "bundleIdentifier": "com.brnmetaverse.endlessclash",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175053/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.0.9",
+                    "date": "2026-11-08T04:05:16.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31dc1a1-d145-48b7-8505-93dc17535e31/download",
+                    "size": 181980364,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 451334207,
+            "name": "Tile Home: Triple Match",
+            "version": "2.5.6",
+            "size": "196.94 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/142786/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a1e534a3-b692-4881-92f6-0383bdbbe322/download",
+            "download_url": "https://check0ver.net/en/iapps/a1e534a3-b692-4881-92f6-0383bdbbe322/download",
+            "bundleIdentifier": "com.tile.travel.triple.match",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/142786/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.5.6",
+                    "date": "2026-11-08T04:00:49.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a1e534a3-b692-4881-92f6-0383bdbbe322/download",
+                    "size": 206506557,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 393073301,
+            "name": "Alliance At War",
+            "version": "2.2.4",
+            "size": "569.62 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121883/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a13916ac-0ea8-418d-bb4f-7d69b6a0f69c/download",
+            "download_url": "https://check0ver.net/en/iapps/a13916ac-0ea8-418d-bb4f-7d69b6a0f69c/download",
+            "bundleIdentifier": "games.war.strategy.dragon.clash.aaw.hourgames",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121883/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.2.4",
+                    "date": "2026-11-08T02:56:46.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a13916ac-0ea8-418d-bb4f-7d69b6a0f69c/download",
+                    "size": 597289861,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 236629923,
             "name": "Reaper Forge: Idle Loot RPG",
             "version": "1.0.3",
@@ -3151,44 +3265,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a30aad25-5d96-4af8-8514-86019ee744e4/download",
                     "size": 233297674,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 393073301,
-            "name": "Alliance At War",
-            "version": "2.2.3",
-            "size": "566.8 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121883/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a13916ac-0ea8-418d-bb4f-7d69b6a0f69c/download",
-            "download_url": "https://check0ver.net/en/iapps/a13916ac-0ea8-418d-bb4f-7d69b6a0f69c/download",
-            "bundleIdentifier": "games.war.strategy.dragon.clash.aaw.hourgames",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121883/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.2.3",
-                    "date": "2026-11-06T20:13:33.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a13916ac-0ea8-418d-bb4f-7d69b6a0f69c/download",
-                    "size": 594332876,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c74529a-a0bc-4053-a321-43d9ab77f8a4/download",
                     "size": 745663365,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 97293769,
-            "name": "Last Beacon: Survival",
-            "version": "2.7.0",
-            "size": "417.83 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154373/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a23781e1-1e45-4903-903c-09a127718c97/download",
-            "download_url": "https://check0ver.net/en/iapps/a23781e1-1e45-4903-903c-09a127718c97/download",
-            "bundleIdentifier": "com.iflow.lastbeacon.ios",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154373/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.7.0",
-                    "date": "2026-11-04T18:31:22.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a23781e1-1e45-4903-903c-09a127718c97/download",
-                    "size": 438126510,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 774966782,
-            "name": "BLUE LOCK PWC",
-            "version": "5.9.1",
-            "size": "144.42 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/141137/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9cc720fb-8301-4bb3-9143-9380d5cca7c6/download",
-            "download_url": "https://check0ver.net/en/iapps/9cc720fb-8301-4bb3-9143-9380d5cca7c6/download",
-            "bundleIdentifier": "jp.pjfbgl",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/141137/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.9.1",
-                    "date": "2026-11-04T18:21:47.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9cc720fb-8301-4bb3-9143-9380d5cca7c6/download",
-                    "size": 151435345,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
