@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 236629923,
+            "name": "Reaper Forge: Idle Loot RPG",
+            "version": "1.0.3",
+            "size": "63.38 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175331/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
+            "download_url": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
+            "bundleIdentifier": "com.reaper.forge",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175331/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "date": "2026-11-08T02:15:27.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
+                    "size": 66458746,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 576558839,
+            "name": "Fable Town: Merge Island magic",
+            "version": "1.49.0",
+            "size": "187.28 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115543/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9f738ae5-7b83-4a48-b058-a6a4b2976258/download",
+            "download_url": "https://check0ver.net/en/iapps/9f738ae5-7b83-4a48-b058-a6a4b2976258/download",
+            "bundleIdentifier": "com.reefgames.fabletown",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115543/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.49.0",
+                    "date": "2026-11-08T01:08:20.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9f738ae5-7b83-4a48-b058-a6a4b2976258/download",
+                    "size": 196377313,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 350342955,
             "name": "Last Green:Tower Defense",
             "version": "1.1.1",
@@ -163,7 +239,7 @@
         },
         {
             "id": 14400993,
-            "name": "Dwarfs Diggers: Idle Miner RPG",
+            "name": "Dwarfs Diggers: Idle Mining",
             "version": "0.8.5",
             "size": "124.98 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/153893/512x512bb.jpg",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9cc720fb-8301-4bb3-9143-9380d5cca7c6/download",
                     "size": 151435345,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 270934734,
-            "name": "UNKILLED - Zombie Online FPS",
-            "version": "2.7.5",
-            "size": "482.93 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115468/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9eae54f5-61f4-478c-9123-d66619d758b3/download",
-            "download_url": "https://check0ver.net/en/iapps/9eae54f5-61f4-478c-9123-d66619d758b3/download",
-            "bundleIdentifier": "com.madfingergames.unkilled",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115468/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.7.5",
-                    "date": "2026-11-04T18:18:22.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9eae54f5-61f4-478c-9123-d66619d758b3/download",
-                    "size": 506388807,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 267090508,
-            "name": "Hexa Away",
-            "version": "4.1.0",
-            "size": "137.72 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175456/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a32248d0-89fd-4ef2-89e4-7527cba5409d/download",
-            "download_url": "https://check0ver.net/en/iapps/a32248d0-89fd-4ef2-89e4-7527cba5409d/download",
-            "bundleIdentifier": "jp.co.goodroid.hyper.hexaaway",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175456/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "4.1.0",
-                    "date": "2026-11-04T18:16:14.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a32248d0-89fd-4ef2-89e4-7527cba5409d/download",
-                    "size": 144409886,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
