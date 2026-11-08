@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 670237446,
+            "name": "Truckers of Europe 2",
+            "version": "0.63",
+            "size": "64.98 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/176602/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a32cce09-3f54-4715-b019-deaf89d1ecc3/download",
+            "download_url": "https://check0ver.net/en/iapps/a32cce09-3f54-4715-b019-deaf89d1ecc3/download",
+            "bundleIdentifier": "europe.truck.simulator2",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/176602/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.63",
+                    "date": "2026-11-08T08:59:07.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a32cce09-3f54-4715-b019-deaf89d1ecc3/download",
+                    "size": 68136468,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 286956744,
+            "name": "Travel Town - Merge Adventure",
+            "version": "2.12.1822",
+            "size": "142.63 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115277/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c82deda-f156-43e7-b299-72bfb02ba110/download",
+            "download_url": "https://check0ver.net/en/iapps/9c82deda-f156-43e7-b299-72bfb02ba110/download",
+            "bundleIdentifier": "io.randomco.travel",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115277/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.12.1822",
+                    "date": "2026-11-08T08:47:17.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c82deda-f156-43e7-b299-72bfb02ba110/download",
+                    "size": 149558394,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 42194698,
+            "name": "Riftborn: Idle RPG",
+            "version": "1.0.11",
+            "size": "49.91 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+            "download_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+            "bundleIdentifier": "com.asmeragames.riftbornrpg",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.11",
+                    "date": "2026-11-08T06:05:46.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
+                    "size": 52334428,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 163301123,
             "name": "Endless Clash: Strategy RPG",
             "version": "2.0.9",
@@ -1593,44 +1707,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9d5c632d-9946-4106-8d12-fe179911cbd9/download",
                     "size": 228516167,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 42194698,
-            "name": "Riftborn: Idle RPG",
-            "version": "1.0.10",
-            "size": "49.8 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-            "download_url": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-            "bundleIdentifier": "com.asmeragames.riftbornrpg",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174679/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.10",
-                    "date": "2026-11-07T09:09:33.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a31a3964-4650-47ef-b9f2-c9eb6880762e/download",
-                    "size": 52219084,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a1fbb959-ed9e-4a21-b8a4-783ce6843195/download",
                     "size": 143833169,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 408529858,
-            "name": "FANTASY x HUNTERS",
-            "version": "7.1.0",
-            "size": "256.48 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/131558/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a186f14d-fb39-45ba-a49c-b06b043e6959/download",
-            "download_url": "https://check0ver.net/en/iapps/a186f14d-fb39-45ba-a49c-b06b043e6959/download",
-            "bundleIdentifier": "com.fireshrike.rpg",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/131558/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "7.1.0",
-                    "date": "2026-11-04T19:05:54.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a186f14d-fb39-45ba-a49c-b06b043e6959/download",
-                    "size": 268938772,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 638885602,
-            "name": "Westland Survival - Cowboy RPG",
-            "version": "12.5.0",
-            "size": "711.12 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115559/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c74529a-a0bc-4053-a321-43d9ab77f8a4/download",
-            "download_url": "https://check0ver.net/en/iapps/9c74529a-a0bc-4053-a321-43d9ab77f8a4/download",
-            "bundleIdentifier": "com.heliogames.a1",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115559/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "12.5.0",
-                    "date": "2026-11-04T18:47:19.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c74529a-a0bc-4053-a321-43d9ab77f8a4/download",
-                    "size": 745663365,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
