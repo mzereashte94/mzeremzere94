@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 570816819,
+            "name": "Goblins Wood: lumber tycoon",
+            "version": "2.71.0",
+            "size": "200.88 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117086/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9e682854-339d-400f-923e-11744226d8fa/download",
+            "download_url": "https://check0ver.net/en/iapps/9e682854-339d-400f-923e-11744226d8fa/download",
+            "bundleIdentifier": "idle.goblins.wood.tycoon",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117086/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.71.0",
+                    "date": "2026-11-08T21:09:35.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9e682854-339d-400f-923e-11744226d8fa/download",
+                    "size": 210637946,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 475328528,
+            "name": "Weapon Legends",
+            "version": "1.2",
+            "size": "156.06 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174178/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3160faf-b87b-42a7-a452-919153b30296/download",
+            "download_url": "https://check0ver.net/en/iapps/a3160faf-b87b-42a7-a452-919153b30296/download",
+            "bundleIdentifier": "weapon.legends.ammo.heroes",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174178/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2026-11-08T20:59:43.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3160faf-b87b-42a7-a452-919153b30296/download",
+                    "size": 163640770,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 462015761,
             "name": "Meowdoku!",
             "version": "1.24.0",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a1a6c24a-9e5a-43f2-9a60-555638c9e90b/download",
                     "size": 92631203,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 264993431,
-            "name": "BagMaster Isekai – Bag Battle",
-            "version": "3.3.2",
-            "size": "656.37 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133963/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
-            "download_url": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
-            "bundleIdentifier": "com.DoorTeam.BagMaster",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133963/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "3.3.2",
-                    "date": "2026-11-05T05:43:02.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1574431-d66b-4299-84bf-7100432aaa4c/download",
-                    "size": 688253829,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 641782637,
-            "name": "SimCity BuildIt",
-            "version": "1.84.1",
-            "size": "274.96 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164772/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2b3d276-8916-492e-94ee-6faba8764449/download",
-            "download_url": "https://check0ver.net/en/iapps/a2b3d276-8916-492e-94ee-6faba8764449/download",
-            "bundleIdentifier": "com.ea.simcitymobile.bv",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164772/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.84.1",
-                    "date": "2026-11-05T04:01:20.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2b3d276-8916-492e-94ee-6faba8764449/download",
-                    "size": 288316456,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
