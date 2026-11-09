@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 70440024,
+            "name": "Superstore Story 3D",
+            "version": "1.0.25",
+            "size": "201.28 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175865/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download",
+            "download_url": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download",
+            "bundleIdentifier": "com.twh011.market.simulator.manager",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175865/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.25",
+                    "date": "2026-11-09T00:21:05.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download",
+                    "size": 211057377,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 497844854,
             "name": "Voidpet Dungeon",
             "version": "5.29.77",
@@ -545,7 +583,7 @@
             "id": 583300716,
             "name": "Skull Hero : XP Farm RPG",
             "version": "0.3.3",
-            "size": "262.34 MB",
+            "size": "262.35 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/148995/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -566,7 +604,7 @@
                     "date": "2026-11-08T16:49:17.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a20b5621-ae33-4887-93b0-229d62e5c555/download",
-                    "size": 275083427,
+                    "size": 275093913,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a1635ec0-8ded-4963-89d3-806bf328ccfa/download",
                     "size": 692636876,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 467118806,
-            "name": "Marmot Defense: Rogue Survival",
-            "version": "1.4.9",
-            "size": "152.02 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/107007/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a0fbc394-080e-484e-802a-35d979d66113/download",
-            "download_url": "https://check0ver.net/en/iapps/a0fbc394-080e-484e-802a-35d979d66113/download",
-            "bundleIdentifier": "com.badbeans.legendofmarmot",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/107007/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.4.9",
-                    "date": "2026-11-05T06:11:13.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a0fbc394-080e-484e-802a-35d979d66113/download",
-                    "size": 159404523,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
