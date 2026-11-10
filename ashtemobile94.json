@@ -10,6 +10,310 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 418786132,
+            "name": "Virtual Families Our New Home",
+            "version": "1.1.20",
+            "size": "190.27 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160085/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a058f707-adcf-4bff-bdef-0f62e26c266d/download",
+            "download_url": "https://check0ver.net/en/iapps/a058f707-adcf-4bff-bdef-0f62e26c266d/download",
+            "bundleIdentifier": "com.ldw.vfc",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160085/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.20",
+                    "date": "2026-11-10T07:03:53.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a058f707-adcf-4bff-bdef-0f62e26c266d/download",
+                    "size": 199512555,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 251408198,
+            "name": "Cube Smash - Puzzle Game",
+            "version": "1.18.0",
+            "size": "132.73 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/176749/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a32ea4a8-7d44-418e-b87a-5197225d6d1c/download",
+            "download_url": "https://check0ver.net/en/iapps/a32ea4a8-7d44-418e-b87a-5197225d6d1c/download",
+            "bundleIdentifier": "com.combo.cubesmash",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/176749/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.18.0",
+                    "date": "2026-11-10T06:48:55.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a32ea4a8-7d44-418e-b87a-5197225d6d1c/download",
+                    "size": 139177492,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 994213254,
+            "name": "Elementra: The Boy's Adventure",
+            "version": "1009",
+            "size": "270.86 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157331/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a25586d1-0274-4ec1-801e-0e8c843d6d39/download",
+            "download_url": "https://check0ver.net/en/iapps/a25586d1-0274-4ec1-801e-0e8c843d6d39/download",
+            "bundleIdentifier": "com.longgammagames.elementra.journy",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157331/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1009",
+                    "date": "2026-11-10T06:14:41.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a25586d1-0274-4ec1-801e-0e8c843d6d39/download",
+                    "size": 284017295,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 721019802,
+            "name": "Drop Away: Color Puzzle",
+            "version": "1.34.0",
+            "size": "177.7 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133991/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a09f33ad-1eb4-4a09-a505-08967726e272/download",
+            "download_url": "https://check0ver.net/en/iapps/a09f33ad-1eb4-4a09-a505-08967726e272/download",
+            "bundleIdentifier": "com.brewgames.dropaway",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133991/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.34.0",
+                    "date": "2026-11-10T05:26:50.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a09f33ad-1eb4-4a09-a505-08967726e272/download",
+                    "size": 186331955,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 19893610,
+            "name": "Sand Loop: Color Sort Puzzle",
+            "version": "1.17.1",
+            "size": "186.05 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/128291/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a166da24-9c4f-4faa-954d-7d04e01fea49/download",
+            "download_url": "https://check0ver.net/en/iapps/a166da24-9c4f-4faa-954d-7d04e01fea49/download",
+            "bundleIdentifier": "com.pc.sand.loop",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/128291/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.17.1",
+                    "date": "2026-11-10T05:21:01.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a166da24-9c4f-4faa-954d-7d04e01fea49/download",
+                    "size": 195087564,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 318663960,
+            "name": "LivingAlone3",
+            "version": "1.0.234",
+            "size": "51.47 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169202/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2e0df82-181c-41fe-983a-441652924f59/download",
+            "download_url": "https://check0ver.net/en/iapps/a2e0df82-181c-41fe-983a-441652924f59/download",
+            "bundleIdentifier": "com.factory608.LA3",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169202/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.234",
+                    "date": "2026-11-10T05:03:35.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2e0df82-181c-41fe-983a-441652924f59/download",
+                    "size": 53970206,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 216685486,
+            "name": "Joseon Exorcist: Idle RPG",
+            "version": "1.0.4",
+            "size": "66.97 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171877/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
+            "download_url": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
+            "bundleIdentifier": "com.leoncorp.joseon",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171877/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.4",
+                    "date": "2026-11-10T03:48:14.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
+                    "size": 70223134,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 509315130,
+            "name": "StageStar",
+            "version": "2.6.0",
+            "size": "107.14 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117884/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9f7d3aba-a7c9-4b78-9486-fa81ad943235/download",
+            "download_url": "https://check0ver.net/en/iapps/9f7d3aba-a7c9-4b78-9486-fa81ad943235/download",
+            "bundleIdentifier": "com.StageStar.app",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117884/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.6.0",
+                    "date": "2026-11-10T03:29:19.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9f7d3aba-a7c9-4b78-9486-fa81ad943235/download",
+                    "size": 112344432,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 583358699,
             "name": "Tiny Space Program: Sim Tycoon",
             "version": "1.2.242",
@@ -2239,44 +2543,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a32eac0a-3a4f-4e10-bd17-a04218576d44/download",
                     "size": 699557478,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 251408198,
-            "name": "Cube Smash - Puzzle Game",
-            "version": "1.17.0",
-            "size": "130.02 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/176749/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a32ea4a8-7d44-418e-b87a-5197225d6d1c/download",
-            "download_url": "https://check0ver.net/en/iapps/a32ea4a8-7d44-418e-b87a-5197225d6d1c/download",
-            "bundleIdentifier": "com.combo.cubesmash",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/176749/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.17.0",
-                    "date": "2026-11-09T07:44:04.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a32ea4a8-7d44-418e-b87a-5197225d6d1c/download",
-                    "size": 136335851,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -5849,44 +6115,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a2b5d5c9-7678-40f9-a2d5-bc36d8f585b1/download",
                     "size": 144294543,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 994213254,
-            "name": "Elementra: The Boy's Adventure",
-            "version": "1006",
-            "size": "267.9 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157331/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a25586d1-0274-4ec1-801e-0e8c843d6d39/download",
-            "download_url": "https://check0ver.net/en/iapps/a25586d1-0274-4ec1-801e-0e8c843d6d39/download",
-            "bundleIdentifier": "com.longgammagames.elementra.journy",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157331/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1006",
-                    "date": "2026-11-07T12:27:31.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a25586d1-0274-4ec1-801e-0e8c843d6d39/download",
-                    "size": 280913510,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10409,234 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9eeee100-9af4-4127-9964-781478d23b05/download",
                     "size": 169040936,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 277156677,
-            "name": "Knights of Pen and Paper 3",
-            "version": "1.7.3",
-            "size": "159.12 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117872/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9ed49426-ae52-4fc9-bb17-7789ba57f8ac/download",
-            "download_url": "https://check0ver.net/en/iapps/9ed49426-ae52-4fc9-bb17-7789ba57f8ac/download",
-            "bundleIdentifier": "com.northicagames.kopp3",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117872/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.7.3",
-                    "date": "2026-11-06T01:23:37.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9ed49426-ae52-4fc9-bb17-7789ba57f8ac/download",
-                    "size": 166849413,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 544400420,
-            "name": "Senses - Choose Romance Story",
-            "version": "1.24.2",
-            "size": "174 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/143634/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a055539e-c909-4b83-b22d-a446117bf89c/download",
-            "download_url": "https://check0ver.net/en/iapps/a055539e-c909-4b83-b22d-a446117bf89c/download",
-            "bundleIdentifier": "games.extras.novels",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/143634/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.24.2",
-                    "date": "2026-11-06T01:21:58.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a055539e-c909-4b83-b22d-a446117bf89c/download",
-                    "size": 182452224,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 258031539,
-            "name": "Drag Sim: King Of The Racing",
-            "version": "2.27020",
-            "size": "1.09 GB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/127677/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1636735-d839-4965-8424-97c7f3f17c90/download",
-            "download_url": "https://check0ver.net/en/iapps/a1636735-d839-4965-8424-97c7f3f17c90/download",
-            "bundleIdentifier": "com.TandemApps.KingOfTheStreet",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/127677/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.27020",
-                    "date": "2026-11-06T01:10:18.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1636735-d839-4965-8424-97c7f3f17c90/download",
-                    "size": 1170378588,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 197223341,
-            "name": "Crash Cat : Zombie Survivor",
-            "version": "1.0.35",
-            "size": "167.74 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/161011/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2895f59-7c22-4277-9b9f-b9f04a06900a/download",
-            "download_url": "https://check0ver.net/en/iapps/a2895f59-7c22-4277-9b9f-b9f04a06900a/download",
-            "bundleIdentifier": "com.cookapps.catsurvivor",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/161011/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.35",
-                    "date": "2026-11-06T01:03:37.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2895f59-7c22-4277-9b9f-b9f04a06900a/download",
-                    "size": 175888138,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 179929510,
-            "name": "Dinosaur Universe",
-            "version": "62.0.0",
-            "size": "175.48 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117587/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9ee6e8cf-c1dd-4bd8-82c6-14ab65517efb/download",
-            "download_url": "https://check0ver.net/en/iapps/9ee6e8cf-c1dd-4bd8-82c6-14ab65517efb/download",
-            "bundleIdentifier": "io.supercent.ageofdinosaurs",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117587/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "62.0.0",
-                    "date": "2026-11-06T01:02:01.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9ee6e8cf-c1dd-4bd8-82c6-14ab65517efb/download",
-                    "size": 184004116,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 40000666,
-            "name": "Train of Hope: Survival Game",
-            "version": "1.27.0",
-            "size": "188.03 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116653/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
-            "download_url": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
-            "bundleIdentifier": "com.samfinaco.tos",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116653/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.27.0",
-                    "date": "2026-11-06T00:51:59.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e4da6da-9de2-4e14-8a12-123898c446fa/download",
-                    "size": 197163745,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
