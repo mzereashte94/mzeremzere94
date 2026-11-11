@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 923689910,
+            "name": "Droid Playground",
+            "version": "1.0.52",
+            "size": "102.4 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175791/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3256558-7a93-4286-8859-6c1128f6c32b/download",
+            "download_url": "https://check0ver.net/en/iapps/a3256558-7a93-4286-8859-6c1128f6c32b/download",
+            "bundleIdentifier": "com.cdt.droid.pg",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175791/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.52",
+                    "date": "2026-11-11T22:46:12.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3256558-7a93-4286-8859-6c1128f6c32b/download",
+                    "size": 107374182,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 157129783,
+            "name": "Wordscapes - Word Game",
+            "version": "3.14.40",
+            "size": "204.83 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/123153/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a14258a8-5129-47d2-8175-a999c8bc1d20/download",
+            "download_url": "https://check0ver.net/en/iapps/a14258a8-5129-47d2-8175-a999c8bc1d20/download",
+            "bundleIdentifier": "com.peoplefun.wordcross",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/123153/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.14.40",
+                    "date": "2026-11-11T22:38:26.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a14258a8-5129-47d2-8175-a999c8bc1d20/download",
+                    "size": 214779822,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 157214000,
             "name": "Words of Wonders: Crossword",
             "version": "5.10.6",
@@ -9358,44 +9434,6 @@
             "patreon": []
         },
         {
-            "id": 157129783,
-            "name": "Wordscapes - Word Game",
-            "version": "3.14.30",
-            "size": "204.68 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/123153/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a14258a8-5129-47d2-8175-a999c8bc1d20/download",
-            "download_url": "https://check0ver.net/en/iapps/a14258a8-5129-47d2-8175-a999c8bc1d20/download",
-            "bundleIdentifier": "com.peoplefun.wordcross",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/123153/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "3.14.30",
-                    "date": "2026-11-08T11:56:28.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a14258a8-5129-47d2-8175-a999c8bc1d20/download",
-                    "size": 214622535,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 569983551,
             "name": "Goblin Miner: Tycoon Game",
             "version": "3.24.0",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a18f26a4-0153-4bcf-8f33-5cd461253fe8/download",
                     "size": 133756354,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 39802420,
-            "name": "Space Base Idle Tower Defense",
-            "version": "2.5.4",
-            "size": "146.01 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157937/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a25e249f-c663-4c30-b795-5663c15abc48/download",
-            "download_url": "https://check0ver.net/en/iapps/a25e249f-c663-4c30-b795-5663c15abc48/download",
-            "bundleIdentifier": "com.idle.space.base.tower.defense",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157937/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.5.4",
-                    "date": "2026-11-07T18:09:51.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a25e249f-c663-4c30-b795-5663c15abc48/download",
-                    "size": 153102581,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
