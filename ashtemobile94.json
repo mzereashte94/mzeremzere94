@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 15229210,
+            "name": "Myths of Moonrise",
+            "version": "1.141.1",
+            "size": "189.04 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169988/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2eadbb4-55b2-4f3b-a059-9aad02c1239b/download",
+            "download_url": "https://check0ver.net/en/iapps/a2eadbb4-55b2-4f3b-a059-9aad02c1239b/download",
+            "bundleIdentifier": "com.allstarunion.myths.ios",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169988/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.141.1",
+                    "date": "2026-11-11T16:15:05.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2eadbb4-55b2-4f3b-a059-9aad02c1239b/download",
+                    "size": 198222807,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 681419122,
             "name": "Vita Mahjong",
             "version": "3.46.1",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a15018c8-f09d-4adb-bad2-6b38ca954285/download",
                     "size": 560946216,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 791150858,
-            "name": "Amaze GO!",
-            "version": "1.38.0",
-            "size": "293.71 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168132/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2d6198b-0e08-455a-81d8-038264fddd27/download",
-            "download_url": "https://check0ver.net/en/iapps/a2d6198b-0e08-455a-81d8-038264fddd27/download",
-            "bundleIdentifier": "com.oakever.arrows",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168132/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.38.0",
-                    "date": "2026-11-07T08:03:04.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2d6198b-0e08-455a-81d8-038264fddd27/download",
-                    "size": 307977256,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
