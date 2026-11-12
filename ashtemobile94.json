@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 727337279,
+            "name": "Limbus Company",
+            "version": "1.119.0",
+            "size": "518.25 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115523/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
+            "download_url": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
+            "bundleIdentifier": "com.ProjectMoon.LimbusCompany",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115523/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.119.0",
+                    "date": "2026-11-12T03:38:22.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
+                    "size": 543424512,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 893652170,
             "name": "American Sniper 3D",
             "version": "1.1.5",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a32cce09-3f54-4715-b019-deaf89d1ecc3/download",
                     "size": 68136468,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 286956744,
-            "name": "Travel Town - Merge Adventure",
-            "version": "2.12.1822",
-            "size": "142.63 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115277/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c82deda-f156-43e7-b299-72bfb02ba110/download",
-            "download_url": "https://check0ver.net/en/iapps/9c82deda-f156-43e7-b299-72bfb02ba110/download",
-            "bundleIdentifier": "io.randomco.travel",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115277/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.12.1822",
-                    "date": "2026-11-08T08:47:17.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c82deda-f156-43e7-b299-72bfb02ba110/download",
-                    "size": 149558394,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
