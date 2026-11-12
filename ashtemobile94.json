@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 935592841,
+            "name": "Hole Em All: Collect Master",
+            "version": "2.18.0",
+            "size": "553.49 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/151288/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2177a6d-f401-4aa8-88d5-442b2b43997e/download",
+            "download_url": "https://check0ver.net/en/iapps/a2177a6d-f401-4aa8-88d5-442b2b43997e/download",
+            "bundleIdentifier": "com.brainworks.holeemall",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/151288/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.18.0",
+                    "date": "2026-11-12T12:23:04.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2177a6d-f401-4aa8-88d5-442b2b43997e/download",
+                    "size": 580376330,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 253161744,
+            "name": "Slice & Dice",
+            "version": "3.3.15",
+            "size": "77.86 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/143134/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a1e7709a-14ba-4034-a3ba-ddcd544a9ab0/download",
+            "download_url": "https://check0ver.net/en/iapps/a1e7709a-14ba-4034-a3ba-ddcd544a9ab0/download",
+            "bundleIdentifier": "com.com.tann.dice",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/143134/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "3.3.15",
+                    "date": "2026-11-12T12:13:37.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a1e7709a-14ba-4034-a3ba-ddcd544a9ab0/download",
+                    "size": 81642127,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 951105149,
+            "name": "FIST OF THE NORTH STAR",
+            "version": "8.3.0",
+            "size": "1.78 GB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/151621/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a219be7f-95ff-48e3-a1e2-db4c68c84c3b/download",
+            "download_url": "https://check0ver.net/en/iapps/a219be7f-95ff-48e3-a1e2-db4c68c84c3b/download",
+            "bundleIdentifier": "com.sega.HokutoRevive.en",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/151621/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "8.3.0",
+                    "date": "2026-11-12T12:00:43.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a219be7f-95ff-48e3-a1e2-db4c68c84c3b/download",
+                    "size": 1911260446,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 256054328,
             "name": "Chef Friends: Cooking Game",
             "version": "1.50.10",
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c6f1dfd-b988-4788-b3e0-8de89da5f0a2/download",
                     "size": 251962327,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 488404933,
-            "name": "Idle Weapon Shop",
-            "version": "2.1.4",
-            "size": "398.67 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/126532/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e4da952-817e-428c-ac24-3a304f685044/download",
-            "download_url": "https://check0ver.net/en/iapps/9e4da952-817e-428c-ac24-3a304f685044/download",
-            "bundleIdentifier": "com.hg.idleweaponshoptycoon",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/126532/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.1.4",
-                    "date": "2026-11-09T04:03:53.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e4da952-817e-428c-ac24-3a304f685044/download",
-                    "size": 418035793,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 102145228,
-            "name": "Screw Sort 3D: Pin Puzzle Game",
-            "version": "5.6",
-            "size": "248.87 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115436/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e5e74cb-c2de-4c4d-ae32-0204d2cf74f0/download",
-            "download_url": "https://check0ver.net/en/iapps/9e5e74cb-c2de-4c4d-ae32-0204d2cf74f0/download",
-            "bundleIdentifier": "com.diamonds.expert.game",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115436/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.6",
-                    "date": "2026-11-09T03:35:25.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e5e74cb-c2de-4c4d-ae32-0204d2cf74f0/download",
-                    "size": 260959109,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 70440024,
-            "name": "Superstore Story 3D",
-            "version": "1.0.25",
-            "size": "201.28 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175865/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download",
-            "download_url": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download",
-            "bundleIdentifier": "com.twh011.market.simulator.manager",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175865/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.25",
-                    "date": "2026-11-09T00:21:05.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download",
-                    "size": 211057377,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
