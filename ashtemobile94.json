@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 216685486,
+            "name": "Joseon Exorcist: Idle RPG",
+            "version": "1.0.5",
+            "size": "70.07 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171877/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
+            "download_url": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
+            "bundleIdentifier": "com.leoncorp.joseon",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171877/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.5",
+                    "date": "2026-11-12T20:02:17.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
+                    "size": 73473720,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 627303870,
+            "name": "DEAD TARGET: FPS Zombie Games",
+            "version": "6.186.0",
+            "size": "267.73 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117280/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c65a18b-ac08-4546-b85d-2870f62f7962/download",
+            "download_url": "https://check0ver.net/en/iapps/9c65a18b-ac08-4546-b85d-2870f62f7962/download",
+            "bundleIdentifier": "com.vng.g6.a.zombie",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117280/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "6.186.0",
+                    "date": "2026-11-12T19:27:31.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c65a18b-ac08-4546-b85d-2870f62f7962/download",
+                    "size": 280735252,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 42194698,
             "name": "Riftborn: Idle RPG",
             "version": "1.0.16",
@@ -9130,44 +9206,6 @@
             "patreon": []
         },
         {
-            "id": 216685486,
-            "name": "Joseon Exorcist: Idle RPG",
-            "version": "1.0.4",
-            "size": "66.97 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171877/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
-            "download_url": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
-            "bundleIdentifier": "com.leoncorp.joseon",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171877/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.4",
-                    "date": "2026-11-10T03:48:14.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2fe97de-210e-4b81-b51f-9f47ddc628da/download",
-                    "size": 70223134,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 509315130,
             "name": "StageStar",
             "version": "2.6.0",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9c8f46fc-8822-4a02-b9ee-4d23c7e2b088/download",
                     "size": 394201661,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 606737010,
-            "name": "Smash Fest!",
-            "version": "851",
-            "size": "138.3 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164192/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2ad098a-cfe1-4b29-8fa3-bd58b24a83d2/download",
-            "download_url": "https://check0ver.net/en/iapps/a2ad098a-cfe1-4b29-8fa3-bd58b24a83d2/download",
-            "bundleIdentifier": "com.flow.cannon-ball",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164192/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "851",
-                    "date": "2026-11-09T10:15:12.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2ad098a-cfe1-4b29-8fa3-bd58b24a83d2/download",
-                    "size": 145018060,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
