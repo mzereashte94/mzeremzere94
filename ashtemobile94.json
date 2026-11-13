@@ -10,6 +10,196 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 651415765,
+            "name": "BunnyFarm : ZombieDefense",
+            "version": "1.0.14",
+            "size": "143.66 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169208/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2e10376-c4de-4f3d-ad85-aeb393b44f64/download",
+            "download_url": "https://check0ver.net/en/iapps/a2e10376-c4de-4f3d-ad85-aeb393b44f64/download",
+            "bundleIdentifier": "com.ngu.games.zombiebunnyfarm",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169208/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.14",
+                    "date": "2026-11-13T22:12:23.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2e10376-c4de-4f3d-ad85-aeb393b44f64/download",
+                    "size": 150638428,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 202063378,
+            "name": "Revolution Idle",
+            "version": "1.080",
+            "size": "70.68 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/130095/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a0d0237b-9200-4588-b720-190302bec588/download",
+            "download_url": "https://check0ver.net/en/iapps/a0d0237b-9200-4588-b720-190302bec588/download",
+            "bundleIdentifier": "com.oninou.REVO",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/130095/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.080",
+                    "date": "2026-11-13T22:11:12.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a0d0237b-9200-4588-b720-190302bec588/download",
+                    "size": 74113351,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 749591378,
+            "name": "MHA: UNITED SURVIVAL",
+            "version": "1.6.0",
+            "size": "74.61 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171494/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2fabe8c-0366-498a-b6a5-9fa4cf875835/download",
+            "download_url": "https://check0ver.net/en/iapps/a2fabe8c-0366-498a-b6a5-9fa4cf875835/download",
+            "bundleIdentifier": "com.klab.heroaca.united.survival",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171494/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.6.0",
+                    "date": "2026-11-13T21:50:17.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2fabe8c-0366-498a-b6a5-9fa4cf875835/download",
+                    "size": 78234255,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 931596470,
+            "name": "Bedtime vs. Nightmares",
+            "version": "1.3.0",
+            "size": "68.12 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177398/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3343f3a-f03a-4241-91f1-d37f124560fc/download",
+            "download_url": "https://check0ver.net/en/iapps/a3343f3a-f03a-4241-91f1-d37f124560fc/download",
+            "bundleIdentifier": "llc.greenfieldlabs.bedtimevsnightmares",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177398/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.3.0",
+                    "date": "2026-11-13T21:42:19.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3343f3a-f03a-4241-91f1-d37f124560fc/download",
+                    "size": 71428997,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 858384238,
+            "name": "Hair Challenge",
+            "version": "43.7.9",
+            "size": "229.61 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/120578/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9ea81eb8-1d89-47a5-9a41-826e7cca727d/download",
+            "download_url": "https://check0ver.net/en/iapps/9ea81eb8-1d89-47a5-9a41-826e7cca727d/download",
+            "bundleIdentifier": "com.Upperpik.HairChallenge",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/120578/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "43.7.9",
+                    "date": "2026-11-13T21:40:59.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9ea81eb8-1d89-47a5-9a41-826e7cca727d/download",
+                    "size": 240763535,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 260022160,
             "name": "Sand Blocks: Drop Puzzle",
             "version": "1.1.1",
@@ -5596,44 +5786,6 @@
             "patreon": []
         },
         {
-            "id": 931596470,
-            "name": "Bedtime vs. Nightmares",
-            "version": "1.2.0",
-            "size": "60.88 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177398/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3343f3a-f03a-4241-91f1-d37f124560fc/download",
-            "download_url": "https://check0ver.net/en/iapps/a3343f3a-f03a-4241-91f1-d37f124560fc/download",
-            "bundleIdentifier": "llc.greenfieldlabs.bedtimevsnightmares",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177398/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.0",
-                    "date": "2026-11-12T11:16:44.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3343f3a-f03a-4241-91f1-d37f124560fc/download",
-                    "size": 63837306,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 986205237,
             "name": "Bridge Fight",
             "version": "1.0.0",
@@ -7711,44 +7863,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a207cccc-e1b7-4f6b-8673-5875706cb265/download",
                     "size": 247715594,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 651415765,
-            "name": "BunnyFarm : ZombieDefense",
-            "version": "1.0.13",
-            "size": "143.11 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169208/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2e10376-c4de-4f3d-ad85-aeb393b44f64/download",
-            "download_url": "https://check0ver.net/en/iapps/a2e10376-c4de-4f3d-ad85-aeb393b44f64/download",
-            "bundleIdentifier": "com.ngu.games.zombiebunnyfarm",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169208/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.13",
-                    "date": "2026-11-12T02:51:16.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2e10376-c4de-4f3d-ad85-aeb393b44f64/download",
-                    "size": 150061711,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e4dae70-8682-44b5-b7ac-5404ad3a7505/download",
                     "size": 216698716,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 274817627,
-            "name": "Survivor Idle Run: Z-RPG Game",
-            "version": "1.3.32",
-            "size": "250.81 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/103511/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a0db9624-8400-442f-aaa5-5f3c5e709aad/download",
-            "download_url": "https://check0ver.net/en/iapps/a0db9624-8400-442f-aaa5-5f3c5e709aad/download",
-            "bundleIdentifier": "games.midnite.sri",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/103511/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.3.32",
-                    "date": "2026-11-11T02:19:53.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a0db9624-8400-442f-aaa5-5f3c5e709aad/download",
-                    "size": 262993346,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 913817025,
-            "name": "HungryAliens",
-            "version": "1580",
-            "size": "277.87 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114973/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e8a5b4f-4a29-46e3-883d-d18b9dd56b30/download",
-            "download_url": "https://check0ver.net/en/iapps/9e8a5b4f-4a29-46e3-883d-d18b9dd56b30/download",
-            "bundleIdentifier": "com.DetailGames.HungryAliens",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114973/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1580",
-                    "date": "2026-11-11T01:49:52.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e8a5b4f-4a29-46e3-883d-d18b9dd56b30/download",
-                    "size": 291367813,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 544117623,
-            "name": "Naruto Blazing Revival",
-            "version": "3.0.96",
-            "size": "135.57 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177132/thumbnail.jfif",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a331c61b-ba2e-4d53-ac1f-31f141464a43/download",
-            "download_url": "https://check0ver.net/en/iapps/a331c61b-ba2e-4d53-ac1f-31f141464a43/download",
-            "bundleIdentifier": "com.reblazing.nbrc",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177132/thumbnail.jfif",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "3.0.96",
-                    "date": "2026-11-11T01:30:56.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a331c61b-ba2e-4d53-ac1f-31f141464a43/download",
-                    "size": 142155448,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
