@@ -10,6 +10,158 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 770436429,
+            "name": "Undying Hero: Idle RPG",
+            "version": "1.1.13",
+            "size": "478.12 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
+            "download_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
+            "bundleIdentifier": "com.superpixel.undyinghero",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.13",
+                    "date": "2026-11-14T10:30:24.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
+                    "size": 501345157,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 463949811,
+            "name": "Idle Cave Miner",
+            "version": "1.11.5",
+            "size": "59.22 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160457/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a280ea5f-6103-4add-9fb1-b86f94199b67/download",
+            "download_url": "https://check0ver.net/en/iapps/a280ea5f-6103-4add-9fb1-b86f94199b67/download",
+            "bundleIdentifier": "com.ColdHours.IdleMiner",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160457/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.11.5",
+                    "date": "2026-11-14T10:21:22.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a280ea5f-6103-4add-9fb1-b86f94199b67/download",
+                    "size": 62096670,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 739513826,
+            "name": "RPG Heroes: Epic Team Battle",
+            "version": "1.0.6",
+            "size": "155.81 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177807/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3371845-d82e-41b1-b3a6-75659f6a33e3/download",
+            "download_url": "https://check0ver.net/en/iapps/a3371845-d82e-41b1-b3a6-75659f6a33e3/download",
+            "bundleIdentifier": "com.pixio.ios.rpg.hero",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177807/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.6",
+                    "date": "2026-11-14T10:19:37.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3371845-d82e-41b1-b3a6-75659f6a33e3/download",
+                    "size": 163378626,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 368411829,
+            "name": "Legendfall: 4v4 Arena",
+            "version": "1.0.4",
+            "size": "279.01 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177084/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a33190a2-80e3-42a0-8d95-cfd1d7896a63/download",
+            "download_url": "https://check0ver.net/en/iapps/a33190a2-80e3-42a0-8d95-cfd1d7896a63/download",
+            "bundleIdentifier": "com.legendfall.game",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177084/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.4",
+                    "date": "2026-11-14T10:08:36.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a33190a2-80e3-42a0-8d95-cfd1d7896a63/download",
+                    "size": 292563189,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 467118806,
             "name": "Marmot Defense: Rogue Survival",
             "version": "1.5.1",
@@ -165,7 +317,7 @@
             "id": 551204936,
             "name": "Ball of Ages",
             "version": "2.2.5",
-            "size": "156.7 MB",
+            "size": "156.8 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172883/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -186,7 +338,7 @@
                     "date": "2026-11-14T09:13:03.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a309945e-f3c1-41a9-8b9d-1e7a93cab623/download",
-                    "size": 164311859,
+                    "size": 164416716,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -1343,7 +1495,7 @@
             "id": 488404933,
             "name": "Idle Weapon Shop",
             "version": "2.1.5",
-            "size": "398.68 MB",
+            "size": "389.58 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/126532/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -1364,7 +1516,7 @@
                     "date": "2026-11-14T03:50:31.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e4da952-817e-428c-ac24-3a304f685044/download",
-                    "size": 418046279,
+                    "size": 408504238,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -3683,82 +3835,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a23f0edf-a217-4c4f-aecf-71da932c5b92/download",
                     "size": 222780456,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 739513826,
-            "name": "RPG Heroes: Epic Team Battle",
-            "version": "1.0.5",
-            "size": "154.59 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177807/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3371845-d82e-41b1-b3a6-75659f6a33e3/download",
-            "download_url": "https://check0ver.net/en/iapps/a3371845-d82e-41b1-b3a6-75659f6a33e3/download",
-            "bundleIdentifier": "com.pixio.ios.rpg.hero",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177807/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.5",
-                    "date": "2026-11-13T13:24:02.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3371845-d82e-41b1-b3a6-75659f6a33e3/download",
-                    "size": 162099363,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 770436429,
-            "name": "Undying Hero: Idle RPG",
-            "version": "1.1.12",
-            "size": "478.13 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
-            "download_url": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
-            "bundleIdentifier": "com.superpixel.undyinghero",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/154737/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.12",
-                    "date": "2026-11-13T12:41:21.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a23c9f25-3893-43bf-8678-af8aa18e45fd/download",
-                    "size": 501355642,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -7534,44 +7610,6 @@
             "patreon": []
         },
         {
-            "id": 368411829,
-            "name": "Legendfall: 4v4 Arena",
-            "version": "1.0.2",
-            "size": "279 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177084/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a33190a2-80e3-42a0-8d95-cfd1d7896a63/download",
-            "download_url": "https://check0ver.net/en/iapps/a33190a2-80e3-42a0-8d95-cfd1d7896a63/download",
-            "bundleIdentifier": "com.legendfall.game",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177084/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.2",
-                    "date": "2026-11-12T13:34:43.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a33190a2-80e3-42a0-8d95-cfd1d7896a63/download",
-                    "size": 292552704,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 142653783,
             "name": "神魔之塔",
             "version": "2026.611",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a1e534a3-b692-4881-92f6-0383bdbbe322/download",
                     "size": 207618048,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 923689910,
-            "name": "Droid Playground",
-            "version": "1.0.52",
-            "size": "102.4 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175791/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3256558-7a93-4286-8859-6c1128f6c32b/download",
-            "download_url": "https://check0ver.net/en/iapps/a3256558-7a93-4286-8859-6c1128f6c32b/download",
-            "bundleIdentifier": "com.cdt.droid.pg",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175791/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.52",
-                    "date": "2026-11-11T22:46:12.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3256558-7a93-4286-8859-6c1128f6c32b/download",
-                    "size": 107374182,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
