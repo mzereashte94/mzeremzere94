@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 287262961,
+            "name": "Unsolved: Hidden Mystery Games",
+            "version": "4.2.101",
+            "size": "152.71 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/130584/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a17c8821-d342-46ca-ba2f-556f4bc3b955/download",
+            "download_url": "https://check0ver.net/en/iapps/a17c8821-d342-46ca-ba2f-556f4bc3b955/download",
+            "bundleIdentifier": "com.artifexmundi.unsolved",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/130584/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "4.2.101",
+                    "date": "2026-11-16T08:13:44.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a17c8821-d342-46ca-ba2f-556f4bc3b955/download",
+                    "size": 160128040,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 650716057,
+            "name": "My Cat – Virtual Pet Games",
+            "version": "5.6.1",
+            "size": "201.38 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/144139/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a1ef2510-e8e5-4a25-adc9-b56f56618614/download",
+            "download_url": "https://check0ver.net/en/iapps/a1ef2510-e8e5-4a25-adc9-b56f56618614/download",
+            "bundleIdentifier": "com.liftapp.mycat",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/144139/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.6.1",
+                    "date": "2026-11-16T07:50:01.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a1ef2510-e8e5-4a25-adc9-b56f56618614/download",
+                    "size": 211162234,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 464323047,
             "name": "Narrow Front: WW2 Strategy",
             "version": "1.7.0",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e562b9f-f8af-4d86-b41a-37659dad30b6/download",
                     "size": 94990499,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 52232086,
-            "name": "Disney Solitaire",
-            "version": "1.28.1",
-            "size": "175.72 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114580/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e582a9e-3e35-4eef-9b27-181fb2d78604/download",
-            "download_url": "https://check0ver.net/en/iapps/9e582a9e-3e35-4eef-9b27-181fb2d78604/download",
-            "bundleIdentifier": "com.superplaystudios.disneysolitairedreams",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114580/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.28.1",
-                    "date": "2026-11-12T23:43:35.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e582a9e-3e35-4eef-9b27-181fb2d78604/download",
-                    "size": 184255774,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 744053015,
-            "name": "Last Glory - Merge TD",
-            "version": "0.9.0",
-            "size": "304.35 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174923/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a31c6174-80a4-4c8a-b83f-94259a2492f9/download",
-            "download_url": "https://check0ver.net/en/iapps/a31c6174-80a4-4c8a-b83f-94259a2492f9/download",
-            "bundleIdentifier": "com.fun2ever.royaldefense.td",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/174923/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.9.0",
-                    "date": "2026-11-12T23:14:00.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a31c6174-80a4-4c8a-b83f-94259a2492f9/download",
-                    "size": 319134105,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
