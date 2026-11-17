@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 233641388,
+            "name": "Airport Simulator: Plane City",
+            "version": "2.01.1800",
+            "size": "183.52 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116894/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9c6f3ce6-8bf6-4196-a9dc-6aed5115e8c9/download",
+            "download_url": "https://check0ver.net/en/iapps/9c6f3ce6-8bf6-4196-a9dc-6aed5115e8c9/download",
+            "bundleIdentifier": "com.playrion.airportmanager",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116894/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.01.1800",
+                    "date": "2026-11-17T10:58:24.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9c6f3ce6-8bf6-4196-a9dc-6aed5115e8c9/download",
+                    "size": 192434667,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 878054887,
             "name": "Virtual Villagers 6",
             "version": "1.12.22",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9e455a74-c426-4f3c-b336-b80ec004e040/download",
                     "size": 246100787,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 844525532,
-            "name": "Gale Knights Idle RPG",
-            "version": "1.2.7",
-            "size": "152.33 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/158590/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a267e079-099a-4194-88ef-6329e21aa7fb/download",
-            "download_url": "https://check0ver.net/en/iapps/a267e079-099a-4194-88ef-6329e21aa7fb/download",
-            "bundleIdentifier": "net.lightcon.windidle",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/158590/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.7",
-                    "date": "2026-11-13T15:52:00.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a267e079-099a-4194-88ef-6329e21aa7fb/download",
-                    "size": 159729582,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
