@@ -10,6 +10,424 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 590807750,
+            "name": "Foodie Pop!",
+            "version": "1.19",
+            "size": "308.62 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179524/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3458a56-b443-4b40-a25c-684e979c7350/download",
+            "download_url": "https://check0ver.net/en/iapps/a3458a56-b443-4b40-a25c-684e979c7350/download",
+            "bundleIdentifier": "com.abi.foodpop",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179524/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.19",
+                    "date": "2026-11-21T14:45:46.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3458a56-b443-4b40-a25c-684e979c7350/download",
+                    "size": 323611525,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 527990433,
+            "name": "Cooking Wonder: Cooking Games",
+            "version": "2.81.0",
+            "size": "244.21 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/148010/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2058a7b-cf97-4aad-8799-0602fa4c7796/download",
+            "download_url": "https://check0ver.net/en/iapps/a2058a7b-cf97-4aad-8799-0602fa4c7796/download",
+            "bundleIdentifier": "com.wonderlegend.cookingwonder",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/148010/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.81.0",
+                    "date": "2026-11-21T14:05:31.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2058a7b-cf97-4aad-8799-0602fa4c7796/download",
+                    "size": 256072744,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 214278593,
+            "name": "Escape Time: Puzzle Brain Game",
+            "version": "2.37.1",
+            "size": "189.94 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/120081/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9eddde5f-05c2-4862-92f2-696d3e4864e6/download",
+            "download_url": "https://check0ver.net/en/iapps/9eddde5f-05c2-4862-92f2-696d3e4864e6/download",
+            "bundleIdentifier": "webelinx.EscapeRoom.Free.Portrait.Game.free2",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/120081/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.37.1",
+                    "date": "2026-11-21T13:49:28.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9eddde5f-05c2-4862-92f2-696d3e4864e6/download",
+                    "size": 199166525,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 130011714,
+            "name": "Warhorn - Kingdom Revenge",
+            "version": "2.0.0",
+            "size": "119.8 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164137/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2acaa2a-52b6-4161-b38c-2b5060afb1c4/download",
+            "download_url": "https://check0ver.net/en/iapps/a2acaa2a-52b6-4161-b38c-2b5060afb1c4/download",
+            "bundleIdentifier": "com.yeeyo.YYTowerDefense",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164137/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "date": "2026-11-21T13:34:47.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2acaa2a-52b6-4161-b38c-2b5060afb1c4/download",
+                    "size": 125619404,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 293817368,
+            "name": "TtukTtak Nyang: Idle Cat Forge",
+            "version": "1.0.3",
+            "size": "164.24 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179469/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download",
+            "download_url": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download",
+            "bundleIdentifier": "com.leoncorpcore.purrsmith",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179469/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "date": "2026-11-21T13:30:08.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download",
+                    "size": 172218122,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 125518547,
+            "name": "AutoRace: Idle Racing",
+            "version": "1.0.4",
+            "size": "173.37 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
+            "download_url": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
+            "bundleIdentifier": "com.peb.autorace",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.4",
+                    "date": "2026-11-21T13:17:03.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
+                    "size": 181791621,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 347013958,
+            "name": "Formula Ride",
+            "version": "1.1.2",
+            "size": "416.39 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171135/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download",
+            "download_url": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download",
+            "bundleIdentifier": "com.sevenseas.formularide",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171135/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1.2",
+                    "date": "2026-11-21T12:59:11.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download",
+                    "size": 436616560,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 51771103,
+            "name": "Archer Castle : AFK Idle RPG",
+            "version": "1.14.52",
+            "size": "312.18 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/162067/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a294b20e-350b-4a03-8add-52cd35706c28/download",
+            "download_url": "https://check0ver.net/en/iapps/a294b20e-350b-4a03-8add-52cd35706c28/download",
+            "bundleIdentifier": "com.springgames.archercastle",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/162067/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.14.52",
+                    "date": "2026-11-21T12:36:29.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a294b20e-350b-4a03-8add-52cd35706c28/download",
+                    "size": 327344455,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 869697164,
+            "name": "Tap Away 3D",
+            "version": "169.5.10",
+            "size": "183.57 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119536/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9e4de1c9-7866-4b13-87cf-16a1b58d0413/download",
+            "download_url": "https://check0ver.net/en/iapps/9e4de1c9-7866-4b13-87cf-16a1b58d0413/download",
+            "bundleIdentifier": "com.jctswbglsm.SwipeAway",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119536/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "169.5.10",
+                    "date": "2026-11-21T12:35:21.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9e4de1c9-7866-4b13-87cf-16a1b58d0413/download",
+                    "size": 192487096,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 425234297,
+            "name": "LastCamp : Defense",
+            "version": "1.4.8",
+            "size": "179.55 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177984/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a338811d-b191-4f71-87b0-b86be0a0892e/download",
+            "download_url": "https://check0ver.net/en/iapps/a338811d-b191-4f71-87b0-b86be0a0892e/download",
+            "bundleIdentifier": "com.FreeDust.LastCampDefense2",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177984/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.4.8",
+                    "date": "2026-11-21T12:33:56.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a338811d-b191-4f71-87b0-b86be0a0892e/download",
+                    "size": 188271820,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 97286191,
+            "name": "Number Match - Numbers Game",
+            "version": "2.2.0",
+            "size": "98.08 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117405/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9ce3c4c0-6e1f-4278-8fd4-cdb365c318d1/download",
+            "download_url": "https://check0ver.net/en/iapps/9ce3c4c0-6e1f-4278-8fd4-cdb365c318d1/download",
+            "bundleIdentifier": "com.easybrain.number.puzzle.game",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117405/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.2.0",
+                    "date": "2026-11-21T11:50:19.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9ce3c4c0-6e1f-4278-8fd4-cdb365c318d1/download",
+                    "size": 102844334,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 497844854,
             "name": "Voidpet Dungeon",
             "version": "5.29.87",
@@ -2293,7 +2711,7 @@
             "id": 681042680,
             "name": "Aquapark.io",
             "version": "6.54.0",
-            "size": "194.45 MB",
+            "size": "199.21 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115036/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -2314,7 +2732,7 @@
                     "date": "2026-11-20T22:34:26.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9de95e6f-f651-412d-ac0f-1dca55e7685b/download",
-                    "size": 203895603,
+                    "size": 208886824,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -2619,44 +3037,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a345944f-47cc-43f8-bc49-7d51ce022a1d/download",
                     "size": 118510059,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 590807750,
-            "name": "Foodie Pop!",
-            "version": "1.18",
-            "size": "282.44 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179524/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3458a56-b443-4b40-a25c-684e979c7350/download",
-            "download_url": "https://check0ver.net/en/iapps/a3458a56-b443-4b40-a25c-684e979c7350/download",
-            "bundleIdentifier": "com.abi.foodpop",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179524/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.18",
-                    "date": "2026-11-20T20:45:51.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3458a56-b443-4b40-a25c-684e979c7350/download",
-                    "size": 296159805,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -4025,44 +4405,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a3455b6b-b4ec-4bd5-8e7c-71b09b18cbd6/download",
                     "size": 182148136,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 293817368,
-            "name": "TtukTtak Nyang: Idle Cat Forge",
-            "version": "1.0.2",
-            "size": "167.78 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179469/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download",
-            "download_url": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download",
-            "bundleIdentifier": "com.leoncorpcore.purrsmith",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179469/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.2",
-                    "date": "2026-11-20T15:00:15.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download",
-                    "size": 175930081,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -8560,44 +8902,6 @@
             "patreon": []
         },
         {
-            "id": 125518547,
-            "name": "AutoRace: Idle Racing",
-            "version": "1.0.3",
-            "size": "136.79 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-            "download_url": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-            "bundleIdentifier": "com.peb.autorace",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.3",
-                    "date": "2026-11-19T15:53:15.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-                    "size": 143434711,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
             "id": 562005466,
             "name": "NHRA Legends of Drag Racing",
             "version": "1.25.0",
@@ -10333,310 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a323a247-8d46-462d-bcb7-f07d04e5dacc/download",
                     "size": 221564108,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 834333531,
-            "name": "Mystery Town: Merge Games",
-            "version": "1.22.2",
-            "size": "274.7 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168231/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2d75c98-124d-4c69-91bd-62e04b68cc15/download",
-            "download_url": "https://check0ver.net/en/iapps/a2d75c98-124d-4c69-91bd-62e04b68cc15/download",
-            "bundleIdentifier": "com.cedargames.mysterytown",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168231/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.22.2",
-                    "date": "2026-11-19T05:30:12.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2d75c98-124d-4c69-91bd-62e04b68cc15/download",
-                    "size": 288043827,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 558739409,
-            "name": "Cell to Singularity: Evolution",
-            "version": "51.75",
-            "size": "242.73 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114959/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9c67bb11-30b9-4678-b2dc-eee6a46d6b8f/download",
-            "download_url": "https://check0ver.net/en/iapps/9c67bb11-30b9-4678-b2dc-eee6a46d6b8f/download",
-            "bundleIdentifier": "com.lunch.cellstosingularity",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114959/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "51.75",
-                    "date": "2026-11-19T05:28:27.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9c67bb11-30b9-4678-b2dc-eee6a46d6b8f/download",
-                    "size": 254520852,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 814991514,
-            "name": "Modern Strike Online: War FPS",
-            "version": "1.85.8",
-            "size": "1.56 GB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116316/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9d3c611e-3a03-4d39-bee0-dc5bfa4c4ddb/download",
-            "download_url": "https://check0ver.net/en/iapps/9d3c611e-3a03-4d39-bee0-dc5bfa4c4ddb/download",
-            "bundleIdentifier": "com.gamedevltd.modernstrikeonline",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116316/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.85.8",
-                    "date": "2026-11-19T05:25:17.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9d3c611e-3a03-4d39-bee0-dc5bfa4c4ddb/download",
-                    "size": 1675037245,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 30312825,
-            "name": "Bid Wars 2 – Pawn Shop Tycoon",
-            "version": "2.48.1",
-            "size": "177.49 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/122822/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a121d091-eb36-4abd-b0fe-98ebaf7e57cd/download",
-            "download_url": "https://check0ver.net/en/iapps/a121d091-eb36-4abd-b0fe-98ebaf7e57cd/download",
-            "bundleIdentifier": "br.com.tapps.bidwars2",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/122822/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.48.1",
-                    "date": "2026-11-19T05:24:10.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a121d091-eb36-4abd-b0fe-98ebaf7e57cd/download",
-                    "size": 186111754,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 438595188,
-            "name": "Wizard Tower Defense Idle Game",
-            "version": "1.1.88",
-            "size": "296.63 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/127153/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a0ba0711-1505-4446-91f7-77a83a613930/download",
-            "download_url": "https://check0ver.net/en/iapps/a0ba0711-1505-4446-91f7-77a83a613930/download",
-            "bundleIdentifier": "com.uldineogames.magic-swipe",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/127153/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1.88",
-                    "date": "2026-11-19T05:21:07.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a0ba0711-1505-4446-91f7-77a83a613930/download",
-                    "size": 311039098,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 841244656,
-            "name": "My Talking Angela 2",
-            "version": "26.5.6",
-            "size": "334.15 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/127945/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9eaa380d-f593-4d23-bc18-6e9b3e9f4a2b/download",
-            "download_url": "https://check0ver.net/en/iapps/9eaa380d-f593-4d23-bc18-6e9b3e9f4a2b/download",
-            "bundleIdentifier": "com.outfit7.mytalkingangela2",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/127945/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "26.5.6",
-                    "date": "2026-11-19T05:18:02.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9eaa380d-f593-4d23-bc18-6e9b3e9f4a2b/download",
-                    "size": 350381670,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 374359691,
-            "name": "Cats&Soup: Relaxing Cozy Games",
-            "version": "5.5.0",
-            "size": "359.39 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/124009/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9e65afdf-1dba-4e1a-b1d4-33fc01ebe2fa/download",
-            "download_url": "https://check0ver.net/en/iapps/9e65afdf-1dba-4e1a-b1d4-33fc01ebe2fa/download",
-            "bundleIdentifier": "com.hidea.cat",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/124009/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.5.0",
-                    "date": "2026-11-19T05:16:41.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9e65afdf-1dba-4e1a-b1d4-33fc01ebe2fa/download",
-                    "size": 376847728,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 727337279,
-            "name": "Limbus Company",
-            "version": "1.119.1",
-            "size": "525.44 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115523/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
-            "download_url": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
-            "bundleIdentifier": "com.ProjectMoon.LimbusCompany",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115523/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.119.1",
-                    "date": "2026-11-19T05:14:45.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9cb70c24-675b-42e8-8bc4-1c039dd97cba/download",
-                    "size": 550963773,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
