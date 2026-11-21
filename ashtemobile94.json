@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 391202620,
+            "name": "Hole Master - Eat The World",
+            "version": "0.8.3",
+            "size": "500.03 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121977/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a127417f-d212-4a0f-9f40-46bcfc1bd6fe/download",
+            "download_url": "https://check0ver.net/en/iapps/a127417f-d212-4a0f-9f40-46bcfc1bd6fe/download",
+            "bundleIdentifier": "com.hole.master.eat.world.game",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/121977/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.8.3",
+                    "date": "2026-11-21T16:03:01.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a127417f-d212-4a0f-9f40-46bcfc1bd6fe/download",
+                    "size": 524319457,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 590807750,
             "name": "Foodie Pop!",
             "version": "1.19",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a19912ba-8c9e-44e0-ac2c-421dc3b3aa5c/download",
                     "size": 597436661,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 614549871,
-            "name": "Combat Cruiser",
-            "version": "2.2.4",
-            "size": "211.3 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175578/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a323a247-8d46-462d-bcb7-f07d04e5dacc/download",
-            "download_url": "https://check0ver.net/en/iapps/a323a247-8d46-462d-bcb7-f07d04e5dacc/download",
-            "bundleIdentifier": "com.stoneaxe.mechshooter",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175578/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.2.4",
-                    "date": "2026-11-19T05:34:08.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a323a247-8d46-462d-bcb7-f07d04e5dacc/download",
-                    "size": 221564108,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
