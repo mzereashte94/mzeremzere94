@@ -10,6 +10,82 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 965696476,
+            "name": "Zoo Life: Animal Park Game",
+            "version": "5.10.1",
+            "size": "241.95 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117407/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/9cfc393f-fc7f-4a64-864c-16574b91c8ce/download",
+            "download_url": "https://check0ver.net/en/iapps/9cfc393f-fc7f-4a64-864c-16574b91c8ce/download",
+            "bundleIdentifier": "com.sparklingsociety.zoolifeanimalparkgame",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117407/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.10.1",
+                    "date": "2026-11-21T20:31:49.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/9cfc393f-fc7f-4a64-864c-16574b91c8ce/download",
+                    "size": 253702963,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 156066702,
+            "name": "Beads Out",
+            "version": "2.6.1",
+            "size": "146.03 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179744/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a347738d-698a-4633-b6a8-265b6a095cc5/download",
+            "download_url": "https://check0ver.net/en/iapps/a347738d-698a-4633-b6a8-265b6a095cc5/download",
+            "bundleIdentifier": "com.gogames.sandsout",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179744/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.6.1",
+                    "date": "2026-11-21T19:28:28.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a347738d-698a-4633-b6a8-265b6a095cc5/download",
+                    "size": 153123553,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 391202620,
             "name": "Hole Master - Eat The World",
             "version": "0.8.3",
@@ -10561,82 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/9cad6f1f-94d4-489d-a0ac-c901e99a3805/download",
                     "size": 1546188226,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 343688778,
-            "name": "DungeonSlasher",
-            "version": "0.777.0",
-            "size": "516.96 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/138421/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/9d0dc0ab-bffb-4962-9ff1-ceec74b3cea7/download",
-            "download_url": "https://check0ver.net/en/iapps/9d0dc0ab-bffb-4962-9ff1-ceec74b3cea7/download",
-            "bundleIdentifier": "com.nspgames.dungeonslasher",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/138421/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "0.777.0",
-                    "date": "2026-11-19T05:39:56.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/9d0dc0ab-bffb-4962-9ff1-ceec74b3cea7/download",
-                    "size": 542071848,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 662203803,
-            "name": "My Journey - Puzzles & Stories",
-            "version": "1.51.1118",
-            "size": "569.76 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133979/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a19912ba-8c9e-44e0-ac2c-421dc3b3aa5c/download",
-            "download_url": "https://check0ver.net/en/iapps/a19912ba-8c9e-44e0-ac2c-421dc3b3aa5c/download",
-            "bundleIdentifier": "com.zenlife.tour",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/133979/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.51.1118",
-                    "date": "2026-11-19T05:36:45.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a19912ba-8c9e-44e0-ac2c-421dc3b3aa5c/download",
-                    "size": 597436661,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
