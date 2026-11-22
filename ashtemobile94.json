@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 236629923,
+            "name": "Reaper Forge: Idle Loot RPG",
+            "version": "1.0.8",
+            "size": "108.34 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175331/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
+            "download_url": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
+            "bundleIdentifier": "com.reaper.forge",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175331/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.8",
+                    "date": "2026-11-22T00:29:42.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
+                    "size": 113602723,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 888206879,
             "name": "Rumble Beavers",
             "version": "1.0.9",
@@ -735,7 +773,7 @@
             "id": 125518547,
             "name": "AutoRace: Idle Racing",
             "version": "1.0.4",
-            "size": "173.37 MB",
+            "size": "173.38 MB",
             "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
             "badge": "",
             "type": "games",
@@ -756,7 +794,7 @@
                     "date": "2026-11-21T13:17:03.000000Z",
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-                    "size": 181791621,
+                    "size": 181802106,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
@@ -8547,44 +8585,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a197d20f-9c12-4e28-b4ed-d208b613812e/download",
                     "size": 165276549,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 236629923,
-            "name": "Reaper Forge: Idle Loot RPG",
-            "version": "1.0.7",
-            "size": "108.07 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175331/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
-            "download_url": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
-            "bundleIdentifier": "com.reaper.forge",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175331/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.7",
-                    "date": "2026-11-19T19:42:31.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a3210520-c9db-465d-9208-d745f596aaf6/download",
-                    "size": 113319608,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
