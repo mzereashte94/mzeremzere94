@@ -10,6 +10,44 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 936409016,
+            "name": "Soul Stealer : Devouring Blade",
+            "version": "1.0.5",
+            "size": "191.84 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/181274/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a353c77f-3541-4c95-b767-e395b6ed4960/download",
+            "download_url": "https://check0ver.net/en/iapps/a353c77f-3541-4c95-b767-e395b6ed4960/download",
+            "bundleIdentifier": "net.gameduo.jt",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/181274/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.5",
+                    "date": "2026-11-27T20:10:41.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a353c77f-3541-4c95-b767-e395b6ed4960/download",
+                    "size": 201158819,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 901194646,
             "name": "Starbrew Cafe: Mystical Merge",
             "version": "1.87.1",
@@ -10599,44 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a0f61a9c-3daa-4070-8ff1-58eaad40028d/download",
                     "size": 120942755,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 583358699,
-            "name": "Tiny Space Program: Sim Tycoon",
-            "version": "1.2.246",
-            "size": "24.49 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157052/3767c5f2-1415-440f-acad-5c6c4b2475fd.png",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a251fefe-f707-4b82-ad95-ae5f9947ec9b/download",
-            "download_url": "https://check0ver.net/en/iapps/a251fefe-f707-4b82-ad95-ae5f9947ec9b/download",
-            "bundleIdentifier": "com.cinnabargames.tinyspaceprogram",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/157052/3767c5f2-1415-440f-acad-5c6c4b2475fd.png",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.246",
-                    "date": "2026-11-25T09:28:42.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a251fefe-f707-4b82-ad95-ae5f9947ec9b/download",
-                    "size": 25679626,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
