@@ -10,6 +10,120 @@
     "headerURL": "https://ashtemobile.site/logo.png",
     "apps": [
         {
+            "id": 645583689,
+            "name": "War Survival : Last Shooter",
+            "version": "0.2.4",
+            "size": "104.44 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/167755/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a2d237cd-c6e4-438d-8250-64b8b63e0430/download",
+            "download_url": "https://check0ver.net/en/iapps/a2d237cd-c6e4-438d-8250-64b8b63e0430/download",
+            "bundleIdentifier": "com.horusent.war.survival.last.shooter",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/167755/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.2.4",
+                    "date": "2026-11-28T10:50:54.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a2d237cd-c6e4-438d-8250-64b8b63e0430/download",
+                    "size": 109513277,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 748919077,
+            "name": "Boxing Manager",
+            "version": "26.3.4",
+            "size": "263.18 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/180525/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a34ea76c-0d2f-4ec6-b307-2603ac3f50ca/download",
+            "download_url": "https://check0ver.net/en/iapps/a34ea76c-0d2f-4ec6-b307-2603ac3f50ca/download",
+            "bundleIdentifier": "com.worldtitleboxingmanager.boxingmanager",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/180525/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "26.3.4",
+                    "date": "2026-11-28T10:41:46.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a34ea76c-0d2f-4ec6-b307-2603ac3f50ca/download",
+                    "size": 275964231,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
+            "id": 202063378,
+            "name": "Revolution Idle",
+            "version": "1.092",
+            "size": "71.01 MB",
+            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/130095/512x512bb.jpg",
+            "badge": "",
+            "type": "games",
+            "install_url": "https://check0ver.net/en/iapps/a0d0237b-9200-4588-b720-190302bec588/download",
+            "download_url": "https://check0ver.net/en/iapps/a0d0237b-9200-4588-b720-190302bec588/download",
+            "bundleIdentifier": "com.oninou.REVO",
+            "marketplaceID": "",
+            "developerName": "AshteMobile",
+            "subtitle": "Awesome App",
+            "localizedDescription": "Downloaded from AshteMobile Source.",
+            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/130095/512x512bb.jpg",
+            "tintColor": "#04ecfc",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.092",
+                    "date": "2026-11-28T10:39:14.000000Z",
+                    "localizedDescription": null,
+                    "downloadURL": "https://check0ver.net/en/iapps/a0d0237b-9200-4588-b720-190302bec588/download",
+                    "size": 74459381,
+                    "buildVersion": null,
+                    "minOSVersion": "14.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
+                }
+            },
+            "patreon": []
+        },
+        {
             "id": 52699438,
             "name": "Dead Ahead: Enforcers",
             "version": "0.40.0",
@@ -10523,120 +10637,6 @@
                     "localizedDescription": null,
                     "downloadURL": "https://check0ver.net/en/iapps/a340824f-6499-4995-bfc0-961bdc83c4f9/download",
                     "size": 235604541,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 125518547,
-            "name": "AutoRace: Idle Racing",
-            "version": "1.0.6",
-            "size": "182.56 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-            "download_url": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-            "bundleIdentifier": "com.peb.autorace",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.6",
-                    "date": "2026-11-25T14:34:57.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download",
-                    "size": 191428034,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 595339221,
-            "name": "My Sushi Story",
-            "version": "5.7.2",
-            "size": "212.42 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/163714/d6d33223-6507-4b0e-bdbc-2bca5137f9d9.png",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a2a80efd-70d4-4025-bb19-e11fa019a73a/download",
-            "download_url": "https://check0ver.net/en/iapps/a2a80efd-70d4-4025-bb19-e11fa019a73a/download",
-            "bundleIdentifier": "com.miyagames.sushi.simulator",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/163714/d6d33223-6507-4b0e-bdbc-2bca5137f9d9.png",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.7.2",
-                    "date": "2026-11-25T14:18:58.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a2a80efd-70d4-4025-bb19-e11fa019a73a/download",
-                    "size": 222738513,
-                    "buildVersion": null,
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {
-                    "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you."
-                }
-            },
-            "patreon": []
-        },
-        {
-            "id": 116887595,
-            "name": "Baseball Boy!",
-            "version": "2.0.19",
-            "size": "129.25 MB",
-            "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/109672/512x512bb.jpg",
-            "badge": "",
-            "type": "games",
-            "install_url": "https://check0ver.net/en/iapps/a1103a7a-1474-4a80-b2d6-945da917495b/download",
-            "download_url": "https://check0ver.net/en/iapps/a1103a7a-1474-4a80-b2d6-945da917495b/download",
-            "bundleIdentifier": "com.itchmedia.ta3",
-            "marketplaceID": "",
-            "developerName": "AshteMobile",
-            "subtitle": "Awesome App",
-            "localizedDescription": "Downloaded from AshteMobile Source.",
-            "iconURL": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/109672/512x512bb.jpg",
-            "tintColor": "#04ecfc",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.0.19",
-                    "date": "2026-11-25T14:16:26.000000Z",
-                    "localizedDescription": null,
-                    "downloadURL": "https://check0ver.net/en/iapps/a1103a7a-1474-4a80-b2d6-945da917495b/download",
-                    "size": 135528448,
                     "buildVersion": null,
                     "minOSVersion": "14.0"
                 }
